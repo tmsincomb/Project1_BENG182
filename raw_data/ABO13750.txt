@@ -1,0 +1,17 @@
+id
+ABO13750
+
+blast
+['gi|446864783|ref|WP_000942039.1|', 'HAD family hydrolase [Acinetobacter baumannii] >gi|126387193|gb|ABO11691.1| L-2-haloalkanoic acid de...', 'WP_000942039', '1.94944e-106']
+
+pfam
+{'PF13419': {'accession': 'PF13419.5', 'class': 'Domain', 'id': 'HAD_2', 'locations': {'ali_end': '112', 'ali_start': '3', 'bitscore': '99.105110168457', 'end': '112', 'evalue': '2.2e-28', 'evidence': 'hmmer v3.0', 'hmm_end': '176', 'hmm_start': '67', 'significant': '1', 'start': '3'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

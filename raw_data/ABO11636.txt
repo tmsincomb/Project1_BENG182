@@ -1,0 +1,17 @@
+id
+ABO11636
+
+blast
+['gi|595258502|gb|EXW78453.1|', 'ribosomal protein S2 [Acinetobacter baumannii 44467_3]', 'EXW78453', '1.12105e-70']
+
+pfam
+{'PF00318': {'accession': 'PF00318.19', 'class': 'Domain', 'id': 'Ribosomal_S2', 'locations': {'ali_end': '84', 'ali_start': '2', 'bitscore': '118.057929992676', 'end': '84', 'evalue': '2.6e-34', 'evidence': 'hmmer v3.0', 'hmm_end': '215', 'hmm_start': '133', 'significant': '1', 'start': '2'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 18, 'stop': 42, 'signature_ac': 'PS00963', 'level_tag': '(0)'}]
+
+kegg
+{'acb03010': 'Ribosome'}
+
+go
+['GO:structural constituent of ribosome ; GO:0003735', 'GO:translation ; GO:0006412', 'GO:ribosome ; GO:0005840', 'GO:intracellular ; GO:0005622']

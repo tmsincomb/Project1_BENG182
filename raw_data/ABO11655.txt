@@ -1,0 +1,17 @@
+id
+ABO11655
+
+blast
+['gi|169148591|emb|CAM86457.1|', 'conserved hypothetical protein [Acinetobacter baumannii AYE] >gi|332729183|gb|EGJ60526.1| hypothetic...', 'CAM86457', '7.25875e-63']
+
+pfam
+noHomology
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 9, 'signature_ac': 'PS51127', 'score': '5.057', 'level': '-1'}]
+
+kegg
+noHomology
+
+go
+noHomolog

@@ -1,0 +1,17 @@
+id
+ABO12359
+
+blast
+['gi|126388886|gb|ABO13384.1|', 'Inner membrane protein (IMP) integration factor [Acinetobacter baumannii ATCC 17978]', 'ABO13384', '0.0']
+
+pfam
+{'PF14849': {'accession': 'PF14849.5', 'class': 'Domain', 'id': 'YidC_periplas', 'locations': {'ali_end': '323', 'ali_start': '27', 'bitscore': '238.385452270508', 'end': '323', 'evalue': '8.0e-71', 'evidence': 'hmmer v3.0', 'hmm_end': '281', 'hmm_start': '2', 'significant': '1', 'start': '27'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 306, 'stop': 366, 'signature_ac': 'PS51107', 'score': '7.440', 'level': '-1'}]
+
+kegg
+{'acb02024': 'Quorum sensing', 'acb03060': 'Protein export', 'acb03070': 'Bacterial secretion system'}
+
+go
+noHomolog

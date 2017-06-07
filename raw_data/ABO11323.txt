@@ -1,0 +1,17 @@
+id
+ABO11323
+
+blast
+['gi|126387561|gb|ABO12059.1|', 'cysteine desulfurase [Acinetobacter baumannii ATCC 17978]', 'ABO12059', '3.16859e-59']
+
+pfam
+noHomology
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 84, 'stop': 91, 'signature_ac': 'PS51120', 'score': '4.471', 'level': '-1'}]
+
+kegg
+noHomology
+
+go
+noHomolog

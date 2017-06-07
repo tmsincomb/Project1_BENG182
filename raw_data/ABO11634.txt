@@ -1,0 +1,17 @@
+id
+ABO11634
+
+blast
+['gi|446047523|ref|WP_000125378.1|', 'MULTISPECIES: elongation factor Ts [Acinetobacter calcoaceticus/baumannii complex] >gi|166221178|sp|...', 'WP_000125378', '0.0']
+
+pfam
+{'PF00889': {'accession': 'PF00889.18', 'class': 'Domain', 'id': 'EF_TS', 'locations': {'ali_end': '269', 'ali_start': '71', 'bitscore': '207.975051879883', 'end': '269', 'evalue': '8.2e-62', 'evidence': 'hmmer v3.0', 'hmm_end': '208', 'hmm_start': '1', 'significant': '1', 'start': '71'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 12, 'stop': 27, 'signature_ac': 'PS01126', 'level_tag': '(0)'}, {'sequence_ac': 'USERSEQ1', 'start': 75, 'stop': 85, 'signature_ac': 'PS01127', 'level_tag': '(0)'}]
+
+kegg
+noHomology
+
+go
+['GO:intracellular ; GO:0005622', 'GO:translation elongation factor activity ; GO:0003746', 'GO:translational elongation ; GO:0006414']

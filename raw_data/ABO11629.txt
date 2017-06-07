@@ -1,0 +1,17 @@
+id
+ABO11629
+
+blast
+['gi|446085572|ref|WP_000163427.1|', 'MULTISPECIES: MarR family transcriptional regulator [Acinetobacter calcoaceticus/baumannii complex] ...', 'WP_000163427', '6.55828e-110']
+
+pfam
+{'PF12802': {'accession': 'PF12802.6', 'class': 'Domain', 'id': 'MarR_2', 'locations': {'ali_end': '36', 'ali_start': '27', 'bitscore': '-3.14441657066345', 'end': '36', 'evalue': '2.4e-06', 'evidence': 'hmmer v3.0', 'hmm_end': '41', 'hmm_start': '32', 'significant': None, 'start': '27'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 150, 'signature_ac': 'PS50995', 'score': '23.673', 'level': '0'}]
+
+kegg
+noHomology
+
+go
+noHomolog

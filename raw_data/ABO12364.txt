@@ -1,0 +1,17 @@
+id
+ABO12364
+
+blast
+['gi|446380500|ref|WP_000458355.1|', 'hypothetical protein [Acinetobacter baumannii] >gi|126388890|gb|ABO13388.1| hypothetical protein A1S...', 'WP_000458355', '2.03819e-108']
+
+pfam
+{'PF13689': {'accession': 'PF13689.5', 'class': 'Domain', 'id': 'DUF4154', 'locations': {'ali_end': '150', 'ali_start': '20', 'bitscore': '83.4322128295898', 'end': '150', 'evalue': '1.4e-23', 'evidence': 'hmmer v3.0', 'hmm_end': '143', 'hmm_start': '8', 'significant': '1', 'start': '20'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

@@ -1,0 +1,17 @@
+id
+ABO13367
+
+blast
+['gi|126389266|gb|ABO13764.1|', 'positive pho regulon response regulator [Acinetobacter baumannii ATCC 17978]', 'ABO13764', '5.27806e-109']
+
+pfam
+{'PF00486': {'accession': 'PF00486.27', 'class': 'Domain', 'id': 'Trans_reg_C', 'locations': {'ali_end': '145', 'ali_start': '73', 'bitscore': '86.3730239868164', 'end': '145', 'evalue': '5.4e-25', 'evidence': 'hmmer v3.0', 'hmm_end': '77', 'hmm_start': '4', 'significant': '1', 'start': '73'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 40, 'signature_ac': 'PS50110', 'score': '19.957', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 49, 'stop': 147, 'signature_ac': 'PS51755', 'score': '39.121', 'level': '0'}]
+
+kegg
+{'acb02020': 'Two-component system'}
+
+go
+['GO:phosphorelay signal transduction system ; GO:0000160', 'GO:DNA binding ; GO:0003677', 'GO:regulation of transcription, DNA-templated ; GO:0006355']

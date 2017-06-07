@@ -1,0 +1,17 @@
+id
+ABO11659
+
+blast
+['gi|126388254|gb|ABO12752.1|', 'putative acyl-CoA dehydrogenase [Acinetobacter baumannii ATCC 17978]', 'ABO12752', '3.23611e-114']
+
+pfam
+{'PF02771': {'accession': 'PF02771.15', 'class': 'Domain', 'id': 'Acyl-CoA_dh_N', 'locations': {'ali_end': '32', 'ali_start': '12', 'bitscore': '-2.76261377334595', 'end': '32', 'evalue': '7.9e-17', 'evidence': 'hmmer v3.0', 'hmm_end': '28', 'hmm_start': '8', 'significant': None, 'start': '12'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+['GO:oxidoreductase activity, acting on the CH-CH group of donors ; GO:0016627', 'GO:flavin adenine dinucleotide binding ; GO:0050660', 'GO:oxidation-reduction process ; GO:0055114']

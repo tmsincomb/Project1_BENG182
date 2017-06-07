@@ -1,0 +1,17 @@
+id
+ABO13729
+
+blast
+['gi|126386852|gb|ABO11350.1|', 'hypothetical protein A1S_0918 [Acinetobacter baumannii ATCC 17978] >gi|604703814|gb|EYU48765.1| hypo...', 'ABO11350', '9.02826e-34']
+
+pfam
+{'PF06912': {'accession': 'PF06912.10', 'class': 'Domain', 'id': 'DUF1275', 'locations': {'ali_end': '56', 'ali_start': '21', 'bitscore': '36.6364784240723', 'end': '56', 'evalue': '3.4e-09', 'evidence': 'hmmer v3.0', 'hmm_end': '38', 'hmm_start': '3', 'significant': '1', 'start': '21'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

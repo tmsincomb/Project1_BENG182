@@ -1,0 +1,17 @@
+id
+ABO11637
+
+blast
+['gi|446292583|ref|WP_000370438.1|', 'hypothetical protein [Acinetobacter baumannii] >gi|126388559|gb|ABO13057.1| putative oxidoreductase ...', 'WP_000370438', '0.0']
+
+pfam
+{'PF00384': {'accession': 'PF00384.21', 'class': 'Domain', 'id': 'Molybdopterin', 'locations': {'ali_end': '503', 'ali_start': '122', 'bitscore': '88.1106643676758', 'end': '503', 'evalue': '4.9e-26', 'evidence': 'hmmer v3.0', 'hmm_end': '372', 'hmm_start': '1', 'significant': '1', 'start': '122'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+['GO:oxidoreductase activity ; GO:0016491', 'GO:oxidation-reduction process ; GO:0055114']

@@ -1,0 +1,17 @@
+id
+ABO12033
+
+blast
+['gi|126388264|gb|ABO12762.1|', 'HtrA-like serine protease [Acinetobacter baumannii ATCC 17978]', 'ABO12762', '1.33789e-163']
+
+pfam
+{'PF13180': {'accession': 'PF13180.5', 'class': 'Domain', 'id': 'PDZ_2', 'locations': {'ali_end': '31', 'ali_start': '15', 'bitscore': '0.125526696443558', 'end': '31', 'evalue': '1.5e-16', 'evidence': 'hmmer v3.0', 'hmm_end': '42', 'hmm_start': '26', 'significant': None, 'start': '15'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 117, 'stop': 206, 'signature_ac': 'PS50106', 'score': '14.456', 'level': '0'}]
+
+kegg
+noHomology
+
+go
+['GO:protein binding ; GO:0005515']

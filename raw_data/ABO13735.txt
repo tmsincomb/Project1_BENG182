@@ -1,0 +1,17 @@
+id
+ABO13735
+
+blast
+['gi|126387181|gb|ABO11679.1|', 'mismatch repair protein [Acinetobacter baumannii ATCC 17978]', 'ABO11679', '0.0']
+
+pfam
+{'PF00488': {'accession': 'PF00488.20', 'class': 'Domain', 'id': 'MutS_V', 'locations': {'ali_end': '500', 'ali_start': '316', 'bitscore': '270.287506103516', 'end': '500', 'evalue': '4.0e-81', 'evidence': 'hmmer v3.0', 'hmm_end': '187', 'hmm_start': '2', 'significant': '1', 'start': '316'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 393, 'stop': 409, 'signature_ac': 'PS00486', 'level_tag': '(0)'}]
+
+kegg
+{'acb03430': 'Mismatch repair'}
+
+go
+['GO:ATP binding ; GO:0005524', 'GO:mismatch repair ; GO:0006298', 'GO:mismatched DNA binding ; GO:0030983']

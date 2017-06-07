@@ -1,0 +1,17 @@
+id
+ABO12030
+
+blast
+['gi|126388255|gb|ABO12753.1|', 'putative acyl-CoA dehydrogenase [Acinetobacter baumannii ATCC 17978]', 'ABO12753', '0.0']
+
+pfam
+noHomology
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 184, 'stop': 229, 'signature_ac': 'PS50912', 'score': '6.249', 'level': '-1'}]
+
+kegg
+{'acb00071': 'Fatty acid degradation', 'acb01100': 'Metabolic pathways', 'acb01212': 'Fatty acid metabolism'}
+
+go
+noHomolog

@@ -1,0 +1,17 @@
+id
+ABO11311
+
+blast
+['gi|126387551|gb|ABO12049.1|', 'hypothetical protein A1S_1622 [Acinetobacter baumannii ATCC 17978]', 'ABO12049', '1.53436e-48']
+
+pfam
+noHomology
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

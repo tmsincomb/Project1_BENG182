@@ -1,0 +1,17 @@
+id
+ABO13375
+
+blast
+['gi|546203288|dbj|BAN88531.1|', 'delta-aminolevulinic acid dehydratase [Acinetobacter baumannii NCGM 237]', 'BAN88531', '0.0']
+
+pfam
+noHomology
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 4, 'signature_ac': 'PS51127', 'score': '4.334', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 253, 'stop': 265, 'signature_ac': 'PS00169', 'level_tag': '(0)'}]
+
+kegg
+{'acb00860': 'Porphyrin and chlorophyll metabolism', 'acb01100': 'Metabolic pathways', 'acb01110': 'Biosynthesis of secondary metabolites', 'acb01120': 'Microbial metabolism in diverse environments'}
+
+go
+noHomolog

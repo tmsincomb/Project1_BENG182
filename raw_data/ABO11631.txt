@@ -1,0 +1,17 @@
+id
+ABO11631
+
+blast
+['gi|446398901|ref|WP_000476756.1|', 'MULTISPECIES: hypothetical protein [Acinetobacter calcoaceticus/baumannii complex] >gi|126387892|gb|...', 'WP_000476756', '2.93098e-109']
+
+pfam
+{'PF02631': {'accession': 'PF02631.15', 'class': 'Domain', 'id': 'RecX', 'locations': {'ali_end': '157', 'ali_start': '45', 'bitscore': '100.389610290527', 'end': '157', 'evalue': '8.5e-29', 'evidence': 'hmmer v3.0', 'hmm_end': '118', 'hmm_start': '4', 'significant': '1', 'start': '45'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 31, 'stop': 66, 'signature_ac': 'PS51375', 'score': '5.525', 'level': '-1'}]
+
+kegg
+noHomology
+
+go
+['GO:regulation of DNA repair ; GO:0006282']

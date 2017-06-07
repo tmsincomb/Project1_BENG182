@@ -1,0 +1,17 @@
+id
+ABO11329
+
+blast
+['gi|446131279|ref|WP_000209134.1|', 'hypothetical protein [Acinetobacter baumannii] >gi|126387910|gb|ABO12408.1| hypothetical protein A1S...', 'WP_000209134', '2.83474e-125']
+
+pfam
+noHomology
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

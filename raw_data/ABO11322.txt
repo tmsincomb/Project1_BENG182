@@ -1,0 +1,17 @@
+id
+ABO11322
+
+blast
+['gi|500184863|ref|WP_011859186.1|', 'adenylate/guanylate cyclase domain-containing protein, partial [Acinetobacter baumannii] >gi|1263875...', 'WP_011859186', '1.60785e-124']
+
+pfam
+{'PF00211': {'accession': 'PF00211.19', 'class': 'Domain', 'id': 'Guanylate_cyc', 'locations': {'ali_end': '89', 'ali_start': '5', 'bitscore': '53.2657852172852', 'end': '89', 'evalue': '1.5e-14', 'evidence': 'hmmer v3.0', 'hmm_end': '182', 'hmm_start': '99', 'significant': '1', 'start': '5'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 44, 'signature_ac': 'PS50125', 'score': '12.182', 'level': '0'}]
+
+kegg
+noHomology
+
+go
+['GO:intracellular signal transduction ; GO:0035556', 'GO:phosphorus-oxygen lyase activity ; GO:0016849', 'GO:cyclic nucleotide biosynthetic process ; GO:0009190']

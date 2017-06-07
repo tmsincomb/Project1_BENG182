@@ -1,0 +1,17 @@
+id
+ABO13376
+
+blast
+['gi|446759863|ref|WP_000837119.1|', 'hypothetical protein [Acinetobacter baumannii] >gi|126386845|gb|ABO11343.1| hypothetical protein A1S...', 'WP_000837119', '3.01493e-140']
+
+pfam
+noHomology
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 8, 'signature_ac': 'PS51127', 'score': '4.210', 'level': '-1'}]
+
+kegg
+noHomology
+
+go
+noHomolog

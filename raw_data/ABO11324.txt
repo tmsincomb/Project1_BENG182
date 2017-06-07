@@ -1,0 +1,17 @@
+id
+ABO11324
+
+blast
+['gi|347594018|gb|AEP06739.1|', 'conserve hypothetical protein [Acinetobacter baumannii MDR-ZJ06]', 'AEP06739', '0.0']
+
+pfam
+{'PF04055': {'accession': 'PF04055.20', 'class': 'Domain', 'id': 'Radical_SAM', 'locations': {'ali_end': '109', 'ali_start': '45', 'bitscore': '-0.593619465827942', 'end': '109', 'evalue': '1.6e-28', 'evidence': 'hmmer v3.0', 'hmm_end': '134', 'hmm_start': '81', 'significant': None, 'start': '45'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 9, 'signature_ac': 'PS51127', 'score': '5.223', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 4, 'stop': 114, 'signature_ac': 'PS51449', 'score': '26.713', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 141, 'stop': 161, 'signature_ac': 'PS01278', 'level_tag': '(0)'}, {'sequence_ac': 'USERSEQ1', 'start': 333, 'stop': 447, 'signature_ac': 'PS51167', 'score': '7.154', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 373, 'stop': 443, 'signature_ac': 'PS50926', 'score': '13.962', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 427, 'stop': 447, 'signature_ac': 'PS51179', 'score': '6.696', 'level': '-1'}]
+
+kegg
+noHomology
+
+go
+['GO:iron-sulfur cluster binding ; GO:0051536', 'GO:catalytic activity ; GO:0003824']

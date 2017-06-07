@@ -1,0 +1,17 @@
+id
+ABO13736
+
+blast
+['gi|126387182|gb|ABO11680.1|', 'methyl-directed mismatch repair [Acinetobacter baumannii ATCC 17978]', 'ABO11680', '4.29295e-151']
+
+pfam
+{'PF01624': {'accession': 'PF01624.19', 'class': 'Domain', 'id': 'MutS_I', 'locations': {'ali_end': '108', 'ali_start': '1', 'bitscore': '136.152786254883', 'end': '108', 'evalue': '3.8e-40', 'evidence': 'hmmer v3.0', 'hmm_end': '112', 'hmm_start': '4', 'significant': '1', 'start': '1'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+['GO:ATP binding ; GO:0005524', 'GO:mismatch repair ; GO:0006298', 'GO:mismatched DNA binding ; GO:0030983']

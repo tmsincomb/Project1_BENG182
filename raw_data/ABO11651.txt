@@ -1,0 +1,17 @@
+id
+ABO11651
+
+blast
+['gi|446027864|ref|WP_000105719.1|', 'MULTISPECIES: sulfurtransferase TusD [Acinetobacter] >gi|126387917|gb|ABO12415.1| putative intracell...', 'WP_000105719', '2.08736e-84']
+
+pfam
+noHomology
+
+prosite
+noHomology
+
+kegg
+{'acb04122': 'Sulfur relay system'}
+
+go
+noHomolog

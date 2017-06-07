@@ -1,0 +1,17 @@
+id
+ABO11628
+
+blast
+['gi|126387536|gb|ABO12034.1|', 'TonB-dependent receptor [Acinetobacter baumannii ATCC 17978]', 'ABO12034', '0.0']
+
+pfam
+{'PF00593': {'accession': 'PF00593.23', 'class': 'Domain', 'id': 'TonB_dep_Rec', 'locations': {'ali_end': '308', 'ali_start': '278', 'bitscore': '-1.35244262218475', 'end': '308', 'evalue': '8.3e-23', 'evidence': 'hmmer v3.0', 'hmm_end': '185', 'hmm_start': '155', 'significant': None, 'start': '278'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+['GO:receptor activity ; GO:0004872', 'GO:membrane ; GO:0016020', 'GO:transport ; GO:0006810']

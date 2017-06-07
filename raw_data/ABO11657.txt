@@ -1,0 +1,17 @@
+id
+ABO11657
+
+blast
+['gi|446970283|ref|WP_001047539.1|', 'MULTISPECIES: sulfite reductase [Acinetobacter] >gi|126387920|gb|ABO12418.1| putative sulfite reduct...', 'WP_001047539', '2.72457e-71']
+
+pfam
+noHomology
+
+prosite
+noHomology
+
+kegg
+{'acb04122': 'Sulfur relay system'}
+
+go
+noHomolog

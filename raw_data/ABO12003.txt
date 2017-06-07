@@ -1,0 +1,17 @@
+id
+ABO12003
+
+blast
+['gi|126388566|gb|ABO13064.1|', 'putative transcriptional regulator [Acinetobacter baumannii ATCC 17978] >gi|884899376|gb|AKQ25978.1|...', 'ABO13064', '2.56516e-139']
+
+pfam
+{'PF00440': {'accession': 'PF00440.22', 'class': 'Domain', 'id': 'TetR_N', 'locations': {'ali_end': '57', 'ali_start': '16', 'bitscore': '42.4529876708984', 'end': '57', 'evalue': '2.2e-11', 'evidence': 'hmmer v3.0', 'hmm_end': '45', 'hmm_start': '4', 'significant': '1', 'start': '16'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 7, 'stop': 67, 'signature_ac': 'PS50977', 'score': '15.775', 'level': '0'}]
+
+kegg
+noHomology
+
+go
+['GO:DNA binding ; GO:0003677']

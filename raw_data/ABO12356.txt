@@ -1,0 +1,17 @@
+id
+ABO12356
+
+blast
+['gi|126388885|gb|ABO13383.1|', 'hypothetical protein A1S_2980 [Acinetobacter baumannii ATCC 17978]', 'ABO13383', '1.61177e-115']
+
+pfam
+{'PF02096': {'accession': 'PF02096.19', 'class': 'Domain', 'id': '60KD_IMP', 'locations': {'ali_end': '150', 'ali_start': '1', 'bitscore': '161.390777587891', 'end': '150', 'evalue': '1.4e-47', 'evidence': 'hmmer v3.0', 'hmm_end': '166', 'hmm_start': '30', 'significant': '1', 'start': '1'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+{'acb02024': 'Quorum sensing', 'acb03060': 'Protein export', 'acb03070': 'Bacterial secretion system'}
+
+go
+['GO:integral component of membrane ; GO:0016021', 'GO:protein insertion into membrane ; GO:0051205']

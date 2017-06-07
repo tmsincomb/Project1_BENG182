@@ -1,0 +1,17 @@
+id
+ABO11645
+
+blast
+['gi|690993584|ref|WP_031963234.1|', 'TetR family transcriptional regulator [Acinetobacter baumannii] >gi|587767355|gb|EXA61659.1| bacteri...', 'WP_031963234', '2.07621e-127']
+
+pfam
+{'PF00440': {'accession': 'PF00440.22', 'class': 'Domain', 'id': 'TetR_N', 'locations': {'ali_end': '38', 'ali_start': '3', 'bitscore': '37.4555473327637', 'end': '38', 'evalue': '8.9e-10', 'evidence': 'hmmer v3.0', 'hmm_end': '47', 'hmm_start': '12', 'significant': '1', 'start': '3'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 46, 'signature_ac': 'PS50977', 'score': '17.296', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 4, 'stop': 34, 'signature_ac': 'PS01081', 'level_tag': '(0)'}, {'sequence_ac': 'USERSEQ1', 'start': 83, 'stop': 128, 'signature_ac': 'PS51120', 'score': '4.935', 'level': '-1'}]
+
+kegg
+noHomology
+
+go
+['GO:DNA binding ; GO:0003677']

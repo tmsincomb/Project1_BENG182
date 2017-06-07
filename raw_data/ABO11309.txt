@@ -1,0 +1,17 @@
+id
+ABO11309
+
+blast
+['gi|126387539|gb|ABO12037.1|', 'Zn-dependent oligopeptidase [Acinetobacter baumannii ATCC 17978]', 'ABO12037', '0.0']
+
+pfam
+noHomology
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 466, 'stop': 475, 'signature_ac': 'PS00142'}]
+
+kegg
+noHomology
+
+go
+noHomolog

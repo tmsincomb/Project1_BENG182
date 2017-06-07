@@ -1,0 +1,17 @@
+id
+ABO12007
+
+blast
+['gi|446764105|ref|WP_000841361.1|', 'MULTISPECIES: transcription elongation factor GreB [Acinetobacter calcoaceticus/baumannii complex] >...', 'WP_000841361', '7.98466e-116']
+
+pfam
+{'PF03449': {'accession': 'PF03449.14', 'class': 'Domain', 'id': 'GreA_GreB_N', 'locations': {'ali_end': '74', 'ali_start': '5', 'bitscore': '83.6350479125977', 'end': '74', 'evalue': '4.7e-24', 'evidence': 'hmmer v3.0', 'hmm_end': '71', 'hmm_start': '2', 'significant': '1', 'start': '5'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 17, 'stop': 48, 'signature_ac': 'PS00829', 'level_tag': '(0)'}, {'sequence_ac': 'USERSEQ1', 'start': 120, 'stop': 136, 'signature_ac': 'PS00830', 'level_tag': '(0)'}]
+
+kegg
+noHomology
+
+go
+['GO:regulation of DNA-templated transcription, elongation ; GO:0032784', 'GO:DNA binding ; GO:0003677']

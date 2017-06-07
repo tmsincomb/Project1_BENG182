@@ -1,0 +1,17 @@
+id
+ABO13741
+
+blast
+['gi|446682984|ref|WP_000760330.1|', 'DUF2147 domain-containing protein [Acinetobacter baumannii] >gi|126387188|gb|ABO11686.1| hypothetica...', 'WP_000760330', '2.015e-103']
+
+pfam
+{'PF09917': {'accession': 'PF09917.8', 'class': 'Domain', 'id': 'DUF2147', 'locations': {'ali_end': '143', 'ali_start': '27', 'bitscore': '84.43359375', 'end': '143', 'evalue': '6.3e-24', 'evidence': 'hmmer v3.0', 'hmm_end': '112', 'hmm_start': '2', 'significant': '1', 'start': '27'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

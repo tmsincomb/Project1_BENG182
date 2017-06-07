@@ -1,0 +1,17 @@
+id
+ABO12019
+
+blast
+['gi|169150735|emb|CAM88647.1|', 'conserved hypothetical protein [Acinetobacter baumannii AYE] >gi|169153729|emb|CAP02930.1| conserved...', 'CAM88647', '6.78176e-56']
+
+pfam
+{'PF02583': {'accession': 'PF02583.16', 'class': 'Domain', 'id': 'Trns_repr_metal', 'locations': {'ali_end': '85', 'ali_start': '7', 'bitscore': '84.1244201660156', 'end': '85', 'evalue': '5.4e-24', 'evidence': 'hmmer v3.0', 'hmm_end': '77', 'hmm_start': '2', 'significant': '1', 'start': '7'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+['GO:metal ion binding ; GO:0046872', 'GO:DNA binding ; GO:0003677', 'GO:regulation of transcription, DNA-templated ; GO:0006355']

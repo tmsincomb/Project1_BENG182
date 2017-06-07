@@ -1,0 +1,17 @@
+id
+ABO13360
+
+blast
+['gi|595149649|gb|EXV74448.1|', 'response regulator [Acinetobacter baumannii 25935_1]', 'EXV74448', '2.13372e-30']
+
+pfam
+{'PF00072': {'accession': 'PF00072.23', 'class': 'Domain', 'id': 'Response_reg', 'locations': {'ali_end': '54', 'ali_start': '6', 'bitscore': '29.2826137542725', 'end': '54', 'evalue': '6.5e-07', 'evidence': 'hmmer v3.0', 'hmm_end': '50', 'hmm_start': '1', 'significant': '1', 'start': '6'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 19, 'signature_ac': 'PS50144', 'score': '5.867', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 5, 'stop': 54, 'signature_ac': 'PS50110', 'score': '17.129', 'level': '0'}]
+
+kegg
+noHomology
+
+go
+['GO:phosphorelay signal transduction system ; GO:0000160']

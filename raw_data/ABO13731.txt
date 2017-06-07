@@ -1,0 +1,17 @@
+id
+ABO13731
+
+blast
+['gi|446154700|ref|WP_000232555.1|', 'MULTISPECIES: hypothetical protein [Acinetobacter calcoaceticus/baumannii complex] >gi|126387178|gb|...', 'WP_000232555', '7.39951e-168']
+
+pfam
+{'PF08291': {'accession': 'PF08291.10', 'class': 'Domain', 'id': 'Peptidase_M15_3', 'locations': {'ali_end': '160', 'ali_start': '123', 'bitscore': '25.3677387237549', 'end': '160', 'evalue': '5.8e-06', 'evidence': 'hmmer v3.0', 'hmm_end': '82', 'hmm_start': '45', 'significant': '1', 'start': '123'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

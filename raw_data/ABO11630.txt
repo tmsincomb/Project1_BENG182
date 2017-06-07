@@ -1,0 +1,17 @@
+id
+ABO11630
+
+blast
+['gi|447022692|ref|WP_001099948.1|', 'MULTISPECIES: transcriptional regulator [Acinetobacter calcoaceticus/baumannii complex] >gi|12638788...', 'WP_001099948', '5.58794e-101']
+
+pfam
+{'PF13412': {'accession': 'PF13412.5', 'class': 'Domain', 'id': 'HTH_24', 'locations': {'ali_end': '50', 'ali_start': '4', 'bitscore': '66.2527008056641', 'end': '50', 'evalue': '7.1e-19', 'evidence': 'hmmer v3.0', 'hmm_end': '48', 'hmm_start': '2', 'significant': '1', 'start': '4'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 63, 'signature_ac': 'PS51077', 'score': '7.702', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 116, 'signature_ac': 'PS50995', 'score': '9.353', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 3, 'stop': 58, 'signature_ac': 'PS51000', 'score': '6.939', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 3, 'stop': 64, 'signature_ac': 'PS50956', 'score': '39.976', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 21, 'stop': 47, 'signature_ac': 'PS00519', 'level_tag': '(0)'}]
+
+kegg
+noHomology
+
+go
+noHomolog

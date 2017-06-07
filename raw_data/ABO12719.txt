@@ -1,0 +1,17 @@
+id
+ABO12719
+
+blast
+['gi|1047309885|ref|WP_065709759.1|', 'GTPase HflX [Acinetobacter baumannii]', 'WP_065709759', '0.0']
+
+pfam
+{'PF13167': {'accession': 'PF13167.5', 'class': 'Domain', 'id': 'GTP-bdg_N', 'locations': {'ali_end': '113', 'ali_start': '28', 'bitscore': '109.161773681641', 'end': '113', 'evalue': '4.2e-32', 'evidence': 'hmmer v3.0', 'hmm_end': '89', 'hmm_start': '4', 'significant': '1', 'start': '28'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 4, 'signature_ac': 'PS51127', 'score': '4.603', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 143, 'stop': 420, 'signature_ac': 'PS51417', 'score': '6.635', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 198, 'stop': 363, 'signature_ac': 'PS51706', 'score': '7.219', 'level': '-3', 'level_tag': 'OUTCOMPETED_HIT_BY_PS51705'}, {'sequence_ac': 'USERSEQ1', 'start': 200, 'stop': 365, 'signature_ac': 'PS51705', 'score': '57.277', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 281, 'stop': 362, 'signature_ac': 'PS51709', 'score': '11.054', 'level': '-2', 'level_tag': 'OUTCOMPETED_HIT_BY_PS51705'}]
+
+kegg
+noHomology
+
+go
+noHomolog

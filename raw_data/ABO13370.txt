@@ -1,0 +1,17 @@
+id
+ABO13370
+
+blast
+['gi|126389272|gb|ABO13770.1|', 'AnkB protein [Acinetobacter baumannii ATCC 17978] >gi|342224927|gb|EGT89939.1| ankyrin repeat-contai...', 'ABO13770', '6.21226e-97']
+
+pfam
+{'PF12796': {'accession': 'PF12796.6', 'class': 'Domain', 'id': 'Ank_2', 'locations': {'ali_end': '105', 'ali_start': '18', 'bitscore': '44.2547340393066', 'end': '105', 'evalue': '8.0e-12', 'evidence': 'hmmer v3.0', 'hmm_end': '81', 'hmm_start': '3', 'significant': '1', 'start': '18'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 19, 'stop': 43, 'signature_ac': 'PS50088', 'score': '6.867', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 19, 'stop': 109, 'signature_ac': 'PS50297', 'score': '21.614', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 44, 'stop': 76, 'signature_ac': 'PS50088', 'score': '11.995', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 78, 'stop': 100, 'signature_ac': 'PS51082', 'score': '5.999', 'level': '-1'}]
+
+kegg
+noHomology
+
+go
+noHomolog

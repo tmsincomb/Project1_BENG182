@@ -1,0 +1,17 @@
+id
+ABO11316
+
+blast
+['gi|126387554|gb|ABO12052.1|', 'putative adenylate or guanylate cyclase [Acinetobacter baumannii ATCC 17978]', 'ABO12052', '0.0']
+
+pfam
+{'PF00211': {'accession': 'PF00211.19', 'class': 'Domain', 'id': 'Guanylate_cyc', 'locations': {'ali_end': '260', 'ali_start': '204', 'bitscore': '39.6789169311523', 'end': '260', 'evalue': '1.9e-10', 'evidence': 'hmmer v3.0', 'hmm_end': '62', 'hmm_start': '6', 'significant': '1', 'start': '204'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 208, 'stop': 259, 'signature_ac': 'PS50125', 'score': '14.378', 'level': '0'}]
+
+kegg
+noHomology
+
+go
+['GO:intracellular signal transduction ; GO:0035556', 'GO:phosphorus-oxygen lyase activity ; GO:0016849', 'GO:cyclic nucleotide biosynthetic process ; GO:0009190']

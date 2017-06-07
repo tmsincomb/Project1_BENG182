@@ -1,0 +1,17 @@
+id
+ABO13036
+
+blast
+['gi|126389255|gb|ABO13753.1|', 'putative VGR-related protein [Acinetobacter baumannii ATCC 17978]', 'ABO13753', '0.0']
+
+pfam
+{'PF05954': {'accession': 'PF05954.10', 'class': 'Domain', 'id': 'Phage_GPD', 'locations': {'ali_end': '335', 'ali_start': '3', 'bitscore': '205.210189819336', 'end': '335', 'evalue': '7.4e-61', 'evidence': 'hmmer v3.0', 'hmm_end': '303', 'hmm_start': '11', 'significant': '1', 'start': '3'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

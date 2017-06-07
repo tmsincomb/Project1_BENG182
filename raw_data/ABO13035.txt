@@ -1,0 +1,17 @@
+id
+ABO13035
+
+blast
+['gi|408703432|gb|EKL48828.1|', 'hypothetical protein ACINNAV13_3467 [Acinetobacter baumannii Naval-13]', 'EKL48828', '4.29673e-81']
+
+pfam
+noHomology
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

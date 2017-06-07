@@ -1,0 +1,17 @@
+id
+ABO12010
+
+blast
+['gi|487911147|ref|WP_001984613.1|', 'MULTISPECIES: ABC transporter substrate-binding protein [Acinetobacter calcoaceticus/baumannii compl...', 'WP_001984613', '0.0']
+
+pfam
+noHomology
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 201, 'stop': 229, 'signature_ac': 'PS00922', 'level_tag': '(0)'}]
+
+kegg
+noHomology
+
+go
+noHomolog

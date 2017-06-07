@@ -1,0 +1,17 @@
+id
+ABO12714
+
+blast
+['gi|446001335|ref|WP_000079190.1|', 'phospholipase D family protein [Acinetobacter baumannii] >gi|1096774051|gb|OIG48499.1| phospholipase...', 'WP_000079190', '0.0']
+
+pfam
+noHomology
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 1, 'stop': 278, 'signature_ac': 'PS51181', 'score': '5.584', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 10, 'stop': 37, 'signature_ac': 'PS50035', 'score': '12.480', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 220, 'stop': 284, 'signature_ac': 'PS51077', 'score': '6.515', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 260, 'stop': 286, 'signature_ac': 'PS50035', 'score': '11.974', 'level': '0'}]
+
+kegg
+{'acb00564': 'Glycerophospholipid metabolism', 'acb01100': 'Metabolic pathways'}
+
+go
+noHomolog

@@ -1,0 +1,17 @@
+id
+ABO11310
+
+blast
+['gi|445935797|ref|WP_000013652.1|', 'MULTISPECIES: 30S ribosomal protein S20 [Acinetobacter calcoaceticus/baumannii complex] >gi|16620000...', 'WP_000013652', '1.58276e-54']
+
+pfam
+{'PF01649': {'accession': 'PF01649.17', 'class': 'Domain', 'id': 'Ribosomal_S20p', 'locations': {'ali_end': '84', 'ali_start': '2', 'bitscore': '92.7528762817383', 'end': '84', 'evalue': '1.3e-26', 'evidence': 'hmmer v3.0', 'hmm_end': '82', 'hmm_start': '1', 'significant': '1', 'start': '2'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 28, 'stop': 61, 'signature_ac': 'PS50005', 'score': '5.222', 'level': '-1'}, {'sequence_ac': 'USERSEQ1', 'start': 50, 'stop': 88, 'signature_ac': 'PS51832', 'score': '6.712', 'level': '-1'}]
+
+kegg
+{'acb03010': 'Ribosome'}
+
+go
+['GO:intracellular ; GO:0005622', 'GO:structural constituent of ribosome ; GO:0003735', 'GO:translation ; GO:0006412', 'GO:ribosome ; GO:0005840', 'GO:RNA binding ; GO:0003723']

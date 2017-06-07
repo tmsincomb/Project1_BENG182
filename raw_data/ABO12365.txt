@@ -1,0 +1,17 @@
+id
+ABO12365
+
+blast
+['gi|974679041|ref|WP_059262761.1|', 'GGDEF domain-containing protein [Acinetobacter baumannii]', 'WP_059262761', '0.0']
+
+pfam
+{'PF00990': {'accession': 'PF00990.20', 'class': 'Domain', 'id': 'GGDEF', 'locations': {'ali_end': '356', 'ali_start': '204', 'bitscore': '154.208160400391', 'end': '356', 'evalue': '1.3e-45', 'evidence': 'hmmer v3.0', 'hmm_end': '158', 'hmm_start': '1', 'significant': '1', 'start': '204'}, 'type': 'Pfam-A'}}
+
+prosite
+[{'sequence_ac': 'USERSEQ1', 'start': 233, 'stop': 364, 'signature_ac': 'PS50887', 'score': '30.260', 'level': '0'}, {'sequence_ac': 'USERSEQ1', 'start': 357, 'stop': 366, 'signature_ac': 'PS50915', 'score': '5.604', 'level': '-1'}]
+
+kegg
+noHomology
+
+go
+noHomolog

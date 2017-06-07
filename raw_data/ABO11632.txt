@@ -1,0 +1,17 @@
+id
+ABO11632
+
+blast
+['gi|447038484|ref|WP_001115740.1|', 'MULTISPECIES: hypothetical protein [Acinetobacter calcoaceticus/baumannii complex] >gi|126388238|gb|...', 'WP_001115740', '3.90463e-156']
+
+pfam
+noHomology
+
+prosite
+noHomology
+
+kegg
+noHomology
+
+go
+noHomolog

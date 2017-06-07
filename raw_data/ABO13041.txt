@@ -1,0 +1,17 @@
+id
+ABO13041
+
+blast
+['gi|126389257|gb|ABO13755.1|', 'gamma-glutamate-cysteine ligase [Acinetobacter baumannii ATCC 17978]', 'ABO13755', '0.0']
+
+pfam
+{'PF04262': {'accession': 'PF04262.13', 'class': 'Domain', 'id': 'Glu_cys_ligase', 'locations': {'ali_end': '365', 'ali_start': '2', 'bitscore': '473.839294433594', 'end': '365', 'evalue': '2.1e-142', 'evidence': 'hmmer v3.0', 'hmm_end': '372', 'hmm_start': '17', 'significant': '1', 'start': '2'}, 'type': 'Pfam-A'}}
+
+prosite
+noHomology
+
+kegg
+{'acb00270': 'Cysteine and methionine metabolism', 'acb00480': 'Glutathione metabolism', 'acb01100': 'Metabolic pathways'}
+
+go
+['GO:glutamate-cysteine ligase activity ; GO:0004357', 'GO:glutathione biosynthetic process ; GO:0006750']

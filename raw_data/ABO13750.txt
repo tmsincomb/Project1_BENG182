@@ -2,7 +2,1449 @@ id
 ABO13750
 
 blast
-['gi|446864783|ref|WP_000942039.1|', 'HAD family hydrolase [Acinetobacter baumannii] >gi|126387193|gb|ABO11691.1| L-2-haloalkanoic acid de...', 'WP_000942039', '1.94944e-106']
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_95077</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>148</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_95077</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>148</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|446864783|ref|WP_000942039.1|</Hit_id>
+  <Hit_def>HAD family hydrolase [Acinetobacter baumannii] &gt;gi|126387193|gb|ABO11691.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ATCC 17978] &gt;gi|333365014|gb|EGK47028.1| HAD superfamily hydrolase [Acinetobacter baumannii AB210] &gt;gi|475957963|gb|EMU24383.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ABNIH17]</Hit_def>
+  <Hit_accession>WP_000942039</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>1.94944e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1159612571|ref|WP_079268573.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_079268573</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>5.30255e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|491270886|ref|WP_005129015.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|480115252|gb|ENW53095.1| hypothetical protein F918_02269 [Acinetobacter baumannii NIPH 601]</Hit_def>
+  <Hit_accession>WP_005129015</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.457</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>5.30298e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|942977950|gb|KQF35302.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>KQF35302</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>5.44339e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|183209173|gb|ACC56571.1|</Hit_id>
+  <Hit_def>predicted hydrolase (HAD superfamily) [Acinetobacter baumannii ACICU] &gt;gi|322507888|gb|ADX03342.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii 1656-2] &gt;gi|323517484|gb|ADX91865.1| HAD superfamily hydrolase [Acinetobacter baumannii TCDC-AB0715] &gt;gi|332735947|gb|EGJ66981.1| HAD hydrolase, family IA, variant 1 [Acinetobacter baumannii 6014059] &gt;gi|546202952|dbj|BAN88195.1| HAD superfamily putative hydrolase [Acinetobacter baumannii NCGM 237] &gt;gi|884687355|gb|KMV01888.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>ACC56571</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.457</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>5.44677e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|447200723|ref|WP_001277979.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_001277979</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>5.58708e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|913486097|ref|WP_050441765.1|</Hit_id>
+  <Hit_def>HAD family hydrolase, partial [Acinetobacter baumannii] &gt;gi|595306728|gb|EXX24375.1| HAD hydrolase, IA, variant 1 family protein, partial [Acinetobacter baumannii 25750_6]</Hit_def>
+  <Hit_accession>WP_050441765</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>5.7446e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|691150229|ref|WP_032062417.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|588087206|gb|EXD67330.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 58452]</Hit_def>
+  <Hit_accession>WP_032062417</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.457</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>5.91741e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|475980967|gb|EMU44276.1|</Hit_id>
+  <Hit_def>L-2-haloalkanoic acid dehalogenase, partial [Acinetobacter baumannii ABNIH23] &gt;gi|595114966|gb|EXV41102.1| HAD hydrolase, IA, variant 1 family protein, partial [Acinetobacter baumannii 25935_9]</Hit_def>
+  <Hit_accession>EMU44276</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>6.00992e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1160928784|ref|WP_079770193.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_079770193</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>6.16711e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1152308770|ref|WP_078191792.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151838845|gb|OOU39485.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_078191792</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.301</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>6.24453e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1152332920|ref|WP_078209632.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151891036|gb|OOU89969.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193267869|gb|OTR89710.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_078209632</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>6.31974e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|475975260|gb|EMU39720.1|</Hit_id>
+  <Hit_def>L-2-haloalkanoic acid dehalogenase, partial [Acinetobacter baumannii ABNIH22]</Hit_def>
+  <Hit_accession>EMU39720</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>6.45103e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|446679443|ref|WP_000756789.1|</Hit_id>
+  <Hit_def>MULTISPECIES: haloacid dehalogenase [Acinetobacter calcoaceticus/baumannii complex] &gt;gi|342230364|gb|EGT95204.1| HAD superfamily hydrolase [Acinetobacter baumannii ABNIH1] &gt;gi|342230956|gb|EGT95776.1| HAD superfamily hydrolase [Acinetobacter baumannii ABNIH3] &gt;gi|342232762|gb|EGT97533.1| HAD superfamily hydrolase [Acinetobacter baumannii ABNIH2] &gt;gi|342238475|gb|EGU02907.1| HAD superfamily hydrolase [Acinetobacter baumannii ABNIH4] &gt;gi|347593155|gb|AEP05876.1| HAD superfamily hydrolase [Acinetobacter baumannii MDR-ZJ06] &gt;gi|385878952|gb|AFI96047.1| haloacid dehalogenase superfamily enzyme, subfamily IA [Acinetobacter baumannii MDR-TJ] &gt;gi|395554331|gb|EJG20333.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii OIFC189] &gt;gi|395567777|gb|EJG28451.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii Naval-17] &gt;gi|404566464|gb|EKA71610.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii IS-143] &gt;gi|404670968|gb|EKB38837.1| HAD hydrolase, family IA [Acinetobacter baumannii Ab11111] &gt;gi|407192946|gb|EKE64119.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ZWS1122] &gt;gi|407193230|gb|EKE64398.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ZWS1219] &gt;gi|407900892|gb|AFU37723.1| haloacid dehalogenase superfamily protein [Acinetobacter baumannii TYTH-1] &gt;gi|408702895|gb|EKL48302.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii OIFC180] &gt;gi|410404280|gb|EKP56348.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii Naval-2] &gt;gi|425495177|gb|EKU61366.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii Naval-113] &gt;gi|444779970|gb|ELX03942.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii OIFC338] &gt;gi|475913233|gb|EMT83248.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ABNIH25] &gt;gi|475918669|gb|EMT88099.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ABNIH5] &gt;gi|475918948|gb|EMT88374.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ABNIH26] &gt;gi|475955717|gb|EMU22229.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ABNIH16] &gt;gi|475962411|gb|EMU28435.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii ABNIH18] &gt;gi|479860558|gb|ENU12673.1| hypothetical protein F996_02354 [Acinetobacter baumannii NIPH 24] &gt;gi|479905955|gb|ENU55054.1| hypothetical protein F982_01692 [Acinetobacter baumannii NIPH 1362] &gt;gi|479925579|gb|ENU73266.1| hypothetical protein F977_01385 [Acinetobacter baumannii NIPH 2061] &gt;gi|480118503|gb|ENW56261.1| hypothetical protein F916_01333 [Acinetobacter baumannii NIPH 528] &gt;gi|480123889|gb|ENW61534.1| hypothetical protein F915_02267 [Acinetobacter baumannii NIPH 70] &gt;gi|522325991|gb|AGQ13794.1| putative hydrolase (HAD superfamily) [Acinetobacter baumannii BJAB07104] &gt;gi|522345804|gb|AGQ09923.1| putative hydrolase (HAD superfamily) [Acinetobacter baumannii BJAB0868] &gt;gi|571581029|gb|ETP74529.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH0207] &gt;gi|571581119|gb|ETP74609.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH0807] &gt;gi|571590583|gb|ETP83675.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH1007] &gt;gi|571593250|gb|ETP86222.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH0707] &gt;gi|571598430|gb|ETP91212.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH10107] &gt;gi|571599715|gb|ETP92453.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH10007] &gt;gi|571604658|gb|ETP97224.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH10707] &gt;gi|571604915|gb|ETP97476.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH11608] &gt;gi|571612954|gb|ETQ05225.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH12308] &gt;gi|571620079|gb|ETQ12127.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH12408] &gt;gi|571625514|gb|ETQ17411.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH13908] &gt;gi|571629354|gb|ETQ21138.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH12808] &gt;gi|571631475|gb|ETQ23180.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH14508] &gt;gi|571635609|gb|ETQ27179.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH16008] &gt;gi|571641172|gb|ETQ32541.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH15208] &gt;gi|571650145|gb|ETQ41236.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH18608] &gt;gi|571652205|gb|ETQ43226.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH16108] &gt;gi|571655978|gb|ETQ46858.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH19908] &gt;gi|571667403|gb|ETQ57879.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH20108] &gt;gi|571676216|gb|ETQ66360.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH2307] &gt;gi|571679282|gb|ETQ69315.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH2707] &gt;gi|571685076|gb|ETQ74849.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH2907] &gt;gi|571689640|gb|ETQ79232.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH5107] &gt;gi|571694388|gb|ETQ83876.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH5307] &gt;gi|571694993|gb|ETQ84462.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH5707] &gt;gi|571697860|gb|ETQ87246.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH6107] &gt;gi|571718543|gb|ETR07277.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH7007] &gt;gi|571726806|gb|ETR15218.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH7807] &gt;gi|571729246|gb|ETR17580.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH7707] &gt;gi|571737709|gb|ETR25624.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH8107] &gt;gi|571739486|gb|ETR27341.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH8407] &gt;gi|571744619|gb|ETR32343.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH8707] &gt;gi|571751535|gb|ETR39035.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH9707] &gt;gi|571755201|gb|ETR42602.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH9007] &gt;gi|571759591|gb|ETR46783.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH8807] &gt;gi|571763198|gb|ETR50316.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH9907] &gt;gi|571766508|gb|ETR53570.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH9907] &gt;gi|571768558|gb|ETR55585.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH10707] &gt;gi|571769567|gb|ETR56576.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH8907] &gt;gi|572035901|gb|ETR89672.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii CI77] &gt;gi|573033911|gb|ETS65999.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH2107] &gt;gi|573037731|gb|ETS69700.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH3807] &gt;gi|575768364|gb|ETY70007.1| haloacid dehalogenase [Acinetobacter baumannii MDR_MMC4] &gt;gi|586959481|gb|AHJ92776.1| haloacid dehalogenase [Acinetobacter baumannii PKAB07] &gt;gi|587767921|gb|EXA62212.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1035119] &gt;gi|587782561|gb|EXA75780.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1159076] &gt;gi|587784513|gb|EXA77609.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1202252] &gt;gi|587790875|gb|EXA83648.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 118362] &gt;gi|587808001|gb|EXB00082.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1294217] &gt;gi|587826494|gb|EXB17471.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1406750] &gt;gi|587867128|gb|EXB56550.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1465485] &gt;gi|587868576|gb|EXB57921.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1462234] &gt;gi|587909683|gb|EXB97587.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 400834] &gt;gi|587924998|gb|EXC12276.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 647609] &gt;gi|587934235|gb|EXC21165.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 724909] &gt;gi|587952097|gb|EXC37883.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 17534] &gt;gi|587962143|gb|EXC47372.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1031433] &gt;gi|587969367|gb|EXC54346.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1032241] &gt;gi|587978951|gb|EXC63557.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1040094] &gt;gi|587990372|gb|EXC74621.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1042969-1265] &gt;gi|587995531|gb|EXC79363.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1046051] &gt;gi|587999145|gb|EXC82880.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1043903] &gt;gi|588003338|gb|EXC86955.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1046674] &gt;gi|588005483|gb|EXC89033.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1051176] &gt;gi|588015393|gb|EXC98553.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1075025] &gt;gi|588023355|gb|EXD06379.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1247182] &gt;gi|588026705|gb|EXD09441.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1289546] &gt;gi|588031856|gb|EXD14352.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1297] &gt;gi|588033630|gb|EXD16088.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 136706] &gt;gi|588041328|gb|EXD23363.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 34654] &gt;gi|588050235|gb|EXD31834.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 472237-1196] &gt;gi|588062012|gb|EXD43303.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 532413] &gt;gi|588062858|gb|EXD44139.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 562700] &gt;gi|588068005|gb|EXD49102.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 564012] &gt;gi|588076446|gb|EXD57055.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 796380-2102] &gt;gi|588078170|gb|EXD58687.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 653020] &gt;gi|588094685|gb|EXD74245.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 929679-2095] &gt;gi|588098659|gb|EXD77999.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 942133] &gt;gi|588108219|gb|EXD86772.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 993520] &gt;gi|588116187|gb|EXD94443.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 942194] &gt;gi|588126363|gb|EXE02572.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1291820] &gt;gi|588132630|gb|EXE08671.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1277411] &gt;gi|588149360|gb|EXE24384.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1440750] &gt;gi|588156610|gb|EXE31326.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1440750] &gt;gi|588165864|gb|EXE40101.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 554515] &gt;gi|588168754|gb|EXE42898.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1526966] &gt;gi|588175598|gb|EXE49530.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 43926] &gt;gi|588180141|gb|EXE53954.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1552865] &gt;gi|588211073|gb|EXE83818.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 42887] &gt;gi|588240687|gb|EXF12584.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1575710] &gt;gi|588241351|gb|EXF13230.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1593273] &gt;gi|588691647|gb|EXF64157.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1552818] &gt;gi|589151635|gb|EXF97587.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1552389] &gt;gi|589152577|gb|EXF98496.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1488685] &gt;gi|589160821|gb|EXG06594.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1426993] &gt;gi|589173766|gb|EXG19150.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 470922] &gt;gi|589176221|gb|EXG21556.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 458282] &gt;gi|589178442|gb|EXG23752.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 323408] &gt;gi|589193409|gb|EXG38308.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_8] &gt;gi|589199671|gb|EXG44244.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_7] &gt;gi|589202941|gb|EXG47456.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_4] &gt;gi|589205412|gb|EXG49890.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_2] &gt;gi|589209623|gb|EXG53731.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24812_6] &gt;gi|589213483|gb|EXG57382.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24812_4] &gt;gi|589216733|gb|EXG60571.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_10] &gt;gi|589225283|gb|EXG68779.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 7893] &gt;gi|589226113|gb|EXG69595.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24812_10] &gt;gi|589390464|gb|EXG75258.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1296252] &gt;gi|589409905|gb|EXG94341.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1022959] &gt;gi|589415365|gb|EXG99648.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1095464] &gt;gi|589421556|gb|EXH05693.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1178044] &gt;gi|589438289|gb|EXH21541.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1271651] &gt;gi|589456468|gb|EXH38741.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1207552] &gt;gi|589460374|gb|EXH42561.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1264936] &gt;gi|589478216|gb|EXH59734.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1471012] &gt;gi|589482886|gb|EXH63973.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1482820] &gt;gi|589484204|gb|EXH65266.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1475764] &gt;gi|589499270|gb|EXH79943.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 273929] &gt;gi|589502771|gb|EXH83363.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 23671] &gt;gi|589509230|gb|EXH89670.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 2887] &gt;gi|589539378|gb|EXI19000.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 655555] &gt;gi|589544142|gb|EXI23619.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 737393] &gt;gi|589547875|gb|EXI27210.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 825610] &gt;gi|589551071|gb|EXI30315.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 836190] &gt;gi|589561020|gb|EXI40004.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 923118] &gt;gi|589563070|gb|EXI42024.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1045092] &gt;gi|589568647|gb|EXI47397.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 73736] &gt;gi|589574644|gb|EXI53248.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 10519] &gt;gi|589576674|gb|EXI55231.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1287985] &gt;gi|593491464|gb|EXQ77457.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1058283] &gt;gi|593501331|gb|EXQ87026.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 11126] &gt;gi|593513074|gb|EXQ98285.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1237202] &gt;gi|593515877|gb|EXR01012.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1262761-97] &gt;gi|593518974|gb|EXR04043.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1117819] &gt;gi|593526570|gb|EXR11216.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1232509] &gt;gi|593540696|gb|EXR24887.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1266220] &gt;gi|593559887|gb|EXR43391.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1294222] &gt;gi|593569279|gb|EXR52330.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1397513] &gt;gi|593573132|gb|EXR56051.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1392509] &gt;gi|593577398|gb|EXR60219.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1406182] &gt;gi|593590933|gb|EXR73217.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 339786] &gt;gi|593600616|gb|EXR82446.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 466215] &gt;gi|593613167|gb|EXR94587.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 145660] &gt;gi|593619291|gb|EXS00494.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1494580] &gt;gi|593625763|gb|EXS06684.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 303002] &gt;gi|593629365|gb|EXS10052.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 628418] &gt;gi|593634773|gb|EXS15269.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 755829] &gt;gi|593645160|gb|EXS25239.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 730795] &gt;gi|593670833|gb|EXS49813.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 981176] &gt;gi|593675141|gb|EXS53846.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 98826] &gt;gi|593684359|gb|EXS62805.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 70136] &gt;gi|593805991|gb|EXS65344.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25307_1] &gt;gi|593813767|gb|EXS72756.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45002_7] &gt;gi|593814409|gb|EXS73360.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45002_6] &gt;gi|593821949|gb|EXS80671.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45002_5] &gt;gi|593825805|gb|EXS84383.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45002_4] &gt;gi|593830388|gb|EXS88809.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45002_3] &gt;gi|593835890|gb|EXS93989.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45002_10] &gt;gi|593841728|gb|EXS99623.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44895_9] &gt;gi|593850282|gb|EXT07777.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44895_6] &gt;gi|593850971|gb|EXT08446.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44895_8] &gt;gi|593856883|gb|EXT14166.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44895_5] &gt;gi|593861477|gb|EXT18658.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44895_4] &gt;gi|593865004|gb|EXT22099.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44895_3] &gt;gi|593869571|gb|EXT26484.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44895_2] &gt;gi|593872013|gb|EXT28861.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44895_1] &gt;gi|593911787|gb|EXT67137.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25307_8] &gt;gi|593916841|gb|EXT72109.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25307_6] &gt;gi|593924181|gb|EXT79202.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25307_4] &gt;gi|593925170|gb|EXT80175.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25307_5] &gt;gi|593930022|gb|EXT84838.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25307_3] &gt;gi|593935206|gb|EXT89697.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25253_8] &gt;gi|593939953|gb|EXT93749.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25307_2] &gt;gi|593944352|gb|EXT97937.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25253_7] &gt;gi|593947128|gb|EXU00632.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25253_6] &gt;gi|593953424|gb|EXU06703.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25253_4] &gt;gi|593955257|gb|EXU08505.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25253_5] &gt;gi|593959811|gb|EXU13007.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25253_3] &gt;gi|593964678|gb|EXU17691.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25253_1] &gt;gi|593966846|gb|EXU19808.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25253_10] &gt;gi|593973802|gb|EXU26418.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_8] &gt;gi|593974575|gb|EXU27168.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_7] &gt;gi|593981045|gb|EXU33480.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_9] &gt;gi|593984755|gb|EXU37056.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_5] &gt;gi|593986947|gb|EXU39192.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_6] &gt;gi|593993691|gb|EXU45779.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_4] &gt;gi|593997430|gb|EXU49439.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_3] &gt;gi|594001708|gb|EXU53639.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_1] &gt;gi|595082154|gb|EXV10687.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25561_2] &gt;gi|595084136|gb|EXV12350.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25561_1] &gt;gi|595086744|gb|EXV14823.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25561_7] &gt;gi|595093998|gb|EXV21096.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24975_9] &gt;gi|595094746|gb|EXV21821.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24975_7] &gt;gi|595101489|gb|EXV28280.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24975_4] &gt;gi|595107382|gb|EXV33799.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25935_10] &gt;gi|595108991|gb|EXV35364.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24975_1] &gt;gi|595115468|gb|EXV41572.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24975_5] &gt;gi|595123465|gb|EXV49270.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25935_8] &gt;gi|595126930|gb|EXV52632.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25935_7] &gt;gi|595131435|gb|EXV56994.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25935_6] &gt;gi|595134759|gb|EXV60098.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25935_5] &gt;gi|595137977|gb|EXV63164.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25935_2] &gt;gi|595144336|gb|EXV69332.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25935_4] &gt;gi|595148828|gb|EXV73654.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25935_1] &gt;gi|595152732|gb|EXV77419.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25691_10] &gt;gi|595156685|gb|EXV81207.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25691_9] &gt;gi|595159136|gb|EXV83601.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25691_6] &gt;gi|595166987|gb|EXV91166.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25691_2] &gt;gi|595170088|gb|EXV94203.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25691_1] &gt;gi|595173621|gb|EXV97613.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25766_10] &gt;gi|595178904|gb|EXW02638.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25766_7] &gt;gi|595185562|gb|EXW09104.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25766_6] &gt;gi|595191572|gb|EXW14863.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25766_5] &gt;gi|595195437|gb|EXW18622.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25766_4] &gt;gi|595198724|gb|EXW21828.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25766_3] &gt;gi|595203139|gb|EXW26082.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25766_2] &gt;gi|595207785|gb|EXW30496.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25561_10] &gt;gi|595214303|gb|EXW36613.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25766_1] &gt;gi|595214659|gb|EXW36958.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44327_6] &gt;gi|595218543|gb|EXW40606.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44857_9] &gt;gi|595222217|gb|EXW44172.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44857_10] &gt;gi|595230739|gb|EXW52209.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_9] &gt;gi|595234280|gb|EXW55667.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_7] &gt;gi|595235396|gb|EXW56758.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_8] &gt;gi|595243086|gb|EXW64056.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_6] &gt;gi|595244113|gb|EXW65054.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_5] &gt;gi|595250021|gb|EXW70852.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_4] &gt;gi|595256972|gb|EXW76967.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_3] &gt;gi|595259473|gb|EXW79404.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_2] &gt;gi|595263382|gb|EXW83171.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_1] &gt;gi|595265728|gb|EXW85389.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44467_10] &gt;gi|595272794|gb|EXW91808.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44327_8] &gt;gi|595276578|gb|EXW95465.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44327_7] &gt;gi|595280810|gb|EXW99457.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44327_5] &gt;gi|595286128|gb|EXX04562.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44327_4] &gt;gi|595286392|gb|EXX04816.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44327_2] &gt;gi|595294260|gb|EXX12365.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44327_1] &gt;gi|595298458|gb|EXX16458.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25750_7] &gt;gi|595300715|gb|EXX18667.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25750_8] &gt;gi|595309654|gb|EXX27235.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25681_9] &gt;gi|595314341|gb|EXX31839.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25681_8] &gt;gi|595320513|gb|EXX37729.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25681_5] &gt;gi|595320936|gb|EXX38144.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25681_6] &gt;gi|595325887|gb|EXX43038.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25681_3] &gt;gi|595330908|gb|EXX47915.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25681_2] &gt;gi|598501224|gb|EYC55085.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44437_7] &gt;gi|598502363|gb|EYC56159.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44437_8] &gt;gi|598508548|gb|EYC62070.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44437_9] &gt;gi|598514341|gb|EYC67403.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44437_5] &gt;gi|598517577|gb|EYC70498.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44437_4] &gt;gi|598520007|gb|EYC72831.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44437_3] &gt;gi|598526246|gb|EYC78626.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_9] &gt;gi|598531145|gb|EYC83292.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_8] &gt;gi|598534676|gb|EYC86580.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_7] &gt;gi|598541004|gb|EYC92246.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_5] &gt;gi|598547856|gb|EYC98745.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_4] &gt;gi|598555401|gb|EYD05400.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_1] &gt;gi|598558268|gb|EYD08161.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_3] &gt;gi|598561365|gb|EYD11152.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_2] &gt;gi|598567092|gb|EYD16278.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44362_10] &gt;gi|598570451|gb|EYD19495.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 43557_1] &gt;gi|598574350|gb|EYD23206.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25878_3] &gt;gi|598580248|gb|EYD28503.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_9] &gt;gi|598581430|gb|EYD29640.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25878_1] &gt;gi|598590879|gb|EYD38353.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_8] &gt;gi|598597160|gb|EYD44166.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_6] &gt;gi|598598047|gb|EYD45008.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_5] &gt;gi|598603629|gb|EYD50379.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_4] &gt;gi|598610432|gb|EYD56848.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_2] &gt;gi|598612218|gb|EYD58590.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_3] &gt;gi|598616399|gb|EYD62543.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_1] &gt;gi|598619753|gb|EYD65608.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25493_10] &gt;gi|601334702|gb|EYR86202.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45052_1] &gt;gi|601340052|gb|EYR91225.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_5] &gt;gi|601343586|gb|EYR94673.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_8] &gt;gi|601344374|gb|EYR95416.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45057_4] &gt;gi|601352297|gb|EYS02929.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_5] &gt;gi|601356385|gb|EYS06898.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_6] &gt;gi|601360608|gb|EYS10982.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_10] &gt;gi|601363053|gb|EYS13368.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_7] &gt;gi|601369902|gb|EYS19879.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_3] &gt;gi|601374423|gb|EYS24131.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_6] &gt;gi|601375663|gb|EYS25338.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_1] &gt;gi|601380038|gb|EYS29615.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45052_5] &gt;gi|601383377|gb|EYS32793.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45052_3] &gt;gi|601390019|gb|EYS39163.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_4] &gt;gi|601391763|gb|EYS40874.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_4] &gt;gi|601395859|gb|EYS44926.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_2] &gt;gi|601403334|gb|EYS52102.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_1] &gt;gi|601407513|gb|EYS56168.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 16553_10] &gt;gi|601410817|gb|EYS59351.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 16553_9] &gt;gi|601416177|gb|EYS64540.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 16553_8] &gt;gi|601419684|gb|EYS67945.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 16553_6] &gt;gi|601423520|gb|EYS71626.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 16553_4] &gt;gi|601424478|gb|EYS72523.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 16553_3] &gt;gi|601430804|gb|EYS78584.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 16553_1] &gt;gi|601430886|gb|EYS78665.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 16553_2] &gt;gi|602214039|gb|EYT42899.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1039621] &gt;gi|604704809|gb|EYU49748.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1457504] &gt;gi|604706916|gb|EYU51830.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1428368] &gt;gi|610930777|gb|EZI38807.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45052_4] &gt;gi|610940448|gb|EZI48021.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25442_9] &gt;gi|610943521|gb|EZI51006.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 42057_2] &gt;gi|610948399|gb|EZI55654.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25442_7] &gt;gi|610954846|gb|EZI61926.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_9] &gt;gi|610955317|gb|EZI62388.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25442_5] &gt;gi|610962105|gb|EZI68985.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_8] &gt;gi|610964213|gb|EZI70990.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_10] &gt;gi|610968250|gb|EZI74857.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_9] &gt;gi|610973895|gb|EZI80198.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_7] &gt;gi|610977431|gb|EZI83651.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_6] &gt;gi|610979859|gb|EZI85994.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_4] &gt;gi|610985717|gb|EZI91556.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_2] &gt;gi|610988482|gb|EZI94238.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_1] &gt;gi|610993900|gb|EZI99409.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_9] &gt;gi|610997898|gb|EZJ03258.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44839_10] &gt;gi|611001157|gb|EZJ06427.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24975_10] &gt;gi|611005219|gb|EZJ10311.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_6] &gt;gi|611010643|gb|EZJ15553.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_1] &gt;gi|613737836|gb|AHX28182.1| haloacid dehalogenase [Acinetobacter baumannii AC12] &gt;gi|615556686|gb|AHX64210.1| haloacid dehalogenase [Acinetobacter baumannii AC30] &gt;gi|628986856|gb|KCV86656.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_5] &gt;gi|628987406|gb|KCV87190.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_3] &gt;gi|628995433|gb|KCV94763.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44298_8] &gt;gi|628995892|gb|KCV95208.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44839_8] &gt;gi|629002301|gb|KCW01360.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45075_1] &gt;gi|629006198|gb|KCW05138.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 44839_9] &gt;gi|629010109|gb|KCW08938.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45075_2] &gt;gi|629013701|gb|KCW12417.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45075_3] &gt;gi|629018787|gb|KCW17235.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25442_1] &gt;gi|629026560|gb|KCW24428.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1064293_46] &gt;gi|629032914|gb|KCW30252.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 6935] &gt;gi|629037338|gb|KCW34366.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45075_5] &gt;gi|629037714|gb|KCW34733.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1032359] &gt;gi|629042745|gb|KCW39505.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45075_6] &gt;gi|630384474|gb|KCX04205.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45075_8] &gt;gi|630388488|gb|KCX08157.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45075_9] &gt;gi|630401477|gb|KCX20510.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1539026] &gt;gi|630404104|gb|KCX22744.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 18689] &gt;gi|630412592|gb|KCX30325.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 916567] &gt;gi|630415550|gb|KCX33141.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 96512] &gt;gi|630418706|gb|KCX36118.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 987421] &gt;gi|630425280|gb|KCX42428.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24812_2] &gt;gi|630431436|gb|KCX48422.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25569_10] &gt;gi|630435010|gb|KCX51241.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 135867] &gt;gi|630450191|gb|KCX64672.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1146103] &gt;gi|630456438|gb|KCX70317.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45075_10] &gt;gi|630475632|gb|KCX87087.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 15827] &gt;gi|630495068|gb|KCY04547.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 23037] &gt;gi|630500057|gb|KCY09061.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1284800] &gt;gi|630521498|gb|KCY29239.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1042969-1197] &gt;gi|630531829|gb|KCY38992.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1276470-132] &gt;gi|630546995|gb|KCY53272.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24812_8] &gt;gi|630551111|gb|KCY57204.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_3] &gt;gi|630556157|gb|KCY61986.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_5] &gt;gi|630561605|gb|KCY67086.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24860_9] &gt;gi|630570465|gb|KCY75247.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 756476] &gt;gi|630577333|gb|KCY81393.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24812_7] &gt;gi|630581493|gb|KCY85159.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25691_5] &gt;gi|630587177|gb|KCY89673.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25750_1] &gt;gi|630588021|gb|KCY90430.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 929679-598] &gt;gi|630596355|gb|KCY97850.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25691_8] &gt;gi|630604679|gb|KCZ02971.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_2] &gt;gi|630605683|gb|KCZ03616.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_3] &gt;gi|630615407|gb|KCZ12000.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 26016_7] &gt;gi|630625765|gb|KCZ21212.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45052_2] &gt;gi|630634262|gb|KCZ28545.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45057_1] &gt;gi|630645412|gb|KCZ38413.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45002_9] &gt;gi|630650807|gb|KCZ42553.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 25691_7] &gt;gi|635728372|gb|KDF10146.1| hypothetical protein AE30_00757 [Acinetobacter baumannii BIDMC 56] &gt;gi|640863692|gb|AIA52789.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|668668944|gb|KFB64589.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|693580437|dbj|BAP67218.1| hypothetical protein IOMTU433_2440 [Acinetobacter baumannii] &gt;gi|741251881|gb|KHT75383.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741252326|gb|KHT75820.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741258126|gb|KHT81303.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741267998|gb|KHT90911.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741269888|gb|KHT92748.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741277037|gb|KHT99698.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741279710|gb|KHV02322.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741283935|gb|KHV06412.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741286978|gb|KHV09342.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741295458|gb|KHV17535.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741304631|gb|KHV26444.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741311105|gb|KHV32560.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741315866|gb|KHV37167.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741323989|gb|KHV44127.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741327792|gb|KHV47872.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741331024|gb|KHV50950.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741334644|gb|KHV54302.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741342530|gb|KHV61643.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741344466|gb|KHV63518.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741355309|gb|KHV73753.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741356698|gb|KHV75124.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741357008|gb|KHV75427.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741364289|gb|KHV82461.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741369881|gb|KHV87882.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741371204|gb|KHV89157.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741377252|gb|KHV94953.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741390113|gb|KHW07492.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741390659|gb|KHW08029.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741394368|gb|KHW11580.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741401892|gb|KHW18887.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741403126|gb|KHW20097.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741403254|gb|KHW20223.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741412471|gb|KHW29126.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741415114|gb|KHW31686.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741422989|gb|KHW39061.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741426350|gb|KHW42366.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741428919|gb|KHW44887.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741435066|gb|KHW50718.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741436518|gb|KHW52147.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741437832|gb|KHW53431.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741448655|gb|KHW63830.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741450131|gb|KHW65256.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741450454|gb|KHW65566.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741457745|gb|KHW72592.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741460911|gb|KHW75625.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741463632|gb|KHW78203.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741483004|gb|KHW96493.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741484001|gb|KHW97466.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741488985|gb|KHX02203.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741492029|gb|KHX05199.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741497945|gb|KHX10811.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741500759|gb|KHX13561.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741504260|gb|KHX16760.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741510116|gb|KHX22323.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741512087|gb|KHX24245.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741512545|gb|KHX24694.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741520683|gb|KHX32495.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741522011|gb|KHX33798.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741525698|gb|KHX37247.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741529143|gb|KHX40629.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741536275|gb|KHX47482.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741538993|gb|KHX50111.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741545383|gb|KHX55974.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741550970|gb|KHX61326.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741554641|gb|KHX64864.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741559551|gb|KHX69527.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741565109|gb|KHX74926.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741565245|gb|KHX75060.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741572348|gb|KHX81939.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741577000|gb|KHX86499.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741581894|gb|KHX91073.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741589242|gb|KHX98317.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741589754|gb|KHX98819.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741598034|gb|KHY06834.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741599731|gb|KHY08509.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741600389|gb|KHY09155.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741607302|gb|KHY15828.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741609493|gb|KHY17988.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741614240|gb|KHY22622.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741617026|gb|KHY25252.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741622628|gb|KHY30624.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741626097|gb|KHY34025.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741634394|gb|KHY42068.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741638178|gb|KHY45818.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741643349|gb|KHY50750.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741645645|gb|KHY52957.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741654721|gb|KHY61779.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741662125|gb|KHY68982.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741665124|gb|KHY71889.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741674982|gb|KHY81526.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741675947|gb|KHY82462.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741682530|gb|KHY88865.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741698153|gb|KHZ04003.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741705664|gb|KHZ11326.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741709472|gb|KHZ14990.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741711546|gb|KHZ17010.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741713873|gb|KHZ19272.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741718969|gb|KHZ24203.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741722406|gb|KHZ27570.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741725790|gb|KHZ30889.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741732857|gb|KHZ37668.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741734585|gb|KHZ39355.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741742101|gb|KHZ46484.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741745562|gb|KHZ49843.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741752909|gb|KHZ56997.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741757666|gb|KHZ61657.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741758753|gb|KHZ62723.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741767254|gb|KHZ71008.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741767918|gb|KHZ71665.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741771720|gb|KHZ75418.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741777551|gb|KHZ81055.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741779849|gb|KHZ83153.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741782333|gb|KHZ85597.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741787700|gb|KHZ90835.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741790835|gb|KHZ93915.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741793755|gb|KHZ96736.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741797756|gb|KIA00600.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741800320|gb|KIA03106.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741804555|gb|KIA07252.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741811272|gb|KIA13840.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741822793|gb|KIA25009.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741826094|gb|KIA28040.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741832771|gb|KIA34552.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741834112|gb|KIA35861.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741835046|gb|KIA36760.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741841211|gb|KIA42704.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741847001|gb|KIA48369.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741847123|gb|KIA48485.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741854231|gb|KIA55413.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|741855972|gb|KIA57138.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|765500057|gb|KJE59196.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|765502445|gb|KJE61558.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|765506229|gb|KJE65205.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|765512658|gb|KJE71405.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|765515465|gb|KJE74176.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|765630859|gb|KJF12410.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|765633955|gb|KJF15389.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|767555563|gb|KJG75461.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|767583126|gb|KJG78340.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|767767986|gb|KJG91499.1| HAD superfamily hydrolase [Acinetobacter baumannii] &gt;gi|815874389|gb|KKI96405.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|827406178|gb|AKJ46337.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|831398520|gb|KLT83823.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii MRSN 7341] &gt;gi|884900807|gb|AKQ27409.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|927823913|gb|KPA48858.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942740398|gb|KQD19359.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942744424|gb|KQD23215.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942747390|gb|KQD26092.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942830418|gb|KQE01801.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942843670|gb|KQE14153.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942867245|gb|KQE35151.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942888768|gb|KQE54805.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942890029|gb|KQE55950.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942897345|gb|KQE62534.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942908444|gb|KQE72500.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942931939|gb|KQE94090.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942958316|gb|KQF18247.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942968477|gb|KQF27213.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942973404|gb|KQF31516.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942981551|gb|KQF38324.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942988331|gb|KQF43758.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942997648|gb|KQF51101.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943013726|gb|KQF65029.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943031886|gb|KQF81190.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943038480|gb|KQF87036.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943048991|gb|KQF96052.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943068157|gb|KQG12216.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943072093|gb|KQG15597.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943075887|gb|KQG18955.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943085543|gb|KQG27743.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|943157300|gb|KQG90837.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|944120562|gb|KQK47385.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|944137423|gb|KQK63889.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|944145956|gb|KQK72330.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948306844|gb|KRI08767.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948319260|gb|KRI20845.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948320591|gb|KRI22125.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948337216|gb|KRI38208.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948369623|gb|KRI67028.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948381108|gb|KRI77886.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948403320|gb|KRI97183.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948405908|gb|KRI99591.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948427965|gb|KRJ19726.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948428272|gb|KRJ20017.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948448133|gb|KRJ37600.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948455912|gb|KRJ44654.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948465789|gb|KRJ53754.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948475278|gb|KRJ62864.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948483642|gb|KRJ71001.1| haloacid dehalogenase [Acinetobacter nosocomialis] &gt;gi|951498396|gb|KRT10683.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|974024795|gb|ALY00048.1| HAD superfamily hydrolase [Acinetobacter baumannii] &gt;gi|974996270|gb|KUR56571.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|984882299|gb|AMC14959.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1000991854|gb|AML64162.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1000994329|gb|AML66636.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1000999025|gb|AML71331.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1001002583|gb|AML74888.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1001592130|gb|KXS05655.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1015720812|gb|KZA27081.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015734823|gb|KZA40839.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015738742|gb|KZA44699.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015739735|gb|KZA45684.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015740360|gb|KZA46299.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015757795|gb|KZA63425.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015765538|gb|KZA71027.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015765701|gb|KZA71189.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015772838|gb|KZA78256.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015774873|gb|KZA80241.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1015776913|gb|KZA82261.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1020988494|gb|KZM58947.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1024745808|gb|ANB89255.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1026332233|gb|OAD33293.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1036118501|emb|SBS22508.1| L-2-haloalkanoic acid dehalogenase,Phosphoglycolate phosphatase,phosphoglycolate phosphatase,Predicted hydrolase (HAD superfamily),HAD hydrolase,haloacid dehalogenase-like hydrolase [Acinetobacter baumannii] &gt;gi|1037438561|gb|OBA37828.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037631530|gb|OBC22539.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037632977|gb|OBC23956.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037640847|gb|OBC31591.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037645601|gb|OBC36179.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037653571|gb|OBC43930.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037656701|gb|OBC46964.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037662907|gb|OBC52990.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037664889|gb|OBC54916.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037666158|gb|OBC56132.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037667071|gb|OBC57021.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037673403|gb|OBC63190.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037679545|gb|OBC69129.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037680924|gb|OBC70471.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037687257|gb|OBC76579.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037690869|gb|OBC80100.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037691905|gb|OBC81110.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037695723|gb|OBC84798.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037703261|gb|OBC92122.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037703801|gb|OBC92635.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037714850|gb|OBD03302.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037716097|gb|OBD04497.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037717760|gb|OBD06108.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037720794|gb|OBD09028.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037723869|gb|OBD11980.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037730545|gb|OBD18466.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037731080|gb|OBD18986.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037739154|gb|OBD26833.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037743972|gb|OBD31525.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037744387|gb|OBD31928.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037748650|gb|OBD36043.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037752128|gb|OBD39402.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037756480|gb|OBD43629.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037759112|gb|OBD46198.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037764339|gb|OBD51251.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037766249|gb|OBD53104.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037766342|gb|OBD53195.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037771835|gb|OBD58490.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037775090|gb|OBD61615.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037779414|gb|OBD65814.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037787463|gb|OBD73582.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037787642|gb|OBD73748.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037790159|gb|OBD76192.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037799465|gb|OBD85213.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037801898|gb|OBD87574.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037811176|gb|OBD96583.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037811897|gb|OBD97286.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037812317|gb|OBD97692.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037820348|gb|OBE05648.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037820627|gb|OBE05912.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037822918|gb|OBE08133.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037829807|gb|OBE14799.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037830431|gb|OBE15401.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037835464|gb|OBE20254.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037840123|gb|OBE24795.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037844629|gb|OBE29168.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037844684|gb|OBE29222.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037850587|gb|OBE34900.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037854484|gb|OBE38666.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037859417|gb|OBE43451.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037862402|gb|OBE46359.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037868570|gb|OBE52289.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037868646|gb|OBE52359.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037874934|gb|OBE58442.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037877262|gb|OBE60695.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037879616|gb|OBE62970.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1037892592|gb|OBE75532.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038559171|gb|OBL04353.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038562736|gb|OBL07708.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038567234|gb|OBL11984.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038569082|gb|OBL13769.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038575767|gb|OBL20192.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038576985|gb|OBL21373.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038577500|gb|OBL21860.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038584975|gb|OBL29099.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038585729|gb|OBL29822.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038587968|gb|OBL31971.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038597322|gb|OBL41024.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038599469|gb|OBL43105.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038604401|gb|OBL47904.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038606618|gb|OBL49984.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038606683|gb|OBL50046.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038612786|gb|OBL55901.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038623836|gb|OBL66478.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038623916|gb|OBL66555.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038629241|gb|OBL71594.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038633505|gb|OBL75631.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038634724|gb|OBL76804.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038643443|gb|OBL85129.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038645980|gb|OBL87565.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038647100|gb|OBL88654.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038654901|gb|OBL96065.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038659256|gb|OBM00360.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038664937|gb|OBM05811.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038667044|gb|OBM07839.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038669101|gb|OBM09800.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038669624|gb|OBM10268.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038673270|gb|OBM13676.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038679902|gb|OBM20071.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038685417|gb|OBM25313.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038686183|gb|OBM26059.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038691713|gb|OBM31322.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038699382|gb|OBM38744.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038701508|gb|OBM40768.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038702005|gb|OBM41251.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038705985|gb|OBM45089.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038712198|gb|OBM51108.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038718529|gb|OBM57131.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038718679|gb|OBM57279.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038725074|gb|OBM63386.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038725326|gb|OBM63630.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038730657|gb|OBM68774.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038735085|gb|OBM73045.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038738768|gb|OBM76554.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038741241|gb|OBM78946.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038747634|gb|OBM85133.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038747899|gb|OBM85389.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038749614|gb|OBM87037.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038749731|gb|OBM87150.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038758752|gb|OBM95907.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038759679|gb|OBM96784.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038767597|gb|OBN04465.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038770380|gb|OBN07142.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038771975|gb|OBN08669.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038779124|gb|OBN15561.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038783219|gb|OBN19399.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038785820|gb|OBN21881.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038791061|gb|OBN26900.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038791566|gb|OBN27384.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038796565|gb|OBN32203.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038797195|gb|OBN32787.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038805109|gb|OBN40371.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038807250|gb|OBN42421.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038812940|gb|OBN47926.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038815999|gb|OBN50852.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038821236|gb|OBN55946.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038822096|gb|OBN56770.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038829034|gb|OBN63460.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038834061|gb|OBN68362.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038837154|gb|OBN71350.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038841261|gb|OBN75306.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038841792|gb|OBN75823.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038852371|gb|OBN85951.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038852377|gb|OBN85891.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038854926|gb|OBN88410.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038862794|gb|OBN95908.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038864048|gb|OBN97113.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038864317|gb|OBN97375.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038872778|gb|OBO05498.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038875934|gb|OBO08539.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038877164|gb|OBO09745.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038883273|gb|OBO15538.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038885607|gb|OBO17791.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038889356|gb|OBO21464.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038893996|gb|OBO25826.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038894860|gb|OBO26645.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038898758|gb|OBO30410.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038905264|gb|OBO36640.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038906223|gb|OBO37546.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038910151|gb|OBO41368.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038916993|gb|OBO47871.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038918007|gb|OBO48841.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038923759|gb|OBO54407.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038928579|gb|OBO58976.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038929390|gb|OBO59750.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038934136|gb|OBO64346.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038936938|gb|OBO67058.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038940306|gb|OBO70332.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038945300|gb|OBO75176.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038951633|gb|OBO81259.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038951997|gb|OBO81616.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038954005|gb|OBO83569.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038960860|gb|OBO90165.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038963290|gb|OBO92511.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038970908|gb|OBO99813.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038972065|gb|OBP00914.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1038976947|gb|OBP05637.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1039280445|gb|OBR18504.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1049961671|gb|OCT05613.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1056196175|gb|ODA50860.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1056209670|gb|ODA54424.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1062563334|gb|ODP43757.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1062568057|gb|ODP48332.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1062570293|gb|ODP50509.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1062576529|gb|ODP56590.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1062579957|gb|ODP59811.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1062583654|gb|ODP63439.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1062586852|gb|ODP66403.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1062589316|gb|ODP68781.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1087728321|gb|AOX69300.1| HAD superfamily putative hydrolase [Acinetobacter baumannii] &gt;gi|1087732132|gb|AOX73095.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1087736823|gb|AOX77791.1| HAD superfamily putative hydrolase [Acinetobacter baumannii] &gt;gi|1087741020|gb|AOX81935.1| HAD superfamily putative hydrolase [Acinetobacter baumannii] &gt;gi|1087743827|gb|AOX84798.1| HAD superfamily putative hydrolase [Acinetobacter baumannii] &gt;gi|1087747702|gb|AOX88669.1| HAD superfamily putative hydrolase [Acinetobacter baumannii] &gt;gi|1087751539|gb|AOX92505.1| HAD superfamily putative hydrolase [Acinetobacter baumannii] &gt;gi|1087755424|gb|AOX96366.1| HAD superfamily putative hydrolase [Acinetobacter baumannii] &gt;gi|1092658050|gb|OHW31036.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096264142|gb|OIB63983.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096267854|gb|OIB67615.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096274456|gb|OIB73966.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096276414|gb|OIB75839.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096281997|gb|OIB81256.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096287469|gb|OIB86480.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096292770|gb|OIB91628.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096296825|gb|OIB95503.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096300086|gb|OIB98531.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096306297|gb|OIC03521.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096307728|gb|OIC04777.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096311212|gb|OIC08164.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096316196|gb|OIC12938.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096317873|gb|OIC14526.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096320151|gb|OIC16512.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096327750|gb|OIC23637.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096328874|gb|OIC24685.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096328941|gb|OIC24750.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096333756|gb|OIC29209.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096339378|gb|OIC34505.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096342539|gb|OIC37496.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096347632|gb|OIC42258.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096351623|gb|OIC45842.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096357171|gb|OIC50584.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096360610|gb|OIC53719.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096365543|gb|OIC58294.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096367320|gb|OIC60008.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096373374|gb|OIC64733.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096380330|gb|OIC70507.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096386644|gb|OIC76347.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096391439|gb|OIC80826.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096395983|gb|OIC85200.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096398459|gb|OIC87477.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096403144|gb|OIC92056.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096406972|gb|OIC95649.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096412077|gb|OID00624.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096418767|gb|OID07069.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096419577|gb|OID07868.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096422732|gb|OID10947.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096425052|gb|OID13090.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096433466|gb|OID21227.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096436245|gb|OID23823.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096449313|gb|OID36489.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096455266|gb|OID42220.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096458303|gb|OID45184.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096462692|gb|OID49510.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096463593|gb|OID50379.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096475116|gb|OID61580.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096476373|gb|OID62795.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096476925|gb|OID63334.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096481115|gb|OID67395.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096483020|gb|OID69257.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096486703|gb|OID72824.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096496559|gb|OID82388.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096497707|gb|OID83517.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096501494|gb|OID87194.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096504091|gb|OID89711.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096508595|gb|OID94081.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096509365|gb|OID94831.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096511160|gb|OID96541.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096522142|gb|OIE07186.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096522374|gb|OIE07413.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096522622|gb|OIE07659.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096531053|gb|OIE15857.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096534235|gb|OIE18939.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096539513|gb|OIE24002.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096546847|gb|OIE31193.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096547235|gb|OIE31567.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096549538|gb|OIE33799.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096554231|gb|OIE38384.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096562656|gb|OIE46614.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096564633|gb|OIE48559.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096566178|gb|OIE50069.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096572813|gb|OIE56507.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096576034|gb|OIE59686.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096578531|gb|OIE62112.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096582685|gb|OIE66134.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096587182|gb|OIE70562.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096588134|gb|OIE71494.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096594894|gb|OIE78076.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096600835|gb|OIE83860.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096601736|gb|OIE84747.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096604440|gb|OIE87352.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096606119|gb|OIE88991.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096608695|gb|OIE91513.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096614838|gb|OIE97411.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096615087|gb|OIE97655.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096621439|gb|OIF03816.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096626433|gb|OIF08661.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096631462|gb|OIF13512.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096632818|gb|OIF14844.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096634340|gb|OIF16308.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096645251|gb|OIF26930.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096646070|gb|OIF27734.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096649224|gb|OIF30818.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096651422|gb|OIF32892.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096660576|gb|OIF41742.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096661449|gb|OIF42578.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096671363|gb|OIF52131.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096672786|gb|OIF53530.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096675957|gb|OIF56528.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096679425|gb|OIF59878.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096685846|gb|OIF66013.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096690404|gb|OIF70397.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096698741|gb|OIF78483.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096705401|gb|OIF84884.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096707456|gb|OIF86690.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096713111|gb|OIF91207.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096718790|gb|OIF95961.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096724980|gb|OIG01474.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096728041|gb|OIG04360.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096730384|gb|OIG06611.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096736036|gb|OIG11944.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096737481|gb|OIG13262.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096743927|gb|OIG19427.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096746217|gb|OIG21661.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096751761|gb|OIG27015.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096757179|gb|OIG32248.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096761383|gb|OIG36305.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096762832|gb|OIG37718.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096764539|gb|OIG39361.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096768671|gb|OIG43388.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096775392|gb|OIG49763.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096786034|gb|OIG59982.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096790259|gb|OIG64088.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096793180|gb|OIG66932.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096797046|gb|OIG70702.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096802546|gb|OIG76065.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096811021|gb|OIG84207.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096815363|gb|OIG88373.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096818191|gb|OIG91087.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096819008|gb|OIG91878.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096819744|gb|OIG92578.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096826090|gb|OIG98833.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096832559|gb|OIH05095.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096839965|gb|OIH12355.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096840344|gb|OIH12730.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096843565|gb|OIH15781.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096847833|gb|OIH19960.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096855499|gb|OIH27173.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096856558|gb|OIH28179.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096863932|gb|OIH35257.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096869088|gb|OIH40278.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096871680|gb|OIH42809.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096873946|gb|OIH45027.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096874075|gb|OIH45150.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096883294|gb|OIH54112.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096883910|gb|OIH54714.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096888793|gb|OIH59452.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096889268|gb|OIH59908.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096896455|gb|OIH66676.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096897243|gb|OIH67427.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096902868|gb|OIH72773.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096908441|gb|OIH77980.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096920547|gb|OIH89543.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1096921143|gb|OIH90117.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1100795347|emb|SFV47941.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1104033870|emb|SFY32228.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1109141116|gb|APF44255.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1112982373|gb|APJ23813.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1114594953|gb|APM49443.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1117747752|gb|OKL34385.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1118981174|gb|OKO27675.1| hypothetical protein AM414_002421 [Acinetobacter baumannii] &gt;gi|1120782067|gb|APP31828.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1121013089|gb|OKP54704.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1125867540|gb|APQ85842.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1125871405|gb|APQ89704.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1125875179|gb|APQ93476.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1129662279|gb|OLQ60907.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1129670953|gb|OLQ69226.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1129686660|gb|OLQ84548.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130740433|gb|OLU48053.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130741387|gb|OLU48843.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130749087|gb|OLU56246.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130752791|gb|OLU59821.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130752986|gb|OLU59971.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130761322|gb|OLU67967.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130765027|gb|OLU71465.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130770114|gb|OLU76296.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130770154|gb|OLU76334.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130773986|gb|OLU80069.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130777312|gb|OLU83183.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130779955|gb|OLU85669.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130786851|gb|OLU92320.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130795071|gb|OLV00188.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130796329|gb|OLV01422.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130801142|gb|OLV05932.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1130809031|gb|OLV13558.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1131072391|gb|OLV34464.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1131103496|gb|OLV60383.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1131103813|gb|OLV60636.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1131130135|gb|OLV81158.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1131136646|gb|OLV86622.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1134779141|gb|APX50296.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1145711951|gb|OOD21697.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1150872777|gb|AQU55730.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151626324|gb|OOS32699.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151642039|gb|OOS47983.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151647307|gb|OOS53094.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151649060|gb|OOS54777.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151653189|gb|OOS58751.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151653407|gb|OOS58961.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151659166|gb|OOS64537.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151661971|gb|OOS67274.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151671676|gb|OOS76759.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151675511|gb|OOS80488.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151679874|gb|OOS84750.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151681106|gb|OOS85963.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151682135|gb|OOS86959.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151686101|gb|OOS90819.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151692115|gb|OOS96663.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151696497|gb|OOT00941.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151697745|gb|OOT02164.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151698665|gb|OOT03053.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151706579|gb|OOT10714.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151707470|gb|OOT11573.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151708769|gb|OOT12839.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151718493|gb|OOT22240.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151724776|gb|OOT28339.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151731438|gb|OOT34837.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151735249|gb|OOT38554.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151742182|gb|OOT45321.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151752624|gb|OOT55603.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151759436|gb|OOT62269.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151760261|gb|OOT63077.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151763659|gb|OOT66405.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151775384|gb|OOT77828.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151776984|gb|OOT79377.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151778904|gb|OOT81250.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151784822|gb|OOT86990.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151789123|gb|OOT91160.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151790830|gb|OOT92825.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151798623|gb|OOU00398.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151801848|gb|OOU03530.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151806603|gb|OOU08157.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151809574|gb|OOU11058.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151810029|gb|OOU11502.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151817716|gb|OOU19007.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151821653|gb|OOU22805.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151823742|gb|OOU24849.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151831603|gb|OOU32453.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151838417|gb|OOU39075.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151839169|gb|OOU39792.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151842275|gb|OOU42803.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151843409|gb|OOU43921.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151848683|gb|OOU49032.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151858393|gb|OOU58434.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151860285|gb|OOU60252.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151861014|gb|OOU60951.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151866344|gb|OOU66056.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151873164|gb|OOU72559.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151877994|gb|OOU77263.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151882880|gb|OOU82030.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151884437|gb|OOU83545.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151887638|gb|OOU86658.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151900029|gb|OOU98692.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151900307|gb|OOU98961.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1159443632|gb|OPH92135.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1159447043|gb|OPH95292.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1159454392|gb|OPI02365.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1159455640|gb|OPI03550.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1169068652|gb|OQJ84235.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1174178156|emb|SMB71976.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1174180809|emb|SMB73965.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1175691057|gb|ARF92074.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1175696613|gb|ARF95494.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1175705933|gb|ARG02553.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1175712903|gb|ARG09518.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1175716528|gb|ARG13136.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1175746024|gb|ARG24824.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1175771200|gb|ARG26526.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1176376468|gb|OQY64077.1| hypothetical protein AB1845_0380 [Acinetobacter baumannii] &gt;gi|1179633958|emb|SMD55425.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1179798991|gb|ORJ00387.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1190021464|gb|OSY61994.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1190026222|gb|OSY66440.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1190030194|gb|OSY70266.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192353144|gb|OTK34343.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192354926|gb|OTK36082.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192366217|gb|OTK47214.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192381650|gb|OTK62405.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192383303|gb|OTK64030.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192390365|gb|OTK70788.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192402609|gb|OTK82629.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192402745|gb|OTK82763.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192410723|gb|OTK90402.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192426180|gb|OTL05255.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192429566|gb|OTL08460.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192447106|gb|OTL25336.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192462760|gb|OTL40424.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192477632|gb|OTL54432.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192488452|gb|OTL64905.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192489750|gb|OTL66182.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192490602|gb|OTL67013.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192498902|gb|OTL75092.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192499967|gb|OTL76125.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192514106|gb|OTL89916.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192517881|gb|OTL93580.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192525819|gb|OTM01271.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192531113|gb|OTM06426.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192537397|gb|OTM12480.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192557820|gb|OTM32381.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192558492|gb|OTM33042.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192578634|gb|OTM52768.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192587577|gb|OTM61539.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192598273|gb|OTM71923.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192611102|gb|OTM84413.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192625208|gb|OTM98057.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192626161|gb|OTM98978.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192629883|gb|OTN02586.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192642403|gb|OTN14765.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192649529|gb|OTN21775.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192664417|gb|OTN36397.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192664858|gb|OTN36818.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192669537|gb|OTN41367.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192674297|gb|OTN45953.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192677004|gb|OTN48576.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192678750|gb|OTN50243.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192690382|gb|OTN61573.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192692361|gb|OTN63515.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193215328|gb|OTR38853.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193216200|gb|OTR39697.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193219013|gb|OTR42438.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193222182|gb|OTR45505.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193227119|gb|OTR50247.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193240326|gb|OTR63060.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193240794|gb|OTR63507.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193241437|gb|OTR64130.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193253129|gb|OTR75447.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193254382|gb|OTR76662.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193261418|gb|OTR83465.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193264072|gb|OTR86027.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193274090|gb|OTR95749.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193286573|gb|OTS07792.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193287876|gb|OTS09065.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193296089|gb|OTS17118.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193296419|gb|OTS17443.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193307301|gb|OTS28074.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193321934|gb|OTS42349.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193332370|gb|OTS52603.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193333834|gb|OTS54041.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193351048|gb|OTS70853.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193353339|gb|OTS73066.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193357415|gb|OTS77009.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193359045|gb|OTS78596.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193363919|gb|OTS83345.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193370965|gb|OTS90261.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193371440|gb|OTS90727.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193377224|gb|OTS96390.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193382509|gb|OTT01548.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193389198|gb|OTT08064.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193392361|gb|OTT11155.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193426250|gb|OTT44220.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193431415|gb|OTT49249.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193436962|gb|OTT54615.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193443404|gb|OTT60881.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193448171|gb|OTT65525.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193449350|gb|OTT66674.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193467027|gb|OTT83840.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193472041|gb|OTT88724.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193564052|gb|OTU78773.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193564836|gb|OTU79539.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193568549|gb|OTU83139.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193582346|gb|OTU96592.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1195827249|gb|OUJ82316.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1195843880|gb|OUJ96495.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000756789</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>6.53105e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1078636578|gb|OFD27617.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>OFD27617</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>6.63914e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|705417693|ref|WP_033502921.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_033502921</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.457</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>6.6768e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|914703296|ref|WP_050675212.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_050675212</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>6.6887e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|587981710|gb|EXC66243.1|</Hit_id>
+  <Hit_def>HAD hydrolase, IA, variant 1 family protein, partial [Acinetobacter baumannii 1036938]</Hit_def>
+  <Hit_accession>EXC66243</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>7.19219e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1026335495|gb|OAD36369.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>OAD36369</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>7.22458e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|913485932|ref|WP_050441600.1|</Hit_id>
+  <Hit_def>HAD family hydrolase, partial [Acinetobacter baumannii] &gt;gi|598544403|gb|EYC95498.1| HAD hydrolase, IA, variant 1 family protein, partial [Acinetobacter baumannii 44362_6]</Hit_def>
+  <Hit_accession>WP_050441600</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.301</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>7.22667e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|691036405|ref|WP_031989830.1|</Hit_id>
+  <Hit_def>HAD family hydrolase, partial [Acinetobacter baumannii] &gt;gi|598592433|gb|EYD39748.1| HAD hydrolase, IA, variant 1 family protein, partial [Acinetobacter baumannii 25878_2]</Hit_def>
+  <Hit_accession>WP_031989830</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>7.26442e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1132217940|ref|WP_075887140.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1131083738|gb|OLV44021.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_075887140</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>7.27069e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|757519042|ref|WP_042782716.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|593836059|gb|EXS94148.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 45002_8] &gt;gi|1131077405|gb|OLV38705.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_042782716</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>7.30801e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|475953393|gb|EMU19998.1|</Hit_id>
+  <Hit_def>L-2-haloalkanoic acid dehalogenase, partial [Acinetobacter baumannii ABNIH15]</Hit_def>
+  <Hit_accession>EMU19998</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>7.3887e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|948412747|gb|KRJ05635.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>KRJ05635</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>7.39466e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|475939384|gb|EMU07202.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase superfamily protein, partial [Acinetobacter baumannii ABNIH13] &gt;gi|943073716|gb|KQG17055.1| haloacid dehalogenase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>EMU07202</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>9.44062e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|913475285|ref|WP_050441441.1|</Hit_id>
+  <Hit_def>HAD family hydrolase, partial [Acinetobacter baumannii] &gt;gi|595182739|gb|EXW06368.1| HAD hydrolase, IA, variant 1 family protein, partial [Acinetobacter baumannii 25766_9]</Hit_def>
+  <Hit_accession>WP_050441441</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>1.1868e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|487985554|ref|WP_002058068.1|</Hit_id>
+  <Hit_def>HAD family hydrolase [Acinetobacter baumannii] &gt;gi|444762410|gb|ELW86774.1| HAD hydrolase, family IIIA [Acinetobacter baumannii WC-A-92]</Hit_def>
+  <Hit_accession>WP_002058068</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.834</Hsp_bit-score>
+      <Hsp_score>782</Hsp_score>
+      <Hsp_evalue>2.01972e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIGGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADI GAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|487994377|ref|WP_002066451.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|444770772|gb|ELW94914.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii Naval-78]</Hit_def>
+  <Hit_accession>WP_002066451</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>2.02014e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAQKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGA+KIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1159731992|ref|WP_079283315.1|</Hit_id>
+  <Hit_def>HAD family hydrolase, partial [Acinetobacter baumannii] &gt;gi|588045591|gb|EXD27459.1| HAD hydrolase, IA, variant 1 family protein, partial [Acinetobacter baumannii 34001]</Hit_def>
+  <Hit_accession>WP_079283315</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.834</Hsp_bit-score>
+      <Hsp_score>782</Hsp_score>
+      <Hsp_evalue>2.15396e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|657613181|ref|WP_029424237.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948330660|gb|KRI31884.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1118977728|gb|OKO24230.1| hypothetical protein AM412_002523 [Acinetobacter baumannii] &gt;gi|1118992848|gb|OKO39214.1| hypothetical protein AM416_002521 [Acinetobacter baumannii] &gt;gi|1149561814|gb|OOM87785.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1149564161|gb|OOM89978.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1149571112|gb|OOM96769.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1169644858|emb|SLM58083.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1174184555|emb|SMB68517.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1179637279|emb|SMD57387.1| Phosphoglycolate phosphatase [Acinetobacter baumannii] &gt;gi|1193410474|gb|OTT28875.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193495596|gb|OTU11902.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1198384734|gb|OUM76772.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1198389016|gb|OUM81054.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_029424237</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>3.13201e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKTDIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPK DIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1197775254|ref|WP_086718823.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193466275|gb|OTT83115.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_086718823</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>3.61174e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKLSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNK STAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|638868055|ref|WP_024433284.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|587919065|gb|EXC06546.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 625974] &gt;gi|587964249|gb|EXC49424.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 99063] &gt;gi|884691143|gb|KMV05673.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii] &gt;gi|1193234416|gb|OTR57339.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_024433284</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>4.07463e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNNFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFN FSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1159733460|ref|WP_079284775.1|</Hit_id>
+  <Hit_def>HAD family hydrolase [Acinetobacter baumannii] &gt;gi|594005391|gb|EXU57275.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 24845_10]</Hit_def>
+  <Hit_accession>WP_079284775</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>4.60058e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPHHF</Hsp_hseq>
+      <Hsp_midline>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINP HF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|691014326|ref|WP_031976323.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|588010488|gb|EXC93887.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1051830]</Hit_def>
+  <Hit_accession>WP_031976323</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>5.59961e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNTKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDN KADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|514965928|ref|WP_016654234.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|514160695|gb|EPG39446.1| HAD superfamily hydrolase [Acinetobacter baumannii NIPH 410] &gt;gi|587847405|gb|EXB37781.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1440422] &gt;gi|630508816|gb|KCY17387.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 21072] &gt;gi|948340808|gb|KRI41462.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192541410|gb|OTM16332.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192606081|gb|OTM79518.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1193304913|gb|OTS25748.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_016654234</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>6.60044e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIGGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADI GAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|943013101|gb|KQF64472.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>KQF64472</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>9.14158e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIGGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADI GAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|951242819|ref|WP_057691559.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948395041|gb|KRI90395.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_057691559</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>9.29534e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYSSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDY SIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|691122009|ref|WP_032040685.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|593662632|gb|EXS42103.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 213697]</Hit_def>
+  <Hit_accession>WP_032040685</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.01216e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKNGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKK GMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|446679444|ref|WP_000756790.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|571693836|gb|ETQ83336.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH5207] &gt;gi|588126255|gb|EXE02471.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1096934] &gt;gi|588248757|gb|EXF20448.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 831240] &gt;gi|630459876|gb|KCX73583.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 855125] &gt;gi|741814090|gb|KIA16587.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|948390815|gb|KRI86852.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1151636770|gb|OOS42882.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192363191|gb|OTK44233.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192397146|gb|OTK77362.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192460375|gb|OTL38137.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192630588|gb|OTN03259.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000756790</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.0346e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYSSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDY SIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|446679442|ref|WP_000756788.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|452948891|gb|EME54363.1| L-2-haloalkanoic acid dehalogenase [Acinetobacter baumannii MSP4-16] &gt;gi|480137491|gb|ENW74783.1| hypothetical protein F911_02531 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gi|668717994|gb|KFC03621.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gi|1188469612|gb|ARN31326.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000756788</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.33129e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPHHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINP HF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|260412095|gb|EEX05392.1|</Hit_id>
+  <Hit_def>HAD hydrolase, family IA, variant 1 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841]</Hit_def>
+  <Hit_accession>EEX05392</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.35009e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPHHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINP HF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|691136272|ref|WP_032050278.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|587761562|gb|EXA56201.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1297549] &gt;gi|743001955|gb|AJB67375.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|942765838|gb|KQD43637.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1192422632|gb|OTL01905.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_032050278</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.68516e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKTDIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRSLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPK DIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVR LINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|754669383|ref|WP_042050431.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_042050431</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>4.69648e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTVFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPHHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFST FENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINP HF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|691015411|ref|WP_031977254.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|571709027|gb|ETQ98030.1| haloacid dehalogenase-like hydrolase [Acinetobacter baumannii UH6507] &gt;gi|1192659359|gb|OTN31431.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_031977254</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>5.24059e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIGGAKKIAMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADI GAKKI MKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|491281434|ref|WP_005139505.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|480131209|gb|ENW68640.1| hypothetical protein F913_02875 [Acinetobacter baumannii NIPH 80]</Hit_def>
+  <Hit_accession>WP_005139505</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>7.69143e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLSTCNQLDCKPSDCIFIGDNPKADIGGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYL TCNQLDCKPSDCIFIGDNPKADI GAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|691044086|ref|WP_031993682.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|593538181|gb|EXR22570.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 1295549] &gt;gi|593608976|gb|EXR90594.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 277047] &gt;gi|593659395|gb|EXS39113.1| HAD hydrolase, IA, variant 1 family protein [Acinetobacter baumannii 426863]</Hit_def>
+  <Hit_accession>WP_031993682</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>1.5011e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAPKTIQNLHAQEYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNLKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENAPKTIQNLHAQ YTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDN KADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|588098271|gb|EXD77643.1|</Hit_id>
+  <Hit_def>HAD hydrolase, IA, variant 1 family protein, partial [Acinetobacter baumannii 947299]</Hit_def>
+  <Hit_accession>EXD77643</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>3.50453e-99</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>NKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>NKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>NKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1132196057|ref|WP_075873978.1|</Hit_id>
+  <Hit_def>haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1131071187|gb|OLV33450.1| haloacid dehalogenase [Acinetobacter baumannii] &gt;gi|1131101368|gb|OLV58616.1| haloacid dehalogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_075873978</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.077</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>1.12148e-88</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>IQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_qseq>
+      <Hsp_hseq>MQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_hseq>
+      <Hsp_midline>+QNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPPHF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|490979950|ref|WP_004841713.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|479986378|gb|ENV29583.1| hypothetical protein F961_01750 [Acinetobacter baumannii NIPH 60]</Hit_def>
+  <Hit_accession>WP_004841713</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>1.42015e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MLQSYINDFNKFSTAFENAPKTIQNLHAQGYTLGLVSNGKTPFQEKNFYALELTDYFSIIVISEAIGLRKPDPEIYLYTCNQLDCKPSDCIFIGDNPKADIEGAKKIGMKTIYFHPTLTLHPSLSDASIHHYDELEETVRRLINPP</Hsp_qseq>
+      <Hsp_hseq>LLQSYINDFNKFSTAFENAQKTIQNLHAQGYTLGLVSNGKTPFQEHNFYALGITDYFSTIVISEAIGLRKPDPAIYLYACTQLDCNPSDCIFIGDNPKADIEGAKKVGMQTIFFHPTLTLEHPLSDASIHHYDELEETIKRLVTNP</Hsp_hseq>
+      <Hsp_midline>+LQSYINDFNKFSTAFENA KTIQNLHAQGYTLGLVSNGKTPFQE NFYAL +TDYFS IVISEAIGLRKPDP IYLY C QLDC PSDCIFIGDNPKADIEGAKK+GM+TI+FHPTLTL   LSDASIHHYDELEET++RL+  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>124194090</Statistics_db-num>
+      <Statistics_db-len>45577448106</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
 
 pfam
 {'PF13419': {'accession': 'PF13419.5', 'class': 'Domain', 'id': 'HAD_2', 'locations': {'ali_end': '112', 'ali_start': '3', 'bitscore': '99.105110168457', 'end': '112', 'evalue': '2.2e-28', 'evidence': 'hmmer v3.0', 'hmm_end': '176', 'hmm_start': '67', 'significant': '1', 'start': '3'}, 'type': 'Pfam-A'}}
@@ -14,4 +1456,7 @@ kegg
 noHomology
 
 go
-noHomolog
+future go data
+
+comments
+386 -> HAD family hydrolase -> A hydrolase with three catalytic motifs representative of the Haloacid Dehalogenase superfamily. Not likely to be related to antibacterial resistance.

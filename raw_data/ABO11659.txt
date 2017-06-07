@@ -2,7 +2,1449 @@ id
 ABO11659
 
 blast
-['gi|126388254|gb|ABO12752.1|', 'putative acyl-CoA dehydrogenase [Acinetobacter baumannii ATCC 17978]', 'ABO12752', '3.23611e-114']
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_182555</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>160</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_182555</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|126388254|gb|ABO12752.1|</Hit_id>
+  <Hit_def>putative acyl-CoA dehydrogenase [Acinetobacter baumannii ATCC 17978]</Hit_def>
+  <Hit_accession>ABO12752</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>3.23611e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLKVKKFHALV</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLKVKKFHALV</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLKVKKFHALV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|571699157|gb|ETQ88491.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase, N-terminal domain protein [Acinetobacter baumannii UH6107]</Hit_def>
+  <Hit_accession>ETQ88491</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>2.10003e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1197196687|ref|WP_086449423.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Acinetobacter baumannii] &gt;gi|1194777518|gb|OUD63936.1| hypothetical protein BTR16_02605, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_086449423</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>6.89886e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|446498799|ref|WP_000576653.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576653</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>1.92178e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|400207174|gb|EJO38145.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase, N-terminal domain protein [Acinetobacter baumannii IS-123]</Hit_def>
+  <Hit_accession>EJO38145</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>4.85247e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|588127565|gb|EXE03740.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1291820] &gt;gi|588135109|gb|EXE11016.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1277411]</Hit_def>
+  <Hit_accession>EXE03740</Hit_accession>
+  <Hit_len>758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>1.00037e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1039566589|ref|WP_064894039.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037636396|gb|OBC27294.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_064894039</Hit_accession>
+  <Hit_len>770</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>1.27872e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|691160548|ref|WP_032068325.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|587966220|gb|EXC51327.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 99063] &gt;gi|1096694787|gb|OIF74610.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_032068325</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>1.37117e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLVK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|898527714|ref|WP_049594817.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|884899662|gb|AKQ26264.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1062564018|gb|ODP44439.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1062573243|gb|ODP53387.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1062574687|gb|ODP54810.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1062575471|gb|ODP55561.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1062580507|gb|ODP60350.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1062582234|gb|ODP62048.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1062590702|gb|ODP70149.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1062591725|gb|ODP71128.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096835891|gb|OIH08347.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1120779633|gb|APP29394.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1134776707|gb|APX47862.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_049594817</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>1.40067e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|491276849|ref|WP_005134948.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|480125968|gb|ENW63570.1| hypothetical protein F915_01104 [Acinetobacter baumannii NIPH 70]</Hit_def>
+  <Hit_accession>WP_005134948</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>1.40067e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1160928770|ref|WP_079770179.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_079770179</Hit_accession>
+  <Hit_len>778</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>2.12255e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1026336265|gb|OAD37022.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>OAD37022</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>2.33772e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1126145911|ref|WP_075149902.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_075149902</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.7386e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1032318371|ref|WP_064192873.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1078632309|gb|OFD24514.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1078632330|gb|OFD24527.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1078643377|gb|OFD32813.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_064192873</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.7679e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|898479754|ref|WP_049592410.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|884903543|gb|AKQ29866.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|923239497|gb|KOP90546.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_049592410</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.7679e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|545156402|ref|WP_021511554.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|542018133|gb|ERH63926.1| acyl-CoA dehydrogenase [Acinetobacter baumannii EGD-HP18] &gt;gi|1193558899|gb|OTU73794.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_021511554</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.79751e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1197041012|ref|WP_086442491.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193486983|gb|OTU03439.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_086442491</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.82744e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1104390079|ref|WP_071717313.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_071717313</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.91916e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|948401490|gb|KRI95587.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>KRI95587</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.91916e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|691041218|ref|WP_031992070.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|588042853|gb|EXD24843.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 34654]</Hit_def>
+  <Hit_accession>WP_031992070</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.91916e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|734886157|ref|WP_034129355.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_034129355</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.91916e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|690981120|ref|WP_031954536.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|610959473|gb|EZI66412.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25442_5]</Hit_def>
+  <Hit_accession>WP_031954536</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.91916e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1132215086|ref|WP_075886138.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131086447|gb|OLV46248.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131109021|gb|OLV64905.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_075886138</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>2.95039e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1047306056|ref|WP_065708182.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_065708182</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.0461e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1039958967|ref|WP_065026641.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038715854|gb|OBM54617.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_065026641</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.0461e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|691159966|ref|WP_032067846.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|588104227|gb|EXD83131.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 947299]</Hit_def>
+  <Hit_accession>WP_032067846</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.07869e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1129438980|ref|WP_075400062.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1127991075|gb|OLN36605.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_075400062</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.11163e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|949771378|ref|WP_057094356.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|943088297|gb|KQG30141.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192360516|gb|OTK41598.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192611690|gb|OTM84984.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193313449|gb|OTS34054.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193487022|gb|OTU03477.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_057094356</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.11163e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|446498790|ref|WP_000576644.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|408712708|gb|EKL57891.1| PF09317 domain protein [Acinetobacter baumannii OIFC110]</Hit_def>
+  <Hit_accession>WP_000576644</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.11163e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|446498805|ref|WP_000576659.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|395552372|gb|EJG18380.1| PF09317 domain protein [Acinetobacter baumannii OIFC143] &gt;gi|400387663|gb|EJP50736.1| PF09317 domain protein [Acinetobacter baumannii Naval-18] &gt;gi|479916777|gb|ENU65059.1| hypothetical protein F979_03136 [Acinetobacter baumannii NIPH 146] &gt;gi|551225597|emb|CDG79600.1| acyl-CoA dehydrogenase [Acinetobacter baumannii 107m] &gt;gi|572029216|gb|ETR83159.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii CI86] &gt;gi|572031736|gb|ETR85618.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii CI79] &gt;gi|587776531|gb|EXA70302.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 984213] &gt;gi|587830809|gb|EXB21712.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1429530] &gt;gi|821290809|gb|KKZ28892.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|821291140|gb|KKZ29221.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|821299298|gb|KKZ37245.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|821300631|gb|KKZ38560.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|821302783|gb|KKZ40681.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|821307138|gb|KKZ44952.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|821309985|gb|KKZ47745.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948372929|gb|KRI70119.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1015706186|gb|KZA12733.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015716302|gb|KZA22658.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015722542|gb|KZA28790.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1175800912|gb|ARG34038.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192650037|gb|OTN22276.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193397036|gb|OTT15709.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576659</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.14492e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|446498798|ref|WP_000576652.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576652</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.21257e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1152321477|ref|WP_078202632.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151623081|gb|OOS29514.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_078202632</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|446498804|ref|WP_000576658.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|183210447|gb|ACC57845.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii ACICU] &gt;gi|944143284|gb|KQK69703.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576658</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|446498794|ref|WP_000576648.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|169148209|emb|CAM86072.1| putative acyl-CoA dehydrogenase [Acinetobacter baumannii AYE] &gt;gi|213057212|gb|ACJ42114.1| acyl-CoA dehydrogenase [Acinetobacter baumannii AB0057] &gt;gi|213986317|gb|ACJ56616.1| Acyl-coenzyme A dehydrogenase(ACDH) [Acinetobacter baumannii AB307-0294] &gt;gi|332730660|gb|EGJ61971.1| acyl-CoA dehydrogenase protein [Acinetobacter baumannii 6013150] &gt;gi|332731157|gb|EGJ62457.1| acyl-CoA dehydrogenase protein [Acinetobacter baumannii 6013113] &gt;gi|400209058|gb|EJO40028.1| PF09317 domain protein [Acinetobacter baumannii Canada BC-5] &gt;gi|404573193|gb|EKA78232.1| PF09317 domain protein [Acinetobacter baumannii IS-58] &gt;gi|408515059|gb|EKK16655.1| PF09317 domain protein [Acinetobacter baumannii IS-235] &gt;gi|408517477|gb|EKK19017.1| PF09317 domain protein [Acinetobacter baumannii IS-251] &gt;gi|408700647|gb|EKL46095.1| PF09317 domain protein [Acinetobacter baumannii OIFC074] &gt;gi|408705332|gb|EKL50674.1| PF09317 domain protein [Acinetobacter baumannii Naval-83] &gt;gi|410401799|gb|EKP53934.1| PF09317 domain protein [Acinetobacter baumannii Naval-21] &gt;gi|410411348|gb|EKP63222.1| PF09317 domain protein [Acinetobacter baumannii Canada BC1] &gt;gi|475926536|gb|EMT95591.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH6] &gt;gi|475935698|gb|EMU03910.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH11] &gt;gi|475936225|gb|EMU04392.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH7] &gt;gi|475942856|gb|EMU10230.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH10] &gt;gi|475963102|gb|EMU29101.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH19] &gt;gi|480101133|gb|ENW39223.1| hypothetical protein F921_01162 [Acinetobacter baumannii NIPH 527] &gt;gi|480126697|gb|ENW64292.1| hypothetical protein F914_01213 [Acinetobacter baumannii NIPH 290] &gt;gi|480132007|gb|ENW69437.1| hypothetical protein F912_02721 [Acinetobacter baumannii ANC 4097] &gt;gi|527239434|gb|EPS77726.1| PF09317 domain protein [Acinetobacter baumannii 1605] &gt;gi|607873719|gb|EZF18925.1| hypothetical protein BA73_02241 [Acinetobacter baumannii R1B] &gt;gi|701450441|gb|KGP65771.1| PF09317 domain protein [Acinetobacter baumannii AB5075] &gt;gi|751413326|gb|AJF82487.1| Acyl-coenzyme A dehydrogenase(ACDH) [Acinetobacter baumannii] &gt;gi|756555610|gb|KIQ74232.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|787860020|gb|AKA30975.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|808165745|emb|CQR67871.1| Butyryl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|808169686|emb|CQR89272.1| Butyryl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|808173003|emb|CRF38477.1| Butyryl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|831392786|gb|KLT78167.1| PF09317 domain protein [Acinetobacter baumannii MRSN 7339] &gt;gi|831396963|gb|KLT82291.1| PF09317 domain protein [Acinetobacter baumannii MRSN 4106] &gt;gi|831404159|gb|KLT89383.1| PF09317 domain protein [Acinetobacter baumannii MRSN 58] &gt;gi|831405837|gb|KLT91045.1| PF09317 domain protein [Acinetobacter baumannii MRSN 3527] &gt;gi|831410955|gb|KLT96101.1| PF09317 domain protein [Acinetobacter baumannii MRSN 3942] &gt;gi|831412122|gb|KLT97254.1| PF09317 domain protein [Acinetobacter baumannii MRSN 3405] &gt;gi|939561036|gb|ALJ87209.1| Butyryl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|952113047|gb|KRT50979.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|952958823|gb|KRT98516.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|952959383|gb|KRT99062.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|952960302|gb|KRT99958.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|952968671|gb|KRU08168.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1001129420|emb|CVI12841.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001137288|emb|CVI12636.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001143797|emb|CVH89206.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001145806|emb|CVI04567.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001151603|emb|CVH91672.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001155217|emb|CZB49071.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001157995|emb|CZQ41705.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001161218|emb|CVI08141.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001166362|emb|CVI08142.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001169537|emb|CVI13098.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1001173572|emb|CVI10216.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015706381|gb|KZA12920.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015725883|gb|KZA32070.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015749345|gb|KZA55143.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015760744|gb|KZA66331.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015775189|gb|KZA80552.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015786273|gb|KZA91505.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015790093|gb|KZA95308.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1117718510|gb|OKL28366.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1117722572|gb|OKL30680.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1118994581|gb|OKO40945.1| hypothetical protein AM424_001192 [Acinetobacter baumannii] &gt;gi|1175799390|gb|ARG32518.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1190016171|gb|OSY57248.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1190019734|gb|OSY60435.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192548518|gb|OTM23264.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193400352|gb|OTT18958.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576648</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1104320211|ref|WP_071708277.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_071708277</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1033174924|ref|WP_064479056.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1030124339|gb|OAM14133.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_064479056</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|657613472|ref|WP_029424520.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948329149|gb|KRI30417.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1118983579|gb|OKO30025.1| hypothetical protein AM412_001234 [Acinetobacter baumannii] &gt;gi|1118991585|gb|OKO37951.1| hypothetical protein AM416_001252 [Acinetobacter baumannii] &gt;gi|1149567268|gb|OOM92996.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1149568561|gb|OOM94166.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1149571796|gb|OOM97447.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1169647116|emb|SLM55661.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1174184453|emb|SMB68629.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1179638271|emb|SMD55192.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1193411378|gb|OTT29764.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193491707|gb|OTU08100.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1198384263|gb|OUM76301.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1198389221|gb|OUM81259.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_029424520</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|446498803|ref|WP_000576657.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-CoA dehydrogenase [Acinetobacter calcoaceticus/baumannii complex] &gt;gi|322507336|gb|ADX02790.1| fadE [Acinetobacter baumannii 1656-2] &gt;gi|323518765|gb|ADX93146.1| acyl-CoA dehydrogenase [Acinetobacter baumannii TCDC-AB0715] &gt;gi|332736538|gb|EGJ67533.1| acyl-CoA dehydrogenase protein [Acinetobacter baumannii 6014059] &gt;gi|333365650|gb|EGK47664.1| acyl-CoA dehydrogenase [Acinetobacter baumannii AB210] &gt;gi|342228685|gb|EGT93565.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH3] &gt;gi|342229882|gb|EGT94732.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH2] &gt;gi|342231571|gb|EGT96380.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH1] &gt;gi|342237852|gb|EGU02305.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH4] &gt;gi|347594465|gb|AEP07186.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii MDR-ZJ06] &gt;gi|385877707|gb|AFI94802.1| acyl-CoA dehydrogenase [Acinetobacter baumannii MDR-TJ] &gt;gi|395554104|gb|EJG20110.1| PF09317 domain protein [Acinetobacter baumannii OIFC189] &gt;gi|395568917|gb|EJG29587.1| PF09317 domain protein [Acinetobacter baumannii Naval-17] &gt;gi|404568831|gb|EKA73926.1| PF09317 domain protein [Acinetobacter baumannii IS-143] &gt;gi|404665198|gb|EKB33161.1| hypothetical protein W9G_00331 [Acinetobacter baumannii Ab11111] &gt;gi|404674761|gb|EKB42497.1| hypothetical protein W9M_00476 [Acinetobacter baumannii Ab44444] &gt;gi|407191066|gb|EKE62277.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ZWS1219] &gt;gi|407191188|gb|EKE62398.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ZWS1122] &gt;gi|407902056|gb|AFU38887.1| fadE [Acinetobacter baumannii TYTH-1] &gt;gi|408707479|gb|EKL52763.1| PF09317 domain protein [Acinetobacter baumannii OIFC180] &gt;gi|410394594|gb|EKP46922.1| PF09317 domain protein [Acinetobacter baumannii Naval-2] &gt;gi|425497989|gb|EKU64078.1| PF09317 domain protein [Acinetobacter baumannii Naval-113] &gt;gi|444768654|gb|ELW92865.1| PF09317 domain protein [Acinetobacter baumannii OIFC338] &gt;gi|444776521|gb|ELX00563.1| acyl-CoA dehydrogenase, N-terminal domain / acyl-CoA dehydrogenase, C-terminal domain / PF09317 domain multi-domain protein [Acinetobacter baumannii Naval-78] &gt;gi|475914535|gb|EMT84518.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH26] &gt;gi|475920172|gb|EMT89572.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH25] &gt;gi|475924380|gb|EMT93589.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH5] &gt;gi|475943134|gb|EMU10493.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH13] &gt;gi|475948932|gb|EMU16005.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH14] &gt;gi|475952413|gb|EMU19080.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH15] &gt;gi|475957837|gb|EMU24263.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH16] &gt;gi|475968157|gb|EMU33920.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH18] &gt;gi|475971012|gb|EMU36508.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH17] &gt;gi|475973724|gb|EMU38452.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH22] &gt;gi|475977204|gb|EMU41254.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH23] &gt;gi|475977871|gb|EMU41776.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH20] &gt;gi|475988178|gb|EMU49456.1| acyl-CoA dehydrogenase [Acinetobacter baumannii ABNIH24] &gt;gi|479861869|gb|ENU13938.1| hypothetical protein F996_01192 [Acinetobacter baumannii NIPH 24] &gt;gi|479906636|gb|ENU55709.1| hypothetical protein F982_00427 [Acinetobacter baumannii NIPH 1362] &gt;gi|479925094|gb|ENU72811.1| hypothetical protein F977_02624 [Acinetobacter baumannii NIPH 2061] &gt;gi|480119655|gb|ENW57413.1| hypothetical protein F916_02491 [Acinetobacter baumannii NIPH 528] &gt;gi|522327255|gb|AGQ15058.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii BJAB07104] &gt;gi|522347002|gb|AGQ11121.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii BJAB0868] &gt;gi|546201804|dbj|BAN87047.1| acyl-CoA dehydrogenase [Acinetobacter baumannii NCGM 237] &gt;gi|571581211|gb|ETP74700.1| PF09317 domain protein [Acinetobacter baumannii UH0707] &gt;gi|571585448|gb|ETP78779.1| PF09317 domain protein [Acinetobacter baumannii UH0207] &gt;gi|571589265|gb|ETP82406.1| PF09317 domain protein [Acinetobacter baumannii UH0807] &gt;gi|571595003|gb|ETP87912.1| PF09317 domain protein [Acinetobacter baumannii UH1007] &gt;gi|571596683|gb|ETP89537.1| PF09317 domain protein [Acinetobacter baumannii UH10107] &gt;gi|571604077|gb|ETP96673.1| PF09317 domain protein [Acinetobacter baumannii UH10007] &gt;gi|571606955|gb|ETP99432.1| PF09317 domain protein [Acinetobacter baumannii UH11608] &gt;gi|571609815|gb|ETQ02207.1| PF09317 domain protein [Acinetobacter baumannii UH10707] &gt;gi|571614564|gb|ETQ06766.1| PF09317 domain protein [Acinetobacter baumannii UH12408] &gt;gi|571615889|gb|ETQ08044.1| PF09317 domain protein [Acinetobacter baumannii UH12308] &gt;gi|571627882|gb|ETQ19696.1| PF09317 domain protein [Acinetobacter baumannii UH12808] &gt;gi|571630893|gb|ETQ22644.1| PF09317 domain protein [Acinetobacter baumannii UH13908] &gt;gi|571632057|gb|ETQ23750.1| PF09317 domain protein [Acinetobacter baumannii UH14508] &gt;gi|571635180|gb|ETQ26770.1| PF09317 domain protein [Acinetobacter baumannii UH16008] &gt;gi|571639828|gb|ETQ31258.1| PF09317 domain protein [Acinetobacter baumannii UH15208] &gt;gi|571651965|gb|ETQ42998.1| PF09317 domain protein [Acinetobacter baumannii UH18608] &gt;gi|571653846|gb|ETQ44816.1| PF09317 domain protein [Acinetobacter baumannii UH16108] &gt;gi|571655658|gb|ETQ46547.1| PF09317 domain protein [Acinetobacter baumannii UH19908] &gt;gi|571668347|gb|ETQ58775.1| PF09317 domain protein [Acinetobacter baumannii UH20108] &gt;gi|571678417|gb|ETQ68463.1| PF09317 domain protein [Acinetobacter baumannii UH2307] &gt;gi|571684953|gb|ETQ74732.1| PF09317 domain protein [Acinetobacter baumannii UH2907] &gt;gi|571685237|gb|ETQ75001.1| PF09317 domain protein [Acinetobacter baumannii UH2707] &gt;gi|571693461|gb|ETQ82964.1| PF09317 domain protein [Acinetobacter baumannii UH5307] &gt;gi|571704305|gb|ETQ93475.1| PF09317 domain protein [Acinetobacter baumannii UH6207] &gt;gi|571705169|gb|ETQ94299.1| PF09317 domain protein [Acinetobacter baumannii UH5707] &gt;gi|571713871|gb|ETR02767.1| PF09317 domain protein [Acinetobacter baumannii UH7007] &gt;gi|571724432|gb|ETR12947.1| PF09317 domain protein [Acinetobacter baumannii UH7807] &gt;gi|571726938|gb|ETR15341.1| PF09317 domain protein [Acinetobacter baumannii UH7707] &gt;gi|571736484|gb|ETR24451.1| PF09317 domain protein [Acinetobacter baumannii UH8107] &gt;gi|571741182|gb|ETR29000.1| PF09317 domain protein [Acinetobacter baumannii UH8407] &gt;gi|571747695|gb|ETR35341.1| PF09317 domain protein [Acinetobacter baumannii UH8707] &gt;gi|571751268|gb|ETR38773.1| PF09317 domain protein [Acinetobacter baumannii UH8807] &gt;gi|571751753|gb|ETR39247.1| PF09317 domain protein [Acinetobacter baumannii UH9707] &gt;gi|571759217|gb|ETR46425.1| hypothetical protein P685_4222 [Acinetobacter baumannii UH9007] &gt;gi|571762481|gb|ETR49601.1| PF09317 domain protein [Acinetobacter baumannii UH9907] &gt;gi|571764270|gb|ETR51364.1| PF09317 domain protein [Acinetobacter baumannii UH9907] &gt;gi|571767218|gb|ETR54272.1| PF09317 domain protein [Acinetobacter baumannii UH10707] &gt;gi|571776431|gb|ETR63267.1| PF09317 domain protein [Acinetobacter baumannii UH8907] &gt;gi|572032173|gb|ETR86047.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii CI77] &gt;gi|573034946|gb|ETS67006.1| PF09317 domain protein [Acinetobacter baumannii UH3807] &gt;gi|573039202|gb|ETS71126.1| PF09317 domain protein [Acinetobacter baumannii UH2107] &gt;gi|575765538|gb|ETY67258.1| acyl-CoA dehydrogenase [Acinetobacter baumannii MDR_MMC4] &gt;gi|586960695|gb|AHJ93990.1| acyl-CoA dehydrogenase [Acinetobacter baumannii PKAB07] &gt;gi|587788879|gb|EXA81833.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1159076] &gt;gi|587810720|gb|EXB02747.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1294217] &gt;gi|587825426|gb|EXB16460.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1397084] &gt;gi|587833113|gb|EXB23943.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1406750] &gt;gi|587871862|gb|EXB61115.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1465485] &gt;gi|587875301|gb|EXB64417.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1462234] &gt;gi|587912781|gb|EXC00608.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 400834] &gt;gi|587928015|gb|EXC15217.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 647609] &gt;gi|587937135|gb|EXC23954.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 724909] &gt;gi|587958461|gb|EXC43981.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 17534] &gt;gi|587964821|gb|EXC49983.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1031433] &gt;gi|587986215|gb|EXC70623.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1036938] &gt;gi|587992020|gb|EXC76204.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1042969-1265] &gt;gi|587998454|gb|EXC82204.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1046051] &gt;gi|588000925|gb|EXC84607.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1043903] &gt;gi|588005560|gb|EXC89108.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1046674] &gt;gi|588006434|gb|EXC89968.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1051176] &gt;gi|588012702|gb|EXC96021.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1051830] &gt;gi|588022960|gb|EXD05991.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1247182] &gt;gi|588029952|gb|EXD12549.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1289546] &gt;gi|588037114|gb|EXD19509.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 136706] &gt;gi|588052097|gb|EXD33663.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 472237-1196] &gt;gi|588055062|gb|EXD36578.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 34001] &gt;gi|588063671|gb|EXD44943.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 532413] &gt;gi|588069744|gb|EXD50789.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 564012] &gt;gi|588081894|gb|EXD62318.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 653020] &gt;gi|588082845|gb|EXD63258.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 796380-2102] &gt;gi|588086819|gb|EXD66951.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 662545-1347] &gt;gi|588087085|gb|EXD67212.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 58452] &gt;gi|588096582|gb|EXD76051.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 929679-2095] &gt;gi|588101046|gb|EXD80261.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 942133] &gt;gi|588110638|gb|EXD89124.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 993520] &gt;gi|588118943|gb|EXD97129.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 959073] &gt;gi|588161168|gb|EXE35644.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1440750] &gt;gi|588167294|gb|EXE41484.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1526966] &gt;gi|588172623|gb|EXE46621.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 554515] &gt;gi|588191120|gb|EXE64735.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1552865] &gt;gi|588241311|gb|EXF13192.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1575710] &gt;gi|588241911|gb|EXF13776.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1593273] &gt;gi|588693840|gb|EXF66278.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1552818] &gt;gi|589155588|gb|EXG01456.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1552389] &gt;gi|589157648|gb|EXG03497.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1488685] &gt;gi|589162294|gb|EXG08026.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1426993] &gt;gi|589177981|gb|EXG23296.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 470922] &gt;gi|589179455|gb|EXG24748.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 458282] &gt;gi|589182095|gb|EXG27302.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 323408] &gt;gi|589195967|gb|EXG40771.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_8] &gt;gi|589201360|gb|EXG45897.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_4] &gt;gi|589205489|gb|EXG49965.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_7] &gt;gi|589206847|gb|EXG51280.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_2] &gt;gi|589217151|gb|EXG60985.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24812_6] &gt;gi|589217284|gb|EXG61116.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_10] &gt;gi|589217843|gb|EXG61668.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24812_4] &gt;gi|589226787|gb|EXG70259.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 7893] &gt;gi|589228364|gb|EXG71820.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24812_10] &gt;gi|589391745|gb|EXG76521.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1296252] &gt;gi|589413039|gb|EXG97391.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1022959] &gt;gi|589417974|gb|EXH02209.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1095464] &gt;gi|589423559|gb|EXH07645.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1178044] &gt;gi|589440511|gb|EXH23511.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1271651] &gt;gi|589457483|gb|EXH39727.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1207552] &gt;gi|589458385|gb|EXH40609.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1264936] &gt;gi|589480556|gb|EXH61904.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1471012] &gt;gi|589484942|gb|EXH65994.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1482820] &gt;gi|589491517|gb|EXH72480.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1475764] &gt;gi|589499927|gb|EXH80577.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 273929] &gt;gi|589502519|gb|EXH83115.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 23671] &gt;gi|589515564|gb|EXH95944.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 2887] &gt;gi|589542378|gb|EXI21922.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 655555] &gt;gi|589545435|gb|EXI24859.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 737393] &gt;gi|589550123|gb|EXI29385.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 825610] &gt;gi|589554626|gb|EXI33786.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 836190] &gt;gi|589563815|gb|EXI42755.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 923118] &gt;gi|589565730|gb|EXI44611.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1045092] &gt;gi|589570419|gb|EXI49126.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 73736] &gt;gi|589575955|gb|EXI54537.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 10519] &gt;gi|589577705|gb|EXI56230.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1287985] &gt;gi|593507828|gb|EXQ93351.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 11126] &gt;gi|593514933|gb|EXR00019.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1262761-97] &gt;gi|593516654|gb|EXR01773.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1237202] &gt;gi|593521849|gb|EXR06800.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1117819] &gt;gi|593529762|gb|EXR14365.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1232509] &gt;gi|593547623|gb|EXR31692.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1266220] &gt;gi|593563737|gb|EXR47099.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1294222] &gt;gi|593571145|gb|EXR54120.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1397513] &gt;gi|593574984|gb|EXR57851.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1392509] &gt;gi|593581492|gb|EXR64171.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1406182] &gt;gi|593594207|gb|EXR76343.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 339786] &gt;gi|593604740|gb|EXR86517.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 466215] &gt;gi|593615140|gb|EXR96485.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 145660] &gt;gi|593623421|gb|EXS04494.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1494580] &gt;gi|593627648|gb|EXS08463.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 303002] &gt;gi|593635845|gb|EXS16325.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 628418] &gt;gi|593639921|gb|EXS20220.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 755829] &gt;gi|593651315|gb|EXS31250.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 730795] &gt;gi|593664757|gb|EXS44145.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 213697] &gt;gi|593673711|gb|EXS52508.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 981176] &gt;gi|593675377|gb|EXS54071.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 98826] &gt;gi|593683724|gb|EXS62194.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 70136] &gt;gi|593808527|gb|EXS67863.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25307_1] &gt;gi|593816938|gb|EXS75814.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45002_7] &gt;gi|593817508|gb|EXS76372.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45002_6] &gt;gi|593823870|gb|EXS82491.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45002_5] &gt;gi|593828350|gb|EXS86817.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45002_4] &gt;gi|593832615|gb|EXS90918.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45002_3] &gt;gi|593838989|gb|EXS96971.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45002_10] &gt;gi|593841979|gb|EXS99866.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_9] &gt;gi|593847358|gb|EXT04984.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45002_8] &gt;gi|593849478|gb|EXT07002.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_6] &gt;gi|593853520|gb|EXT10953.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_8] &gt;gi|593857579|gb|EXT14835.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_5] &gt;gi|593861560|gb|EXT18738.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_4] &gt;gi|593865288|gb|EXT22368.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_3] &gt;gi|593869782|gb|EXT26688.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_2] &gt;gi|593873499|gb|EXT30312.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_1] &gt;gi|593878512|gb|EXT35115.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44895_10] &gt;gi|593914541|gb|EXT69840.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25307_8] &gt;gi|593921027|gb|EXT76224.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25307_6] &gt;gi|593929477|gb|EXT84297.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25307_4] &gt;gi|593930849|gb|EXT85658.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25307_5] &gt;gi|593933592|gb|EXT88243.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25307_3] &gt;gi|593938759|gb|EXT92600.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25253_8] &gt;gi|593940421|gb|EXT94192.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25307_2] &gt;gi|593946478|gb|EXT99995.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25253_7] &gt;gi|593949898|gb|EXU03315.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25253_6] &gt;gi|593954336|gb|EXU07597.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25253_5] &gt;gi|593957890|gb|EXU11115.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25253_4] &gt;gi|593961174|gb|EXU14311.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25253_3] &gt;gi|593968665|gb|EXU21603.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25253_1] &gt;gi|593970570|gb|EXU23437.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25253_10] &gt;gi|593975481|gb|EXU28052.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_8] &gt;gi|593978257|gb|EXU30780.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_7] &gt;gi|593982511|gb|EXU34867.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_9] &gt;gi|593988350|gb|EXU40563.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_5] &gt;gi|593992362|gb|EXU44477.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_6] &gt;gi|593996571|gb|EXU48592.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_4] &gt;gi|594000195|gb|EXU52149.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_3] &gt;gi|594004097|gb|EXU55992.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_1] &gt;gi|594007280|gb|EXU59147.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24845_10] &gt;gi|595086092|gb|EXV14185.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25561_2] &gt;gi|595088638|gb|EXV16658.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25561_1] &gt;gi|595091022|gb|EXV18930.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25561_7] &gt;gi|595098297|gb|EXV25321.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24975_9] &gt;gi|595099703|gb|EXV26681.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24975_7] &gt;gi|595104355|gb|EXV31063.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24975_4] &gt;gi|595110402|gb|EXV36755.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_10] &gt;gi|595111816|gb|EXV38119.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24975_1] &gt;gi|595114360|gb|EXV40555.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24975_5] &gt;gi|595119879|gb|EXV45779.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_9] &gt;gi|595122827|gb|EXV48643.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_9] &gt;gi|595126496|gb|EXV52203.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_8] &gt;gi|595129256|gb|EXV54874.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_7] &gt;gi|595133565|gb|EXV59060.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_6] &gt;gi|595140722|gb|EXV65857.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_2] &gt;gi|595143074|gb|EXV68148.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_5] &gt;gi|595146874|gb|EXV71765.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_4] &gt;gi|595151198|gb|EXV75968.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25935_1] &gt;gi|595154622|gb|EXV79246.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25691_10] &gt;gi|595160355|gb|EXV84796.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25691_9] &gt;gi|595162679|gb|EXV87091.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25691_6] &gt;gi|595167248|gb|EXV91421.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25691_2] &gt;gi|595172278|gb|EXV96341.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25691_1] &gt;gi|595175407|gb|EXV99324.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_10] &gt;gi|595180061|gb|EXW03765.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_7] &gt;gi|595185122|gb|EXW08675.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_9] &gt;gi|595188404|gb|EXW11886.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_6] &gt;gi|595194180|gb|EXW17417.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_5] &gt;gi|595198293|gb|EXW21410.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_4] &gt;gi|595201161|gb|EXW24181.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_3] &gt;gi|595205657|gb|EXW28516.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_2] &gt;gi|595209926|gb|EXW32569.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25561_10] &gt;gi|595212293|gb|EXW34703.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25766_1] &gt;gi|595219403|gb|EXW41442.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44327_6] &gt;gi|595221036|gb|EXW43038.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44857_9] &gt;gi|595234872|gb|EXW56250.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_9] &gt;gi|595237372|gb|EXW58684.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_8] &gt;gi|595239308|gb|EXW60547.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_7] &gt;gi|595244858|gb|EXW65785.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_5] &gt;gi|595247206|gb|EXW68097.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_6] &gt;gi|595252020|gb|EXW72595.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_4] &gt;gi|595258584|gb|EXW78535.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_3] &gt;gi|595261581|gb|EXW81453.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_2] &gt;gi|595265563|gb|EXW85230.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_1] &gt;gi|595270804|gb|EXW89859.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44467_10] &gt;gi|595273691|gb|EXW92671.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44327_8] &gt;gi|595283822|gb|EXX02363.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44327_5] &gt;gi|595287861|gb|EXX06249.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44327_4] &gt;gi|595291017|gb|EXX09311.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44327_2] &gt;gi|595296442|gb|EXX14496.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44327_1] &gt;gi|595301165|gb|EXX19112.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25750_7] &gt;gi|595302619|gb|EXX20509.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25750_8] &gt;gi|595310652|gb|EXX28219.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25750_6] &gt;gi|595313363|gb|EXX30902.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25681_9] &gt;gi|595315174|gb|EXX32636.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25681_8] &gt;gi|595324090|gb|EXX41264.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25681_5] &gt;gi|595326456|gb|EXX43602.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25681_6] &gt;gi|595328716|gb|EXX45811.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25681_3] &gt;gi|595331896|gb|EXX48893.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25681_2] &gt;gi|598504753|gb|EYC58456.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44437_7] &gt;gi|598508688|gb|EYC62204.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44437_8] &gt;gi|598511463|gb|EYC64815.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44437_9] &gt;gi|598517717|gb|EYC70636.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44437_5] &gt;gi|598521869|gb|EYC74610.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44437_4] &gt;gi|598523838|gb|EYC76501.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44437_3] &gt;gi|598529215|gb|EYC81434.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_9] &gt;gi|598533011|gb|EYC85041.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_8] &gt;gi|598536689|gb|EYC88380.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_7] &gt;gi|598542841|gb|EYC94010.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_5] &gt;gi|598544962|gb|EYC96007.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_6] &gt;gi|598549542|gb|EYD00324.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_4] &gt;gi|598558149|gb|EYD08047.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_1] &gt;gi|598558976|gb|EYD08851.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_3] &gt;gi|598563101|gb|EYD12732.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_2] &gt;gi|598569336|gb|EYD18421.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44362_10] &gt;gi|598573892|gb|EYD22788.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 43557_1] &gt;gi|598576611|gb|EYD25317.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25878_3] &gt;gi|598585109|gb|EYD33184.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25878_1] &gt;gi|598592855|gb|EYD40119.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25878_2] &gt;gi|601347316|gb|EYR98252.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_8] &gt;gi|601348199|gb|EYR99115.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45057_4] &gt;gi|601355454|gb|EYS05997.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_5] &gt;gi|601358905|gb|EYS09346.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25569_6] &gt;gi|601364470|gb|EYS14766.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_10] &gt;gi|601377428|gb|EYS27073.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_6] &gt;gi|601379340|gb|EYS28938.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_1] &gt;gi|601404085|gb|EYS52834.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 16553_10] &gt;gi|601408487|gb|EYS57110.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 16553_9] &gt;gi|601412970|gb|EYS61436.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 16553_8] &gt;gi|601417163|gb|EYS65507.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 16553_6] &gt;gi|601419330|gb|EYS67601.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 16553_4] &gt;gi|601426871|gb|EYS74722.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 16553_2] &gt;gi|601429865|gb|EYS77659.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 16553_3] &gt;gi|601435416|gb|EYS83129.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 16553_1] &gt;gi|604706020|gb|EYU50953.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1457504] &gt;gi|604707615|gb|EYU52518.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1428368] &gt;gi|610943062|gb|EZI50560.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25442_9] &gt;gi|610946494|gb|EZI53855.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 42057_2] &gt;gi|610951836|gb|EZI59002.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25442_7] &gt;gi|610965172|gb|EZI71900.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_10] &gt;gi|610967829|gb|EZI74466.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_9] &gt;gi|610976573|gb|EZI82806.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_7] &gt;gi|610980218|gb|EZI86345.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_6] &gt;gi|610982609|gb|EZI88655.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_4] &gt;gi|610988986|gb|EZI94733.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_2] &gt;gi|610989911|gb|EZI95636.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_1] &gt;gi|610996220|gb|EZJ01663.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_9] &gt;gi|610998222|gb|EZJ03567.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44839_10] &gt;gi|611003913|gb|EZJ09060.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24975_10] &gt;gi|611007394|gb|EZJ12381.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_6] &gt;gi|611012614|gb|EZJ17482.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_1] &gt;gi|613737461|gb|AHX27807.1| acyl-CoA dehydrogenase [Acinetobacter baumannii AC12] &gt;gi|615557414|gb|AHX64938.1| acyl-CoA dehydrogenase [Acinetobacter baumannii AC30] &gt;gi|628988409|gb|KCV88167.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_5] &gt;gi|628988686|gb|KCV88438.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_3] &gt;gi|628996198|gb|KCV95506.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44839_8] &gt;gi|628998550|gb|KCV97811.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44298_8] &gt;gi|629006123|gb|KCW05070.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 44839_9] &gt;gi|629020776|gb|KCW19178.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25442_1] &gt;gi|629028192|gb|KCW25970.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1064293_46] &gt;gi|629032282|gb|KCW29648.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 6935] &gt;gi|629047173|gb|KCW43804.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1032359] &gt;gi|630401846|gb|KCX20861.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1539026] &gt;gi|630408407|gb|KCX26636.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 18689] &gt;gi|630414910|gb|KCX32538.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 916567] &gt;gi|630417634|gb|KCX35097.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 96512] &gt;gi|630425130|gb|KCX42279.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 987421] &gt;gi|630430047|gb|KCX47095.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24812_2] &gt;gi|630436822|gb|KCX52749.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 135867] &gt;gi|630453173|gb|KCX67333.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1146103] &gt;gi|630480093|gb|KCX91142.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 15827] &gt;gi|630496547|gb|KCY05856.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 23037] &gt;gi|630503449|gb|KCY12316.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1284800] &gt;gi|630525538|gb|KCY33105.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1042969-1197] &gt;gi|630525660|gb|KCY33222.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1042969-1197] &gt;gi|630533566|gb|KCY40627.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1276470-132] &gt;gi|630538453|gb|KCY45257.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1505311] &gt;gi|630550256|gb|KCY56390.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24812_8] &gt;gi|630552356|gb|KCY58379.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_3] &gt;gi|630559175|gb|KCY64779.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_5] &gt;gi|630559425|gb|KCY65026.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1288284] &gt;gi|630564520|gb|KCY69839.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24860_9] &gt;gi|630574912|gb|KCY79525.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 756476] &gt;gi|630580455|gb|KCY84327.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 24812_7] &gt;gi|630584893|gb|KCY88233.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25691_5] &gt;gi|630588586|gb|KCY90947.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 929679-598] &gt;gi|630595558|gb|KCY97212.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25750_1] &gt;gi|630599827|gb|KCZ00166.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25691_8] &gt;gi|630608866|gb|KCZ06367.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_3] &gt;gi|630611130|gb|KCZ08515.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_2] &gt;gi|630616376|gb|KCZ12826.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 26016_7] &gt;gi|630639664|gb|KCZ33443.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45057_1] &gt;gi|630646504|gb|KCZ39397.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 45002_9] &gt;gi|630649801|gb|KCZ41785.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 25691_7] &gt;gi|635723321|gb|KDF05112.1| hypothetical protein AE30_02017 [Acinetobacter baumannii BIDMC 56] &gt;gi|640862828|gb|AIA51925.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|668669314|gb|KFB64935.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741251464|gb|KHT74978.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741255110|gb|KHT78489.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741258027|gb|KHT81209.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741265943|gb|KHT88887.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741270237|gb|KHT93086.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741276778|gb|KHT99444.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741280182|gb|KHV02782.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741281528|gb|KHV04094.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741286160|gb|KHV08552.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741296079|gb|KHV18133.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741300335|gb|KHV22240.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741306959|gb|KHV28676.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741311746|gb|KHV33183.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741312439|gb|KHV33848.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741319787|gb|KHV40236.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741325905|gb|KHV46017.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741326506|gb|KHV46610.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741334409|gb|KHV54078.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741337713|gb|KHV57001.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741343327|gb|KHV62423.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741351229|gb|KHV69763.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741354342|gb|KHV72805.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741359503|gb|KHV77893.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741363594|gb|KHV81782.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741370200|gb|KHV88195.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741379057|gb|KHV96715.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741389686|gb|KHW07074.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741391076|gb|KHW08441.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741395012|gb|KHW12204.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741399577|gb|KHW16609.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741401589|gb|KHW18589.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741405605|gb|KHW22452.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741410960|gb|KHW27647.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741413401|gb|KHW30032.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741418201|gb|KHW34648.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741426777|gb|KHW42788.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741427428|gb|KHW43428.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741428618|gb|KHW44590.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741434252|gb|KHW49920.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741438644|gb|KHW54226.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741439627|gb|KHW55187.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741445012|gb|KHW60277.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741449574|gb|KHW64719.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741453904|gb|KHW68825.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741482604|gb|KHW96101.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741483857|gb|KHW97327.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741490468|gb|KHX03667.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741490593|gb|KHX03790.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741498336|gb|KHX11193.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741499452|gb|KHX12282.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741505155|gb|KHX17624.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741510309|gb|KHX22510.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741512659|gb|KHX24806.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741520373|gb|KHX32195.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741521285|gb|KHX33085.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741527113|gb|KHX38636.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741531439|gb|KHX42890.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741536645|gb|KHX47848.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741539304|gb|KHX50411.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741545155|gb|KHX55753.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741550237|gb|KHX60615.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741554044|gb|KHX64292.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741559266|gb|KHX69251.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741560861|gb|KHX70797.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741563785|gb|KHX73632.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741574698|gb|KHX84254.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741577247|gb|KHX86733.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741584757|gb|KHX93884.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741588124|gb|KHX97216.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741588965|gb|KHX98044.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741594566|gb|KHY03418.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741596241|gb|KHY05060.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741601502|gb|KHY10250.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741607144|gb|KHY15673.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741610194|gb|KHY18683.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741612751|gb|KHY21192.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741616510|gb|KHY24757.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741621942|gb|KHY29957.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741625521|gb|KHY33464.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741632468|gb|KHY40164.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741636457|gb|KHY44109.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741642522|gb|KHY49947.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741645508|gb|KHY52825.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741654341|gb|KHY61411.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741661767|gb|KHY68634.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741664755|gb|KHY71540.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741673942|gb|KHY80498.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741676797|gb|KHY83292.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741681676|gb|KHY88028.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741697510|gb|KHZ03376.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741705866|gb|KHZ11523.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741708297|gb|KHZ13852.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741715629|gb|KHZ21000.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741715755|gb|KHZ21124.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741720114|gb|KHZ25318.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741725434|gb|KHZ30537.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741726291|gb|KHZ31384.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741731934|gb|KHZ36775.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741736146|gb|KHZ40872.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741740331|gb|KHZ44760.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741744906|gb|KHZ49199.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741752541|gb|KHZ56639.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741756706|gb|KHZ60722.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741758341|gb|KHZ62315.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741766808|gb|KHZ70569.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741767046|gb|KHZ70804.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741772475|gb|KHZ76135.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741777385|gb|KHZ80893.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741781944|gb|KHZ85225.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741783448|gb|KHZ86697.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741790099|gb|KHZ93191.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741790648|gb|KHZ93730.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741793972|gb|KHZ96949.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741798419|gb|KIA01251.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741803975|gb|KIA06681.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741804141|gb|KIA06845.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741811587|gb|KIA14149.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741817845|gb|KIA20273.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741822032|gb|KIA24274.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741825747|gb|KIA27755.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741831947|gb|KIA33738.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741834400|gb|KIA36141.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741837745|gb|KIA39362.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741842746|gb|KIA44203.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741845790|gb|KIA47184.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741846106|gb|KIA47494.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741853203|gb|KIA54395.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|741855320|gb|KIA56493.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|765502634|gb|KJE61745.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|765504541|gb|KJE63632.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|765509828|gb|KJE68640.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|765514348|gb|KJE73074.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|765515860|gb|KJE74567.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|765629700|gb|KJF11288.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|765633543|gb|KJF14994.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|767555644|gb|KJG75535.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|767586279|gb|KJG81175.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|767770663|gb|KJG94174.1| fadE [Acinetobacter baumannii] &gt;gi|815873581|gb|KKI95623.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|827404842|gb|AKJ45001.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|831390970|gb|KLT76372.1| PF09317 domain protein [Acinetobacter baumannii MRSN 7341] &gt;gi|913703723|gb|KNZ35618.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|923238457|gb|KOP89527.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|927825176|gb|KPA50113.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942743224|gb|KQD22057.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942831625|gb|KQE02963.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942887592|gb|KQE53735.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942891207|gb|KQE57002.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942907045|gb|KQE71212.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942913325|gb|KQE76988.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942959267|gb|KQF19079.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942964855|gb|KQF24087.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942974376|gb|KQF32350.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942974598|gb|KQF32539.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942980357|gb|KQF37281.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|943001723|gb|KQF54589.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|943013200|gb|KQF64560.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|943019902|gb|KQF70508.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|943066956|gb|KQG11162.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|943076313|gb|KQG19352.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|943159546|gb|KQG92836.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|944141388|gb|KQK67836.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948318503|gb|KRI20107.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948323292|gb|KRI24735.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948478462|gb|KRJ65928.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948486815|gb|KRJ74093.1| acyl-CoA dehydrogenase [Acinetobacter nosocomialis] &gt;gi|951498670|gb|KRT10945.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|974023499|gb|ALX98751.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|974997552|gb|KUR57853.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|982570789|gb|KWR94706.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|982573219|gb|KWR97134.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|984883538|gb|AMC16198.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1000990616|gb|AML62924.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1000995465|gb|AML67772.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1000999243|gb|AML71549.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1001001381|gb|AML73686.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1001591662|gb|KXS05232.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1015719792|gb|KZA26076.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015733446|gb|KZA39495.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015736511|gb|KZA42503.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015739589|gb|KZA45540.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015758229|gb|KZA63847.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015768816|gb|KZA74283.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1016441836|gb|KZC88504.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1020988705|gb|KZM59147.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1024744586|gb|ANB88033.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1026332993|gb|OAD34032.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1036117306|emb|SBS21313.1| fadE,Acyl-CoA dehydrogenase, short-chain specific,acyl-CoA dehydrogenase,Rubredoxin, cyclohexanecarboxyl-CoA dehydrogenase,Domain of uncharacterised function (DUF1974) [Acinetobacter baumannii] &gt;gi|1037431963|gb|OBA31353.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037635856|gb|OBC26765.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037636637|gb|OBC27522.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037646644|gb|OBC37189.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037651194|gb|OBC41615.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037652290|gb|OBC42690.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037654185|gb|OBC44530.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037662255|gb|OBC52365.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037664491|gb|OBC54536.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037666543|gb|OBC56507.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037671006|gb|OBC60861.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037685233|gb|OBC74639.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037686183|gb|OBC75549.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037686672|gb|OBC76021.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037692232|gb|OBC81426.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037694994|gb|OBC83998.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037707605|gb|OBC96321.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037712794|gb|OBD01340.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037717588|gb|OBD05942.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037721306|gb|OBD09513.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037724529|gb|OBD12628.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037727054|gb|OBD15077.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037730198|gb|OBD18131.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037736288|gb|OBD24061.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037739111|gb|OBD26791.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037742081|gb|OBD29684.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037746679|gb|OBD34133.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037748394|gb|OBD35792.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037755688|gb|OBD42863.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037757557|gb|OBD44687.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037757827|gb|OBD44946.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037759495|gb|OBD46574.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037768360|gb|OBD55147.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037773122|gb|OBD59738.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037773255|gb|OBD59870.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037781563|gb|OBD67884.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037784057|gb|OBD70310.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037787875|gb|OBD73969.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037789427|gb|OBD75486.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037794379|gb|OBD80261.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037800911|gb|OBD86615.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037809672|gb|OBD95117.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037809698|gb|OBD95142.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037815367|gb|OBE00856.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037818642|gb|OBE04006.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037828374|gb|OBE13398.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037829165|gb|OBE14176.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037829289|gb|OBE14299.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037841873|gb|OBE26501.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037842422|gb|OBE27034.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037844410|gb|OBE28962.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037846954|gb|OBE31409.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037853123|gb|OBE37353.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037854220|gb|OBE38415.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037855527|gb|OBE39679.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037859981|gb|OBE44006.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037866852|gb|OBE50625.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037869383|gb|OBE53077.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037869731|gb|OBE53415.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037876432|gb|OBE59894.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037882862|gb|OBE66088.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1037893253|gb|OBE76177.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038555302|gb|OBL00631.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038560518|gb|OBL05633.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038564168|gb|OBL09056.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038565873|gb|OBL10678.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038576797|gb|OBL21191.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038582509|gb|OBL26732.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038583907|gb|OBL28069.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038584686|gb|OBL28811.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038587932|gb|OBL31938.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038594549|gb|OBL38373.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038603666|gb|OBL47199.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038604197|gb|OBL47719.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038607068|gb|OBL50405.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038609005|gb|OBL52254.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038616254|gb|OBL59187.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038619394|gb|OBL62142.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038621765|gb|OBL64445.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038633394|gb|OBL75521.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038634096|gb|OBL76202.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038640475|gb|OBL82262.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038641871|gb|OBL83604.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038643485|gb|OBL85170.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038644224|gb|OBL85892.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038652304|gb|OBL93582.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038659191|gb|OBM00304.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038659602|gb|OBM00700.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038666833|gb|OBM07639.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038667088|gb|OBM07882.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038670529|gb|OBM11112.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038677321|gb|OBM17588.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038681198|gb|OBM21291.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038682072|gb|OBM22140.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038691654|gb|OBM31264.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038693242|gb|OBM32791.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038694476|gb|OBM33997.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038702420|gb|OBM41654.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038703543|gb|OBM42738.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038706598|gb|OBM45669.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038714803|gb|OBM53640.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038719896|gb|OBM58437.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038721502|gb|OBM60003.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038730362|gb|OBM68490.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038733487|gb|OBM71496.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038734836|gb|OBM72806.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038737253|gb|OBM75101.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038737610|gb|OBM75446.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038742091|gb|OBM79775.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038748378|gb|OBM85858.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038748854|gb|OBM86306.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038753224|gb|OBM90531.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038761328|gb|OBM98355.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038762110|gb|OBM99116.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038762900|gb|OBM99898.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038772995|gb|OBN09658.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038774369|gb|OBN10984.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038774722|gb|OBN11335.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038782692|gb|OBN18888.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038786915|gb|OBN22920.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038789771|gb|OBN25652.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038795422|gb|OBN31096.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038797528|gb|OBN33115.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038802337|gb|OBN37736.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038804965|gb|OBN40228.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038805937|gb|OBN41175.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038808444|gb|OBN43587.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038816923|gb|OBN51744.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038820702|gb|OBN55422.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038821969|gb|OBN56650.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038827259|gb|OBN61745.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038832749|gb|OBN67077.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038842006|gb|OBN76030.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038842919|gb|OBN76920.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038843429|gb|OBN77420.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038849295|gb|OBN82999.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038849885|gb|OBN83561.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038856455|gb|OBN89883.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038861048|gb|OBN94237.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038865539|gb|OBN98558.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038866910|gb|OBN99896.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038871307|gb|OBO04084.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038877255|gb|OBO09830.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038880610|gb|OBO13075.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038884636|gb|OBO16839.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038885289|gb|OBO17482.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038888714|gb|OBO20834.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038898659|gb|OBO30314.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038900845|gb|OBO32431.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038902732|gb|OBO34277.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038906539|gb|OBO37854.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038907775|gb|OBO39052.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038910965|gb|OBO42167.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038918954|gb|OBO49751.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038922507|gb|OBO53209.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038924793|gb|OBO55394.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038926551|gb|OBO57063.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038931002|gb|OBO61313.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038931773|gb|OBO62053.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038937408|gb|OBO67518.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038940793|gb|OBO70799.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038940923|gb|OBO70927.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038948847|gb|OBO78578.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038949908|gb|OBO79591.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038950824|gb|OBO80483.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038961252|gb|OBO90547.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038963097|gb|OBO92328.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038968573|gb|OBO97632.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038971368|gb|OBP00262.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038972835|gb|OBP01650.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1039281965|gb|OBR20010.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1049963300|gb|OCT07214.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1056196998|gb|ODA51633.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1056210458|gb|ODA55140.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1066968713|gb|AOP64107.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii DU202] &gt;gi|1087729590|gb|AOX70569.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1087733351|gb|AOX74314.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1087737355|gb|AOX78323.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1087739783|gb|AOX80698.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1087744998|gb|AOX85969.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1087748857|gb|AOX89824.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1087752709|gb|AOX93675.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1087756660|gb|AOX97602.1| Acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1092656934|gb|OHW29920.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096268468|gb|OIB68216.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096268823|gb|OIB68560.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096277568|gb|OIB76973.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096279807|gb|OIB79146.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096281578|gb|OIB80864.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096290450|gb|OIB89358.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096292385|gb|OIB91256.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096297218|gb|OIB95869.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096301198|gb|OIB99607.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096302127|gb|OIC00306.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096305687|gb|OIC03064.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096312808|gb|OIC09709.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096315544|gb|OIC12307.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096322461|gb|OIC18720.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096325768|gb|OIC21797.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096329982|gb|OIC25688.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096333261|gb|OIC28733.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096334931|gb|OIC30347.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096340818|gb|OIC35876.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096344170|gb|OIC39062.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096348285|gb|OIC42872.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096351516|gb|OIC45765.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096353990|gb|OIC47871.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096359981|gb|OIC53243.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096364218|gb|OIC57030.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096366867|gb|OIC59519.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096374447|gb|OIC65458.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096376715|gb|OIC67182.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096385777|gb|OIC75528.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096394003|gb|OIC83268.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096394389|gb|OIC83642.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096397790|gb|OIC86845.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096398692|gb|OIC87703.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096407529|gb|OIC96180.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096408301|gb|OIC96930.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096408907|gb|OIC97524.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096414839|gb|OID03242.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096417008|gb|OID05339.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096423547|gb|OID11667.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096426875|gb|OID14841.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096428968|gb|OID16869.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096436514|gb|OID24080.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096451740|gb|OID38880.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096459469|gb|OID46339.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096459968|gb|OID46832.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096461911|gb|OID48739.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096467503|gb|OID54147.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096468755|gb|OID55358.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096474602|gb|OID61077.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096475604|gb|OID62049.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096483402|gb|OID69629.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096484562|gb|OID70760.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096490139|gb|OID76140.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096491486|gb|OID77434.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096498796|gb|OID84586.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096500857|gb|OID86580.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096505864|gb|OID91411.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096506826|gb|OID92346.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096513503|gb|OID98840.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096514218|gb|OID99541.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096515734|gb|OIE01023.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096520966|gb|OIE06032.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096526253|gb|OIE11239.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096531537|gb|OIE16331.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096533051|gb|OIE17790.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096541448|gb|OIE25905.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096545569|gb|OIE29950.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096546305|gb|OIE30670.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096549946|gb|OIE34194.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096561982|gb|OIE45950.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096568497|gb|OIE52317.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096568969|gb|OIE52775.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096569819|gb|OIE53597.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096574126|gb|OIE57804.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096576334|gb|OIE59982.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096578971|gb|OIE62535.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096589708|gb|OIE73031.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096590816|gb|OIE74118.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096593102|gb|OIE76324.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096596945|gb|OIE80075.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096600504|gb|OIE83547.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096605078|gb|OIE87970.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096608955|gb|OIE91767.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096609472|gb|OIE92263.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096613613|gb|OIE96226.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096613914|gb|OIE96516.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096624765|gb|OIF07045.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096628616|gb|OIF10753.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096631671|gb|OIF13716.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096634048|gb|OIF16028.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096640416|gb|OIF22273.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096641999|gb|OIF23758.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096643724|gb|OIF25437.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096652780|gb|OIF34198.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096663549|gb|OIF44603.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096664069|gb|OIF45106.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096665946|gb|OIF46937.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096667296|gb|OIF48200.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096674813|gb|OIF55458.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096681248|gb|OIF61644.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096689892|gb|OIF69915.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096690897|gb|OIF70867.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096702603|gb|OIF82138.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096703178|gb|OIF82705.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096708658|gb|OIF87791.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096716267|gb|OIF93754.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096718098|gb|OIF95346.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096733254|gb|OIG09281.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096736903|gb|OIG12722.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096739538|gb|OIG15213.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096740618|gb|OIG16268.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096749055|gb|OIG24436.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096758149|gb|OIG33192.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096760275|gb|OIG35225.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096764204|gb|OIG39039.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096772432|gb|OIG46968.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096788784|gb|OIG62640.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096791062|gb|OIG64872.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096798896|gb|OIG72516.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096810026|gb|OIG83264.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096813990|gb|OIG87061.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096830338|gb|OIH02953.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096836389|gb|OIH08836.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096839024|gb|OIH11420.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096847715|gb|OIH19846.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096851772|gb|OIH23650.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096855807|gb|OIH27472.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096861853|gb|OIH33291.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096869694|gb|OIH40868.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096870815|gb|OIH41963.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096875516|gb|OIH46564.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096875786|gb|OIH46821.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096884677|gb|OIH55465.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096888075|gb|OIH58772.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096890024|gb|OIH60633.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096896916|gb|OIH67111.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096900240|gb|OIH70202.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096904518|gb|OIH74327.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096918214|gb|OIH87374.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096918831|gb|OIH87977.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1100795555|emb|SFV47678.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1104035810|emb|SFX69409.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1109139833|gb|APF42972.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1112981142|gb|APJ22582.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1114593751|gb|APM48241.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1117745494|gb|OKL32234.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1118979926|gb|OKO26427.1| hypothetical protein AM414_001167 [Acinetobacter baumannii] &gt;gi|1121004848|gb|OKP46627.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1125866311|gb|APQ84613.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1125870171|gb|APQ88470.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1125873946|gb|APQ92243.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1129660316|gb|OLQ59025.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1129662487|gb|OLQ61113.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1129662851|gb|OLQ61459.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130747466|gb|OLU54658.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130747861|gb|OLU55042.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130751581|gb|OLU58690.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130760809|gb|OLU67461.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130761365|gb|OLU68009.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130761676|gb|OLU68316.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130771215|gb|OLU77367.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130773008|gb|OLU79126.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130775452|gb|OLU81454.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130778365|gb|OLU84174.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130780788|gb|OLU86481.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130786371|gb|OLU91873.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130792725|gb|OLU97896.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130793861|gb|OLU99008.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130796112|gb|OLV01209.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130805456|gb|OLV10077.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1130807687|gb|OLV12247.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131068053|gb|OLV30811.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131071887|gb|OLV34057.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131073907|gb|OLV35754.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131086139|gb|OLV45992.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131087235|gb|OLV46926.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131092849|gb|OLV51532.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131099488|gb|OLV57075.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131108946|gb|OLV64847.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131121050|gb|OLV73540.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131133359|gb|OLV83951.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131133690|gb|OLV84239.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1131139690|gb|OLV89024.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1150875003|gb|AQU57956.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151625192|gb|OOS31590.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151641069|gb|OOS47051.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151652460|gb|OOS58062.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151655100|gb|OOS60595.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151656947|gb|OOS62341.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151659520|gb|OOS64881.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151667516|gb|OOS72710.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151672235|gb|OOS77304.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151674151|gb|OOS79174.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151681827|gb|OOS86661.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151683083|gb|OOS87870.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151686626|gb|OOS91331.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151692728|gb|OOS97262.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151703423|gb|OOT07682.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151703568|gb|OOT07825.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151711775|gb|OOT15752.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151712754|gb|OOT16699.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151713993|gb|OOT17894.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151719001|gb|OOT22738.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151719157|gb|OOT22893.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151735861|gb|OOT39162.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151737283|gb|OOT40540.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151745039|gb|OOT48126.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151745152|gb|OOT48232.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151763570|gb|OOT66318.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151772071|gb|OOT74625.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151772834|gb|OOT75360.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151774443|gb|OOT76923.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151784774|gb|OOT86943.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151790138|gb|OOT92151.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151794105|gb|OOT96013.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151799049|gb|OOU00817.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151800131|gb|OOU01864.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151800600|gb|OOU02323.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151813567|gb|OOU14959.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151815207|gb|OOU16560.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151827991|gb|OOU28948.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151829930|gb|OOU30836.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151837047|gb|OOU37732.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151837832|gb|OOU38503.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151842101|gb|OOU42633.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151846148|gb|OOU46568.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151850745|gb|OOU51047.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151855938|gb|OOU56048.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151856198|gb|OOU56298.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151863550|gb|OOU63395.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151868090|gb|OOU67723.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151872004|gb|OOU71464.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151875017|gb|OOU74364.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151879391|gb|OOU78633.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151881906|gb|OOU81077.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151890734|gb|OOU89673.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151898748|gb|OOU97461.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1151899963|gb|OOU98629.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1159446268|gb|OPH94648.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1159448533|gb|OPH96810.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1159453191|gb|OPI01215.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1159453628|gb|OPI01634.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1169070383|gb|OQJ85953.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1174175731|emb|SMB76495.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1174182653|emb|SMB70566.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1175693169|gb|ARF94186.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1175699084|gb|ARF97965.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1175704838|gb|ARG01458.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1175710708|gb|ARG07326.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1175711805|gb|ARG08420.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1175717628|gb|ARG14236.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1175725030|gb|ARG21348.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1175747119|gb|ARG25919.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1175772325|gb|ARG27651.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1176375398|gb|OQY63080.1| Butyryl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1179635177|emb|SMD53252.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1179798856|gb|ORJ00272.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1190025189|gb|OSY65467.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1190030813|gb|OSY70862.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1190032148|gb|OSY72118.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192343449|gb|OTK24874.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192361777|gb|OTK42841.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192383175|gb|OTK63907.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192383649|gb|OTK64360.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192391122|gb|OTK71512.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192403864|gb|OTK83848.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192404760|gb|OTK84691.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192410425|gb|OTK90118.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192425667|gb|OTL04758.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192429077|gb|OTL07983.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192435793|gb|OTL14465.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192464093|gb|OTL41670.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192481084|gb|OTL57716.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192493011|gb|OTL69372.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192494138|gb|OTL70460.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192495509|gb|OTL71787.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192505379|gb|OTL81414.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192510331|gb|OTL86253.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192517529|gb|OTL93235.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192526585|gb|OTM02025.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192531565|gb|OTM06869.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192537805|gb|OTM12869.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192553421|gb|OTM28082.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192568017|gb|OTM42372.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192584714|gb|OTM58732.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192592471|gb|OTM66294.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192597128|gb|OTM70825.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192606097|gb|OTM79533.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192616028|gb|OTM89197.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192624671|gb|OTM97532.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192628583|gb|OTN01342.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192644049|gb|OTN16370.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192658843|gb|OTN30923.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192661702|gb|OTN33739.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192667108|gb|OTN38997.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192668616|gb|OTN40463.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192680511|gb|OTN51963.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192684935|gb|OTN56267.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192685208|gb|OTN56529.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192689351|gb|OTN60573.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193213082|gb|OTR36661.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193221042|gb|OTR44413.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193224233|gb|OTR47482.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193229016|gb|OTR52089.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193235272|gb|OTR58181.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193237115|gb|OTR59972.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193242349|gb|OTR65017.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193247135|gb|OTR69638.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193252109|gb|OTR74457.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193257659|gb|OTR79842.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193260301|gb|OTR82386.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193265790|gb|OTR87682.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193286416|gb|OTS07639.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193298285|gb|OTS19277.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193303307|gb|OTS24190.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193304060|gb|OTS24918.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193320095|gb|OTS40552.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193331207|gb|OTS51462.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193336842|gb|OTS56993.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193353026|gb|OTS72763.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193355638|gb|OTS75286.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193360106|gb|OTS79635.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193360328|gb|OTS79850.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193360880|gb|OTS80390.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193372944|gb|OTS92202.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193374099|gb|OTS93337.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193377811|gb|OTS96958.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193388393|gb|OTT07280.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193395625|gb|OTT14339.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193427985|gb|OTT45911.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193430854|gb|OTT48703.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193441854|gb|OTT59364.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193448600|gb|OTT65943.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193449033|gb|OTT66365.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193465837|gb|OTT82672.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193468446|gb|OTT85204.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193477224|gb|OTT93812.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193562919|gb|OTU77677.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193565994|gb|OTU80654.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193570173|gb|OTU84724.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193580239|gb|OTU94528.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576657</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|446498791|ref|WP_000576645.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|260410005|gb|EEX03305.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gi|452948164|gb|EME53645.1| acyl-CoA dehydrogenase [Acinetobacter baumannii MSP4-16] &gt;gi|480138737|gb|ENW76006.1| hypothetical protein F911_01290 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gi|668717547|gb|KFC03177.1| hypothetical protein DJ41_1767 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gi|1188468429|gb|ARN30143.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576645</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|691043472|ref|WP_031993196.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|593536909|gb|EXR21306.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1295549] &gt;gi|593611853|gb|EXR93375.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 277047] &gt;gi|593659996|gb|EXS39692.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 426863]</Hit_def>
+  <Hit_accession>WP_031993196</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|446498786|ref|WP_000576640.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|410392763|gb|EKP45120.1| PF09317 domain protein [Acinetobacter baumannii OIFC111] &gt;gi|587849403|gb|EXB39632.1| acyl-CoA dehydrogenase, N-terminal domain protein [Acinetobacter baumannii 1461963] &gt;gi|589463552|gb|EXH45672.1| acyl-CoA dehydrogenase, N-terminal domain protein [Acinetobacter baumannii 1293320] &gt;gi|942817244|gb|KQD89898.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942827250|gb|KQD98841.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192469396|gb|OTL46799.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192553138|gb|OTM27800.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192653197|gb|OTN25384.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193499043|gb|OTU15285.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576640</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.24694e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|953976473|ref|WP_058062209.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|953632499|gb|KRW19296.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_058062209</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.28168e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|691053439|ref|WP_031999470.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|587803682|gb|EXA95885.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1267820] &gt;gi|675326866|gb|AIL76387.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942873519|gb|KQE40860.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_031999470</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.28168e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|960282699|ref|WP_058207782.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|846384961|emb|CRL95234.1| Acyl-coenzyme A dehydrogenase(ACDH) [Acinetobacter baumannii] &gt;gi|974572768|emb|CUW35916.1| Acyl-coenzyme A dehydrogenase(ACDH) [Acinetobacter baumannii] &gt;gi|984622315|emb|CDM72955.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii P630]</Hit_def>
+  <Hit_accession>WP_058207782</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.28168e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|638869096|ref|WP_024433594.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_024433594</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.28168e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|691145262|ref|WP_032058109.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|589561547|gb|EXI40527.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 846928]</Hit_def>
+  <Hit_accession>WP_032058109</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.28168e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|446498787|ref|WP_000576641.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|588143262|gb|EXE18634.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 1106579] &gt;gi|588200862|gb|EXE73949.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 83444] &gt;gi|885078521|gb|KMV27212.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii] &gt;gi|942739629|gb|KQD18615.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942755882|gb|KQD34130.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948359418|gb|KRI57246.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948436077|gb|KRJ26267.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1096438962|gb|OID26465.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192474749|gb|OTL51756.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1192480739|gb|OTL57398.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1193561395|gb|OTU76200.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576641</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.28168e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1040793094|ref|WP_065118479.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1038574006|gb|OBL18486.1| acyl-CoA dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_065118479</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.31678e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|446498800|ref|WP_000576654.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|942748735|gb|KQD27374.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|948451404|gb|KRJ40594.1| acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|1015745709|gb|KZA51567.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015768111|gb|KZA73581.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015769835|gb|KZA75300.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015780071|gb|KZA85395.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii] &gt;gi|1015781374|gb|KZA86691.1| Acyl-coenzyme A dehydrogenase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000576654</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.31678e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|691148119|ref|WP_032060622.1|</Hit_id>
+  <Hit_def>acyl-CoA dehydrogenase [Acinetobacter baumannii] &gt;gi|588217223|gb|EXE89902.1| acyl-CoA dehydrogenase, C-terminal domain protein [Acinetobacter baumannii 532279]</Hit_def>
+  <Hit_accession>WP_032060622</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>3.35227e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPSLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLLK</Hsp_qseq>
+      <Hsp_hseq>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYPTLSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGLAK</Hsp_hseq>
+      <Hsp_midline>MPSISTTEQEALEAGTSWWEKELFMGAPDWSQFEKYPYP+LSPEEQSFIDNEVEVLCSMLDEWEIHHQLKDLPPEVWQFIKDKGFLGLIIPKSFGGKEFSSFAQSRIMSKIASRSLTAAVSCMVPNSLGPGELLMHYGTDAQKQQYLPGL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>124194090</Statistics_db-num>
+      <Statistics_db-len>45577448106</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
 
 pfam
 {'PF02771': {'accession': 'PF02771.15', 'class': 'Domain', 'id': 'Acyl-CoA_dh_N', 'locations': {'ali_end': '32', 'ali_start': '12', 'bitscore': '-2.76261377334595', 'end': '32', 'evalue': '7.9e-17', 'evidence': 'hmmer v3.0', 'hmm_end': '28', 'hmm_start': '8', 'significant': None, 'start': '12'}, 'type': 'Pfam-A'}}
@@ -14,4 +1456,7 @@ kegg
 noHomology
 
 go
-['GO:oxidoreductase activity, acting on the CH-CH group of donors ; GO:0016627', 'GO:flavin adenine dinucleotide binding ; GO:0050660', 'GO:oxidation-reduction process ; GO:0055114']
+future go data
+
+comments
+398 -> putative acyl-CoA dehydrogenase -> "Contains the N-terminal domain of acyl-CoA dehydrogenase, which catalyze the initial step in each cycle of fatty acid β-oxidation. Not likely to be related to antibacterial resistance."

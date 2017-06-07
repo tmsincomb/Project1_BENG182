@@ -2,7 +2,1449 @@ id
 ABO13729
 
 blast
-['gi|126386852|gb|ABO11350.1|', 'hypothetical protein A1S_0918 [Acinetobacter baumannii ATCC 17978] >gi|604703814|gb|EYU48765.1| hypo...', 'ABO11350', '9.02826e-34']
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_86659</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>57</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_86659</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>57</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|126386852|gb|ABO11350.1|</Hit_id>
+  <Hit_def>hypothetical protein A1S_0918 [Acinetobacter baumannii ATCC 17978] &gt;gi|604703814|gb|EYU48765.1| hypothetical protein J616_02404 [Acinetobacter baumannii 1457504]</Hit_def>
+  <Hit_accession>ABO11350</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>9.02826e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|480122168|gb|ENW59870.1|</Hit_id>
+  <Hit_def>hypothetical protein F915_02712 [Acinetobacter baumannii NIPH 70]</Hit_def>
+  <Hit_accession>ENW59870</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>3.52619e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICREPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICR+PVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|588161927|gb|EXE36366.1|</Hit_id>
+  <Hit_def>hypothetical protein J573_3159 [Acinetobacter baumannii 1546444]</Hit_def>
+  <Hit_accession>EXE36366</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>3.62097e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|589225025|gb|EXG68526.1|</Hit_id>
+  <Hit_def>hypothetical protein J753_2643 [Acinetobacter baumannii 24812_10] &gt;gi|593579905|gb|EXR62632.1| hypothetical protein J695_1343 [Acinetobacter baumannii 1406182] &gt;gi|593589492|gb|EXR71815.1| hypothetical protein J697_2606 [Acinetobacter baumannii 14216] &gt;gi|593945108|gb|EXT98661.1| hypothetical protein J780_2023 [Acinetobacter baumannii 25253_7] &gt;gi|593991484|gb|EXU43618.1| hypothetical protein J759_1103 [Acinetobacter baumannii 24845_6] &gt;gi|595238574|gb|EXW59852.1| hypothetical protein J880_0977 [Acinetobacter baumannii 44467_7] &gt;gi|595282070|gb|EXX00660.1| hypothetical protein J888_1511 [Acinetobacter baumannii 44327_5] &gt;gi|598507566|gb|EYC61124.1| hypothetical protein J931_1266 [Acinetobacter baumannii 44437_8] &gt;gi|598510418|gb|EYC63825.1| hypothetical protein J932_1402 [Acinetobacter baumannii 44437_9] &gt;gi|598590694|gb|EYD38177.1| hypothetical protein J945_2666 [Acinetobacter baumannii 25878_2] &gt;gi|601346479|gb|EYR97440.1| hypothetical protein J974_1075 [Acinetobacter baumannii 26016_8] &gt;gi|601362254|gb|EYS12586.1| hypothetical protein J976_1528 [Acinetobacter baumannii 26016_10] &gt;gi|610965577|gb|EZI72290.1| hypothetical protein J986_1417 [Acinetobacter baumannii 44298_10] &gt;gi|610986964|gb|EZI92760.1| hypothetical protein J978_1682 [Acinetobacter baumannii 44298_2] &gt;gi|610999440|gb|EZJ04742.1| hypothetical protein J966_1384 [Acinetobacter baumannii 44839_10] &gt;gi|628987873|gb|KCV87643.1| hypothetical protein J981_2002 [Acinetobacter baumannii 44298_5]</Hit_def>
+  <Hit_accession>EXG68526</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>3.70121e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|914307051|gb|KOA05605.1|</Hit_id>
+  <Hit_def>membrane protein, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>KOA05605</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>3.80869e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|593567073|gb|EXR50299.1|</Hit_id>
+  <Hit_def>hypothetical protein J661_0507 [Acinetobacter baumannii 1391434] &gt;gi|593608688|gb|EXR90317.1| hypothetical protein J680_2712 [Acinetobacter baumannii 277047] &gt;gi|593658839|gb|EXS38557.1| hypothetical protein J677_0876 [Acinetobacter baumannii 426863]</Hit_def>
+  <Hit_accession>EXR50299</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>4.17534e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|491212448|ref|WP_005070779.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter pittii] &gt;gi|480074218|gb|ENW12933.1| hypothetical protein F930_02893 [Acinetobacter pittii ANC 3678] &gt;gi|1003339628|gb|AMO41437.1| hypothetical protein A0J50_12845 [Acinetobacter sp. DUT-2] &gt;gi|1192340117|gb|OTK21617.1| DUF1275 family protein [Acinetobacter pittii]</Hit_def>
+  <Hit_accession>WP_005070779</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.17571e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGAAW</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488046346|ref|WP_002117743.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF1275 family protein [Acinetobacter calcoaceticus/baumannii complex] &gt;gi|425698795|gb|EKU68428.1| PF06912 family protein [Acinetobacter sp. WC-136] &gt;gi|589187288|gb|EXG32366.1| hypothetical protein J733_1491 [Acinetobacter sp. 263903-2] &gt;gi|589443229|gb|EXH26115.1| hypothetical protein J623_3540 [Acinetobacter sp. 1245249] &gt;gi|602198464|gb|EYT27555.1| hypothetical protein J622_00902 [Acinetobacter sp. 1564232] &gt;gi|943020954|gb|KQF71415.1| hypothetical protein APC19_16045 [Acinetobacter pittii] &gt;gi|943052782|gb|KQF99284.1| hypothetical protein APC22_05900 [Acinetobacter pittii] &gt;gi|948414020|gb|KRJ06738.1| hypothetical protein APC76_15870 [Acinetobacter pittii] &gt;gi|1053348424|gb|OCY44852.1| hypothetical protein BFR79_16795 [Acinetobacter pittii] &gt;gi|1053390405|gb|OCY84866.1| hypothetical protein BFR90_18045 [Acinetobacter pittii] &gt;gi|1053436731|gb|OCZ27058.1| hypothetical protein BFR68_16265 [Acinetobacter pittii] &gt;gi|1151656978|gb|OOS62403.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1192380300|gb|OTK61074.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1192447419|gb|OTL25632.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1192459461|gb|OTL37282.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1192572805|gb|OTM47076.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1193280497|gb|OTS01937.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1193285270|gb|OTS06529.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1193323932|gb|OTS44307.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1193392497|gb|OTT11290.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1193426799|gb|OTT44751.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1193521259|gb|OTU36960.1| DUF1275 family protein [Acinetobacter pittii]</Hit_def>
+  <Hit_accession>WP_002117743</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.2211e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGAAW</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|923940470|gb|KOR73020.1|</Hit_id>
+  <Hit_def>membrane protein, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>KOR73020</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.43384e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|491217053|ref|WP_005075376.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter pittii] &gt;gi|480070600|gb|ENW09369.1| hypothetical protein F928_03435 [Acinetobacter pittii ATCC 19004 = CIP 70.29] &gt;gi|948316700|gb|KRI18365.1| hypothetical protein APC96_01045 [Acinetobacter pittii] &gt;gi|1053326944|gb|OCY24324.1| hypothetical protein BFR64_06465 [Acinetobacter pittii] &gt;gi|1053337189|gb|OCY34182.1| hypothetical protein BFR74_03035 [Acinetobacter pittii] &gt;gi|1053411423|gb|OCZ04380.1| hypothetical protein BFR93_01870 [Acinetobacter pittii] &gt;gi|1053431231|gb|OCZ22054.1| hypothetical protein BFS00_15310 [Acinetobacter pittii] &gt;gi|1053439969|gb|OCZ30087.1| hypothetical protein BFR69_10770 [Acinetobacter pittii] &gt;gi|1192450254|gb|OTL28381.1| DUF1275 family protein [Acinetobacter pittii] &gt;gi|1192640906|gb|OTN13309.1| DUF1275 family protein [Acinetobacter pittii]</Hit_def>
+  <Hit_accession>WP_005075376</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>4.45557e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGLRW</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAGAAW</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|444761656|gb|ELW86043.1|</Hit_id>
+  <Hit_def>PF06912 domain protein [Acinetobacter baumannii WC-A-92]</Hit_def>
+  <Hit_accession>ELW86043</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>4.93847e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|587832386|gb|EXB23233.1|</Hit_id>
+  <Hit_def>hypothetical protein J516_0760 [Acinetobacter baumannii 1406750]</Hit_def>
+  <Hit_accession>EXB23233</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>7.29474e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|593557109|gb|EXR40673.1|</Hit_id>
+  <Hit_def>hypothetical protein J668_0478 [Acinetobacter baumannii 1276470-86] &gt;gi|598591434|gb|EYD38889.1| hypothetical protein J921_0147 [Acinetobacter baumannii 25493_8] &gt;gi|598599559|gb|EYD46468.1| hypothetical protein J919_0967 [Acinetobacter baumannii 25493_6] &gt;gi|598622896|gb|EYD68403.1| hypothetical protein J923_0130 [Acinetobacter baumannii 25493_10] &gt;gi|601428799|gb|EYS76608.1| hypothetical protein J998_2033 [Acinetobacter baumannii 16553_2] &gt;gi|630401702|gb|KCX20726.1| hypothetical protein J708_1342 [Acinetobacter baumannii 1539026]</Hit_def>
+  <Hit_accession>EXR40673</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.7351e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWVICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTW ICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|691101792|ref|WP_032027371.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|588089280|gb|EXD69354.1| hypothetical protein J481_1817 [Acinetobacter baumannii 662545-1347]</Hit_def>
+  <Hit_accession>WP_032027371</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.77744e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|757486082|ref|WP_042757967.1|</Hit_id>
+  <Hit_def>DUF1275 family protein, partial [Acinetobacter baumannii] &gt;gi|630457372|gb|KCX71214.1| hypothetical protein J560_3603, partial [Acinetobacter baumannii 855125]</Hit_def>
+  <Hit_accession>WP_042757967</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.78618e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1040989781|ref|WP_065189005.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1038675212|gb|OBM15541.1| hypothetical protein A9933_01075 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_065189005</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.81627e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|691000579|ref|WP_031968008.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|594006036|gb|EXU57913.1| hypothetical protein J763_2172 [Acinetobacter baumannii 24845_10]</Hit_def>
+  <Hit_accession>WP_031968008</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.83601e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|491281854|ref|WP_005139925.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|480129935|gb|ENW67395.1| hypothetical protein F913_03283 [Acinetobacter baumannii NIPH 80]</Hit_def>
+  <Hit_accession>WP_005139925</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.85596e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|447038098|ref|WP_001115354.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_001115354</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.959e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1196643398|ref|WP_086231399.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|1192474788|gb|OTL51792.1| hypothetical protein B9Y01_05925 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_086231399</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.98028e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|949690155|ref|WP_057054703.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|943159265|gb|KQG92567.1| hypothetical protein APC57_01610 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_057054703</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.0018e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|690993212|ref|WP_031962948.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|587768386|gb|EXA62670.1| hypothetical protein J521_0949 [Acinetobacter baumannii 1035119] &gt;gi|1038835732|gb|OBN69967.1| hypothetical protein A9894_04945 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_031962948</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.0018e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|447038097|ref|WP_001115353.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF1275 family protein [Acinetobacter calcoaceticus/baumannii complex] &gt;gi|213055884|gb|ACJ40786.1| hypothetical protein AB57_0994 [Acinetobacter baumannii AB0057] &gt;gi|213989087|gb|ACJ59386.1| conserved hypothetical protein [Acinetobacter baumannii AB307-0294] &gt;gi|260410762|gb|EEX04060.1| hypothetical protein HMPREF0010_01454 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gi|395557707|gb|EJG23708.1| PF06912 family protein [Acinetobacter baumannii OIFC143] &gt;gi|400208645|gb|EJO39615.1| PF06912 family protein [Acinetobacter baumannii Canada BC-5] &gt;gi|400383237|gb|EJP41915.1| PF06912 family protein [Acinetobacter baumannii OIFC032] &gt;gi|400385867|gb|EJP48942.1| PF06912 family protein [Acinetobacter baumannii Naval-18] &gt;gi|404557960|gb|EKA63248.1| PF06912 family protein [Acinetobacter baumannii IS-116] &gt;gi|404567125|gb|EKA72253.1| PF06912 family protein [Acinetobacter baumannii WC-692] &gt;gi|404570556|gb|EKA75629.1| PF06912 family protein [Acinetobacter baumannii IS-58] &gt;gi|404668775|gb|EKB36684.1| hypothetical protein W9K_01937 [Acinetobacter baumannii Ab33333] &gt;gi|407193537|gb|EKE64693.1| hypothetical protein B825_05661 [Acinetobacter baumannii ZWS1122] &gt;gi|407193821|gb|EKE64970.1| hypothetical protein B837_05371 [Acinetobacter baumannii ZWS1219] &gt;gi|407900480|gb|AFU37311.1| permease transmembrane protein [Acinetobacter baumannii TYTH-1] &gt;gi|408508137|gb|EKK09823.1| PF06912 family protein [Acinetobacter baumannii IS-235] &gt;gi|408517572|gb|EKK19110.1| PF06912 family protein [Acinetobacter baumannii IS-251] &gt;gi|408701676|gb|EKL47099.1| PF06912 family protein [Acinetobacter baumannii OIFC074] &gt;gi|408709367|gb|EKL54613.1| PF06912 family protein [Acinetobacter baumannii Naval-83] &gt;gi|408715844|gb|EKL60966.1| PF06912 family protein [Acinetobacter baumannii OIFC110] &gt;gi|410383064|gb|EKP35598.1| PF06912 family protein [Acinetobacter baumannii OIFC065] &gt;gi|410386498|gb|EKP38969.1| PF06912 family protein [Acinetobacter baumannii OIFC087] &gt;gi|410387231|gb|EKP39687.1| PF06912 family protein [Acinetobacter baumannii OIFC099] &gt;gi|410390604|gb|EKP42987.1| PF06912 family protein [Acinetobacter baumannii OIFC111] &gt;gi|410395291|gb|EKP47598.1| PF06912 family protein [Acinetobacter baumannii Naval-21] &gt;gi|410405087|gb|EKP57140.1| PF06912 family protein [Acinetobacter baumannii Canada BC1] &gt;gi|410416660|gb|EKP68432.1| PF06912 family protein [Acinetobacter baumannii OIFC035] &gt;gi|444764572|gb|ELW88885.1| PF06912 family protein [Acinetobacter baumannii AA-014] &gt;gi|444778178|gb|ELX02197.1| PF06912 family protein [Acinetobacter baumannii OIFC338] &gt;gi|444783097|gb|ELX06959.1| PF06912 family protein [Acinetobacter baumannii Naval-57] &gt;gi|452954265|gb|EME59669.1| hypothetical protein G347_03165 [Acinetobacter baumannii MSP4-16] &gt;gi|469494583|gb|AGH34761.1| hypothetical protein ABD1_08710 [Acinetobacter baumannii D1279779] &gt;gi|475927630|gb|EMT96573.1| hypothetical protein ABNIH6_07447 [Acinetobacter baumannii ABNIH6] &gt;gi|475935795|gb|EMU04002.1| hypothetical protein ABNIH11_05523 [Acinetobacter baumannii ABNIH11] &gt;gi|475936541|gb|EMU04683.1| hypothetical protein ABNIH7_06057 [Acinetobacter baumannii ABNIH7] &gt;gi|475938860|gb|EMU06757.1| hypothetical protein ABNIH10_12045 [Acinetobacter baumannii ABNIH10] &gt;gi|475963598|gb|EMU29582.1| hypothetical protein ABNIH19_11727 [Acinetobacter baumannii ABNIH19] &gt;gi|479917779|gb|ENU65991.1| hypothetical protein F979_01408 [Acinetobacter baumannii NIPH 146] &gt;gi|479922183|gb|ENU70121.1| hypothetical protein F978_01552 [Acinetobacter baumannii NIPH 615] &gt;gi|480096091|gb|ENW34242.1| hypothetical protein F922_02806 [Acinetobacter baumannii NIPH 201] &gt;gi|480097982|gb|ENW36107.1| hypothetical protein F921_02862 [Acinetobacter baumannii NIPH 527] &gt;gi|480111121|gb|ENW48991.1| hypothetical protein F917_02867 [Acinetobacter baumannii NIPH 67] &gt;gi|480124819|gb|ENW62448.1| hypothetical protein F914_02764 [Acinetobacter baumannii NIPH 290] &gt;gi|480133417|gb|ENW70821.1| hypothetical protein F912_00923 [Acinetobacter baumannii ANC 4097] &gt;gi|480137209|gb|ENW74505.1| hypothetical protein F911_03015 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gi|514156883|gb|EPG36412.1| hypothetical protein F910_02959 [Acinetobacter baumannii NIPH 410] &gt;gi|522345461|gb|AGQ09580.1| putative membrane protein [Acinetobacter baumannii BJAB0868] &gt;gi|527239170|gb|EPS77472.1| PF06912 family protein [Acinetobacter baumannii 1605] &gt;gi|542020650|gb|ERH66404.1| membrane protein [Acinetobacter baumannii EGD-HP18] &gt;gi|551227309|emb|CDG77994.1| hypothetical protein ABICBIBUN_05217 [Acinetobacter baumannii 107m] &gt;gi|564741850|gb|AHB92346.1| hypothetical protein P795_13105 [Acinetobacter baumannii ZW85-1] &gt;gi|571584522|gb|ETP77877.1| PF06912 family protein [Acinetobacter baumannii UH0207] &gt;gi|571605525|gb|ETP98061.1| PF06912 family protein [Acinetobacter baumannii UH11608] &gt;gi|571624859|gb|ETQ16763.1| PF06912 family protein [Acinetobacter baumannii UH13908] &gt;gi|571628155|gb|ETQ19960.1| PF06912 family protein [Acinetobacter baumannii UH12208] &gt;gi|571644928|gb|ETQ36183.1| PF06912 family protein [Acinetobacter baumannii UH16208] &gt;gi|571650487|gb|ETQ41562.1| PF06912 family protein [Acinetobacter baumannii UH18608] &gt;gi|571658018|gb|ETQ48819.1| PF06912 family protein [Acinetobacter baumannii UH19908] &gt;gi|571667522|gb|ETQ57990.1| PF06912 family protein [Acinetobacter baumannii UH19608] &gt;gi|571670651|gb|ETQ61004.1| PF06912 family protein [Acinetobacter baumannii UH20108] &gt;gi|571673932|gb|ETQ64182.1| PF06912 family protein [Acinetobacter baumannii UH22908] &gt;gi|571694286|gb|ETQ83776.1| PF06912 family protein [Acinetobacter baumannii UH5207] &gt;gi|571696406|gb|ETQ85834.1| PF06912 family protein [Acinetobacter baumannii UH5307] &gt;gi|571708139|gb|ETQ97164.1| PF06912 family protein [Acinetobacter baumannii UH6207] &gt;gi|571711971|gb|ETR00917.1| PF06912 family protein [Acinetobacter baumannii UH6507] &gt;gi|571716413|gb|ETR05206.1| PF06912 family protein [Acinetobacter baumannii UH7607] &gt;gi|571716821|gb|ETR05599.1| PF06912 family protein [Acinetobacter baumannii UH6907] &gt;gi|571731058|gb|ETR19296.1| PF06912 family protein [Acinetobacter baumannii UH7907] &gt;gi|571753186|gb|ETR40645.1| PF06912 family protein [Acinetobacter baumannii UH8807] &gt;gi|571772825|gb|ETR59778.1| PF06912 family protein [Acinetobacter baumannii UH8907] &gt;gi|572034334|gb|ETR88132.1| hypothetical protein M214_1046 [Acinetobacter baumannii CI86] &gt;gi|572036760|gb|ETR90500.1| hypothetical protein M212_1068 [Acinetobacter baumannii CI79] &gt;gi|573037185|gb|ETS69178.1| PF06912 family protein [Acinetobacter baumannii UH3807] &gt;gi|586959146|gb|AHJ92441.1| membrane protein [Acinetobacter baumannii PKAB07] &gt;gi|587760714|gb|EXA55442.1| hypothetical protein J505_3471 [Acinetobacter baumannii 1297549] &gt;gi|587772337|gb|EXA66291.1| hypothetical protein J503_2389 [Acinetobacter baumannii 984213] &gt;gi|587796302|gb|EXA88806.1| hypothetical protein J517_0810 [Acinetobacter baumannii 118362] &gt;gi|587815192|gb|EXB06807.1| hypothetical protein J512_1044 [Acinetobacter baumannii 1295743] &gt;gi|587829659|gb|EXB20579.1| hypothetical protein J535_1331 [Acinetobacter baumannii 1429530] &gt;gi|587850568|gb|EXB40743.1| hypothetical protein J544_2643 [Acinetobacter baumannii 1461963] &gt;gi|587859858|gb|EXB49807.1| hypothetical protein J540_2459 [Acinetobacter baumannii 1440422] &gt;gi|587894157|gb|EXB82687.1| hypothetical protein J542_2469 [Acinetobacter baumannii 299505] &gt;gi|587922483|gb|EXC09880.1| hypothetical protein J506_0117 [Acinetobacter baumannii 625974] &gt;gi|587931044|gb|EXC18142.1| hypothetical protein J533_0885 [Acinetobacter baumannii 4749] &gt;gi|587939935|gb|EXC26565.1| hypothetical protein J536_2927 [Acinetobacter sp. 809848] &gt;gi|587986062|gb|EXC70471.1| hypothetical protein J463_2045 [Acinetobacter baumannii 1043794] &gt;gi|588071592|gb|EXD52564.1| hypothetical protein J498_2743 [Acinetobacter baumannii 781407] &gt;gi|588109244|gb|EXD87766.1| hypothetical protein J462_3030 [Acinetobacter baumannii 972082] &gt;gi|588131891|gb|EXE07952.1| hypothetical protein J556_1137 [Acinetobacter baumannii 1096934] &gt;gi|588149436|gb|EXE24452.1| hypothetical protein J569_3656 [Acinetobacter sp. 907131] &gt;gi|588155318|gb|EXE30102.1| hypothetical protein J564_1997 [Acinetobacter baumannii 1525283] &gt;gi|588200997|gb|EXE74079.1| hypothetical protein J587_1151 [Acinetobacter baumannii 144107] &gt;gi|588213574|gb|EXE86283.1| hypothetical protein J591_2913 [Acinetobacter baumannii 532279] &gt;gi|588223975|gb|EXE96467.1| hypothetical protein J593_0605 [Acinetobacter baumannii 232184] &gt;gi|588238515|gb|EXF10452.1| hypothetical protein J600_0779 [Acinetobacter baumannii 268680] &gt;gi|588243295|gb|EXF15095.1| hypothetical protein J601_3705 [Acinetobacter baumannii 831240] &gt;gi|588248477|gb|EXF20174.1| hypothetical protein J602_1372 [Acinetobacter baumannii 1417041] &gt;gi|589407030|gb|EXG91590.1| hypothetical protein J624_1349 [Acinetobacter baumannii 1062314] &gt;gi|589419972|gb|EXH04173.1| hypothetical protein J649_0592 [Acinetobacter baumannii 1064293_45] &gt;gi|589460948|gb|EXH43118.1| hypothetical protein J651_2002 [Acinetobacter baumannii 1293320] &gt;gi|589467507|gb|EXH49388.1| hypothetical protein J605_1523 [Acinetobacter baumannii 1412924] &gt;gi|589507600|gb|EXH88056.1| hypothetical protein J606_3073 [Acinetobacter baumannii 318814] &gt;gi|589560153|gb|EXI39143.1| hypothetical protein J647_1613 [Acinetobacter baumannii 846928] &gt;gi|593537626|gb|EXR22015.1| hypothetical protein J669_0899 [Acinetobacter baumannii 1295549] &gt;gi|593603172|gb|EXR84962.1| hypothetical protein J685_0833 [Acinetobacter baumannii 541915] &gt;gi|593636057|gb|EXS16534.1| hypothetical protein J672_1784 [Acinetobacter sp. 883425] &gt;gi|602189769|gb|EYT18938.1| hypothetical protein J592_01676 [Acinetobacter baumannii 655378] &gt;gi|607875727|gb|EZF20911.1| hypothetical protein BA73_01034 [Acinetobacter baumannii R1B] &gt;gi|613738183|gb|AHX28529.1| membrane protein [Acinetobacter baumannii AC12] &gt;gi|615558398|gb|AHX65922.1| membrane protein [Acinetobacter baumannii AC30] &gt;gi|630501384|gb|KCY10304.1| hypothetical protein J599_2842 [Acinetobacter baumannii 1598530] &gt;gi|630515368|gb|KCY23630.1| hypothetical protein J635_1207 [Acinetobacter baumannii 233846] &gt;gi|640863280|gb|AIA52377.1| membrane protein [Acinetobacter baumannii] &gt;gi|668718478|gb|KFC04102.1| hypothetical protein DJ41_2615 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gi|675327726|gb|AIL77246.1| membrane protein [Acinetobacter baumannii] &gt;gi|692329467|gb|AIS05668.1| membrane protein [Acinetobacter baumannii] &gt;gi|693580900|dbj|BAP67681.1| DUF1275 domain-containing protein [Acinetobacter baumannii] &gt;gi|701451283|gb|KGP66611.1| PF06912 family protein [Acinetobacter baumannii AB5075] &gt;gi|741267424|gb|KHT90345.1| membrane protein [Acinetobacter baumannii] &gt;gi|741267916|gb|KHT90831.1| membrane protein [Acinetobacter baumannii] &gt;gi|741271571|gb|KHT94407.1| membrane protein [Acinetobacter baumannii] &gt;gi|741279296|gb|KHV01916.1| membrane protein [Acinetobacter baumannii] &gt;gi|741342889|gb|KHV61996.1| membrane protein [Acinetobacter baumannii] &gt;gi|741352507|gb|KHV71007.1| membrane protein [Acinetobacter baumannii] &gt;gi|741354144|gb|KHV72610.1| membrane protein [Acinetobacter baumannii] &gt;gi|741359327|gb|KHV77718.1| membrane protein [Acinetobacter baumannii] &gt;gi|741367033|gb|KHV85101.1| membrane protein [Acinetobacter baumannii] &gt;gi|741382130|gb|KHV99715.1| membrane protein [Acinetobacter baumannii] &gt;gi|741388124|gb|KHW05536.1| membrane protein [Acinetobacter baumannii] &gt;gi|741422007|gb|KHW38102.1| membrane protein [Acinetobacter baumannii] &gt;gi|741449358|gb|KHW64510.1| membrane protein [Acinetobacter baumannii] &gt;gi|741467162|gb|KHW81441.1| membrane protein [Acinetobacter baumannii] &gt;gi|741471522|gb|KHW85483.1| membrane protein [Acinetobacter baumannii] &gt;gi|741476961|gb|KHW90673.1| membrane protein [Acinetobacter baumannii] &gt;gi|741477816|gb|KHW91508.1| membrane protein [Acinetobacter baumannii] &gt;gi|741484520|gb|KHW97975.1| membrane protein [Acinetobacter baumannii] &gt;gi|741488864|gb|KHX02083.1| membrane protein [Acinetobacter baumannii] &gt;gi|741492880|gb|KHX06018.1| membrane protein [Acinetobacter baumannii] &gt;gi|741493438|gb|KHX06563.1| membrane protein [Acinetobacter baumannii] &gt;gi|741504395|gb|KHX16890.1| membrane protein [Acinetobacter baumannii] &gt;gi|741506850|gb|KHX19245.1| membrane protein [Acinetobacter baumannii] &gt;gi|741509117|gb|KHX21354.1| membrane protein [Acinetobacter baumannii] &gt;gi|741514660|gb|KHX26718.1| membrane protein [Acinetobacter baumannii] &gt;gi|741518663|gb|KHX30512.1| membrane protein [Acinetobacter baumannii] &gt;gi|741528947|gb|KHX40438.1| membrane protein [Acinetobacter baumannii] &gt;gi|741531605|gb|KHX43054.1| membrane protein [Acinetobacter baumannii] &gt;gi|741566385|gb|KHX76180.1| membrane protein [Acinetobacter baumannii] &gt;gi|741576546|gb|KHX86060.1| membrane protein [Acinetobacter baumannii] &gt;gi|741587902|gb|KHX96995.1| membrane protein [Acinetobacter baumannii] &gt;gi|741591352|gb|KHY00379.1| membrane protein [Acinetobacter baumannii] &gt;gi|741598730|gb|KHY07523.1| membrane protein [Acinetobacter baumannii] &gt;gi|741600881|gb|KHY09639.1| membrane protein [Acinetobacter baumannii] &gt;gi|741602833|gb|KHY11514.1| membrane protein [Acinetobacter baumannii] &gt;gi|741610750|gb|KHY19234.1| membrane protein [Acinetobacter baumannii] &gt;gi|741611995|gb|KHY20468.1| membrane protein [Acinetobacter baumannii] &gt;gi|741621336|gb|KHY29355.1| membrane protein [Acinetobacter baumannii] &gt;gi|741637997|gb|KHY45639.1| membrane protein [Acinetobacter baumannii] &gt;gi|741658780|gb|KHY65733.1| membrane protein [Acinetobacter baumannii] &gt;gi|741667004|gb|KHY73706.1| membrane protein [Acinetobacter baumannii] &gt;gi|741683477|gb|KHY89791.1| membrane protein [Acinetobacter baumannii] &gt;gi|741697319|gb|KHZ03194.1| membrane protein [Acinetobacter baumannii] &gt;gi|741714329|gb|KHZ19720.1| membrane protein [Acinetobacter baumannii] &gt;gi|741783723|gb|KHZ86966.1| membrane protein [Acinetobacter baumannii] &gt;gi|741815475|gb|KIA17950.1| membrane protein [Acinetobacter baumannii] &gt;gi|741827451|gb|KIA29349.1| membrane protein [Acinetobacter baumannii] &gt;gi|741836204|gb|KIA37887.1| membrane protein [Acinetobacter baumannii] &gt;gi|741852660|gb|KIA53859.1| membrane protein [Acinetobacter baumannii] &gt;gi|743002364|gb|AJB67784.1| membrane protein [Acinetobacter baumannii] &gt;gi|751411687|gb|AJF80848.1| hypothetical protein ABA1_00946 [Acinetobacter baumannii] &gt;gi|756554788|gb|KIQ73413.1| hypothetical protein SE99_01719 [Acinetobacter baumannii] &gt;gi|765502256|gb|KJE61370.1| membrane protein [Acinetobacter baumannii] &gt;gi|765503395|gb|KJE62496.1| membrane protein [Acinetobacter baumannii] &gt;gi|765627425|gb|KJF09116.1| membrane protein [Acinetobacter baumannii] &gt;gi|767552968|gb|KJG73215.1| membrane protein [Acinetobacter baumannii] &gt;gi|767558123|gb|KJG76663.1| membrane protein [Acinetobacter baumannii] &gt;gi|787861737|gb|AKA32692.1| hypothetical protein ABUW_2978 [Acinetobacter baumannii] &gt;gi|794655010|gb|KJX72563.1| membrane protein [Acinetobacter baumannii] &gt;gi|803359004|gb|KKA97287.1| membrane protein [Acinetobacter baumannii] &gt;gi|808165930|emb|CQR67710.1| DUF1275 domain-containing protein [Acinetobacter baumannii] &gt;gi|808171082|emb|CQR87923.1| DUF1275 domain-containing protein [Acinetobacter baumannii] &gt;gi|808173821|emb|CRF37672.1| DUF1275 domain-containing protein [Acinetobacter baumannii] &gt;gi|821292162|gb|KKZ30236.1| membrane protein [Acinetobacter baumannii] &gt;gi|821292719|gb|KKZ30779.1| membrane protein [Acinetobacter baumannii] &gt;gi|821296457|gb|KKZ34450.1| membrane protein [Acinetobacter baumannii] &gt;gi|821306578|gb|KKZ44398.1| membrane protein [Acinetobacter baumannii] &gt;gi|821308212|gb|KKZ46005.1| membrane protein [Acinetobacter baumannii] &gt;gi|821311989|gb|KKZ49714.1| membrane protein [Acinetobacter baumannii] &gt;gi|831393563|gb|KLT78929.1| PF06912 family protein [Acinetobacter baumannii MRSN 7339] &gt;gi|831397619|gb|KLT82935.1| PF06912 family protein [Acinetobacter baumannii MRSN 4106] &gt;gi|831398873|gb|KLT84169.1| PF06912 family protein [Acinetobacter baumannii MRSN 3527] &gt;gi|831403954|gb|KLT89180.1| PF06912 family protein [Acinetobacter baumannii MRSN 3405] &gt;gi|831409697|gb|KLT94861.1| PF06912 family protein [Acinetobacter baumannii MRSN 58] &gt;gi|831412869|gb|KLT97984.1| PF06912 family protein [Acinetobacter baumannii MRSN 3942] &gt;gi|846383360|emb|CRL93633.1| hypothetical protein ABCIP7010_0910 [Acinetobacter baumannii] &gt;gi|884686950|gb|KMV01483.1| hypothetical protein AB994_0215 [Acinetobacter baumannii] &gt;gi|884694046|gb|KMV08576.1| hypothetical protein AB895_2448 [Acinetobacter baumannii] &gt;gi|884698579|gb|KMV12834.1| hypothetical protein AB988_2246 [Acinetobacter baumannii] &gt;gi|902759179|emb|CRX65655.1| hypothetical protein ABR2090_2741 [Acinetobacter baumannii] &gt;gi|923238088|gb|KOP89167.1| membrane protein [Acinetobacter baumannii] &gt;gi|927824967|gb|KPA49905.1| membrane protein [Acinetobacter baumannii] &gt;gi|939562668|gb|ALJ88841.1| DUF1275 domain-containing protein [Acinetobacter baumannii] &gt;gi|942717038|gb|KQC96856.1| hypothetical protein APD02_14255 [Acinetobacter baumannii] &gt;gi|942717211|gb|KQC97027.1| hypothetical protein APD03_12065 [Acinetobacter baumannii] &gt;gi|942760723|gb|KQD38753.1| hypothetical protein APD14_17915 [Acinetobacter baumannii] &gt;gi|942765415|gb|KQD43228.1| hypothetical protein APD15_06380 [Acinetobacter baumannii] &gt;gi|942767378|gb|KQD45054.1| hypothetical protein APD17_01990 [Acinetobacter baumannii] &gt;gi|942768413|gb|KQD45993.1| hypothetical protein APD16_07760 [Acinetobacter baumannii] &gt;gi|942785261|gb|KQD61034.1| hypothetical protein APD19_02955 [Acinetobacter baumannii] &gt;gi|942785346|gb|KQD61132.1| hypothetical protein APD20_08210 [Acinetobacter baumannii] &gt;gi|942786738|gb|KQD62356.1| hypothetical protein APD23_17960 [Acinetobacter baumannii] &gt;gi|942791595|gb|KQD66614.1| hypothetical protein APD21_03335 [Acinetobacter baumannii] &gt;gi|942793816|gb|KQD68543.1| hypothetical protein APD24_15205 [Acinetobacter baumannii] &gt;gi|942794329|gb|KQD68970.1| hypothetical protein APD22_12885 [Acinetobacter baumannii] &gt;gi|942800785|gb|KQD74710.1| hypothetical protein APD25_14795 [Acinetobacter baumannii] &gt;gi|942806715|gb|KQD80211.1| hypothetical protein APD26_08610 [Acinetobacter baumannii] &gt;gi|942811520|gb|KQD84651.1| hypothetical protein APD27_16650 [Acinetobacter baumannii] &gt;gi|942814926|gb|KQD87799.1| hypothetical protein APD30_19495 [Acinetobacter baumannii] &gt;gi|942820558|gb|KQD92808.1| hypothetical protein APD28_09375 [Acinetobacter baumannii] &gt;gi|942824465|gb|KQD96267.1| hypothetical protein APD32_05505 [Acinetobacter baumannii] &gt;gi|942828879|gb|KQE00368.1| hypothetical protein APD31_03375 [Acinetobacter baumannii] &gt;gi|942865900|gb|KQE33949.1| hypothetical protein APD41_18190 [Acinetobacter baumannii] &gt;gi|942879803|gb|KQE46638.1| hypothetical protein APD44_03310 [Acinetobacter baumannii] &gt;gi|942929521|gb|KQE91911.1| hypothetical protein APB96_15140 [Acinetobacter baumannii] &gt;gi|942989791|gb|KQF44983.1| hypothetical protein APC11_08635 [Acinetobacter baumannii] &gt;gi|943101402|gb|KQG41908.1| hypothetical protein APC41_14770 [Acinetobacter baumannii] &gt;gi|943114761|gb|KQG53855.1| hypothetical protein APC43_13790 [Acinetobacter baumannii] &gt;gi|943117114|gb|KQG55979.1| hypothetical protein APC44_06740 [Acinetobacter baumannii] &gt;gi|943117687|gb|KQG56513.1| hypothetical protein APC45_05675 [Acinetobacter baumannii] &gt;gi|943123182|gb|KQG61452.1| hypothetical protein APC46_08425 [Acinetobacter baumannii] &gt;gi|943131138|gb|KQG68581.1| hypothetical protein APC48_13890 [Acinetobacter baumannii] &gt;gi|943133714|gb|KQG70814.1| hypothetical protein APC47_04185 [Acinetobacter baumannii] &gt;gi|943135937|gb|KQG72644.1| hypothetical protein APC49_07720 [Acinetobacter baumannii] &gt;gi|943141360|gb|KQG77160.1| hypothetical protein APC51_09125 [Acinetobacter baumannii] &gt;gi|943145476|gb|KQG80752.1| hypothetical protein APC50_16095 [Acinetobacter baumannii] &gt;gi|943151036|gb|KQG85400.1| hypothetical protein APC52_05205 [Acinetobacter baumannii] &gt;gi|943155484|gb|KQG89199.1| hypothetical protein APC54_00245 [Acinetobacter baumannii] &gt;gi|943158161|gb|KQG91584.1| hypothetical protein APC56_10885 [Acinetobacter baumannii] &gt;gi|943171929|gb|KQH04100.1| hypothetical protein APC59_18550 [Acinetobacter baumannii] &gt;gi|944119215|gb|KQK46179.1| hypothetical protein AQ482_09940 [Acinetobacter baumannii] &gt;gi|948306067|gb|KRI07995.1| hypothetical protein APC85_05150 [Acinetobacter baumannii] &gt;gi|948310423|gb|KRI12245.1| hypothetical protein APC63_05130 [Acinetobacter baumannii] &gt;gi|948315118|gb|KRI16835.1| hypothetical protein APD07_10425 [Acinetobacter baumannii] &gt;gi|948343605|gb|KRI43988.1| hypothetical protein APC20_21230 [Acinetobacter baumannii] &gt;gi|948358881|gb|KRI56739.1| hypothetical protein APC60_08000 [Acinetobacter baumannii] &gt;gi|948362728|gb|KRI60358.1| hypothetical protein APC61_15540 [Acinetobacter baumannii] &gt;gi|948378383|gb|KRI75352.1| hypothetical protein APC65_04525 [Acinetobacter baumannii] &gt;gi|948385324|gb|KRI81741.1| hypothetical protein APC67_14385 [Acinetobacter baumannii] &gt;gi|948389763|gb|KRI85851.1| hypothetical protein APC69_14705 [Acinetobacter baumannii] &gt;gi|948398492|gb|KRI93066.1| hypothetical protein APC70_16465 [Acinetobacter baumannii] &gt;gi|948407766|gb|KRJ01267.1| hypothetical protein APC75_18665 [Acinetobacter baumannii] &gt;gi|948435526|gb|KRJ25753.1| hypothetical protein APC80_10600 [Acinetobacter baumannii] &gt;gi|948439321|gb|KRJ29129.1| hypothetical protein APC82_13530 [Acinetobacter baumannii] &gt;gi|948441714|gb|KRJ31428.1| hypothetical protein APC83_18950 [Acinetobacter baumannii] &gt;gi|948448062|gb|KRJ37539.1| hypothetical protein APC84_08610 [Acinetobacter baumannii] &gt;gi|948479555|gb|KRJ66988.1| hypothetical protein APC90_02545 [Acinetobacter baumannii] &gt;gi|948481746|gb|KRJ69129.1| hypothetical protein APC95_18740 [Acinetobacter baumannii] &gt;gi|948494141|gb|KRJ81044.1| hypothetical protein APC99_16630 [Acinetobacter baumannii] &gt;gi|948495472|gb|KRJ82314.1| hypothetical protein APC97_07810 [Acinetobacter baumannii] &gt;gi|948502493|gb|KRJ88888.1| hypothetical protein APD00_05855 [Acinetobacter baumannii] &gt;gi|948508754|gb|KRJ94802.1| hypothetical protein APC98_07975 [Acinetobacter baumannii] &gt;gi|952113546|gb|KRT51440.1| hypothetical protein ASZ73_10615 [Acinetobacter baumannii] &gt;gi|952960367|gb|KRU00016.1| hypothetical protein ASZ74_10605 [Acinetobacter baumannii] &gt;gi|952961441|gb|KRU01077.1| hypothetical protein ASZ75_10600 [Acinetobacter baumannii] &gt;gi|952962302|gb|KRU01923.1| hypothetical protein ASZ76_09960 [Acinetobacter baumannii] &gt;gi|952969187|gb|KRU08674.1| hypothetical protein ASZ77_10345 [Acinetobacter baumannii] &gt;gi|967365692|gb|KTK37389.1| hypothetical protein AL484_09880 [Acinetobacter baumannii] &gt;gi|974025168|gb|ALY00421.1| membrane protein [Acinetobacter baumannii] &gt;gi|974571168|emb|CUW34316.1| hypothetical protein ABR2091_0909 [Acinetobacter baumannii] &gt;gi|984623394|emb|CDM71362.1| hypothetical protein ABP630_0900 [Acinetobacter baumannii P630] &gt;gi|984881946|gb|AMC14606.1| hypothetical protein AXA63_03590 [Acinetobacter baumannii] &gt;gi|1000997742|gb|AML70048.1| hypothetical protein AYR69_05065 [Acinetobacter baumannii] &gt;gi|1001132434|emb|CVH87073.1| hypothetical protein AMPH_40619 [Acinetobacter baumannii] &gt;gi|1001137423|emb|CVI11872.1| hypothetical protein AMPH_73309 [Acinetobacter baumannii] &gt;gi|1001144611|emb|CVH82907.1| hypothetical protein AMPH_10477 [Acinetobacter baumannii] &gt;gi|1001145484|emb|CVI06367.1| hypothetical protein AMPH_63557 [Acinetobacter baumannii] &gt;gi|1001152380|emb|CVH86112.1| hypothetical protein AMPH_80656 [Acinetobacter baumannii] &gt;gi|1001155868|emb|CZB47827.1| hypothetical protein AMPH_01236 [Acinetobacter baumannii] &gt;gi|1001159936|emb|CZQ39775.1| hypothetical protein AMPH_101030 [Acinetobacter baumannii] &gt;gi|1001162034|emb|CVI02735.1| hypothetical protein AMPH_32929 [Acinetobacter baumannii] &gt;gi|1001166783|emb|CVI04193.1| hypothetical protein AMPH_52232 [Acinetobacter baumannii] &gt;gi|1001171256|emb|CVI00141.1| hypothetical protein AMPH_91802 [Acinetobacter baumannii] &gt;gi|1001175447|emb|CVH96263.1| hypothetical protein AMPH_21853 [Acinetobacter baumannii] &gt;gi|1015709877|gb|KZA16378.1| hypothetical protein LV36_00385 [Acinetobacter baumannii] &gt;gi|1015713946|gb|KZA20372.1| hypothetical protein LV35_01268 [Acinetobacter baumannii] &gt;gi|1015717850|gb|KZA24159.1| hypothetical protein LV38_02620 [Acinetobacter baumannii] &gt;gi|1015729548|gb|KZA35679.1| hypothetical protein LV41_01541 [Acinetobacter baumannii] &gt;gi|1015730503|gb|KZA36628.1| hypothetical protein LV40_00309 [Acinetobacter baumannii] &gt;gi|1015748712|gb|KZA54515.1| hypothetical protein LV47_01734 [Acinetobacter baumannii] &gt;gi|1015753687|gb|KZA59407.1| hypothetical protein LV49_03017 [Acinetobacter baumannii] &gt;gi|1015778642|gb|KZA83973.1| hypothetical protein LV55_02807 [Acinetobacter baumannii] &gt;gi|1015784779|gb|KZA90034.1| hypothetical protein LV57_03343 [Acinetobacter baumannii] &gt;gi|1015785291|gb|KZA90533.1| hypothetical protein LV58_02761 [Acinetobacter baumannii] &gt;gi|1016443437|gb|KZC90075.1| membrane protein [Acinetobacter baumannii] &gt;gi|1020990817|gb|KZM61194.1| hypothetical protein AZF02_01900 [Acinetobacter baumannii] &gt;gi|1025011255|gb|ANC38041.1| hypothetical protein Aba3207_16050 [Acinetobacter baumannii] &gt;gi|1026332578|gb|OAD33626.1| hypothetical protein A7A43_12205 [Acinetobacter baumannii] &gt;gi|1026338171|gb|OAD38715.1| hypothetical protein A7A32_06570 [Acinetobacter baumannii] &gt;gi|1036118985|emb|SBS22992.1| permease transmembrane protein,Predicted membrane protein,Protein of uncharacterised function (DUF1275) [Acinetobacter baumannii] &gt;gi|1037632716|gb|OBC23699.1| hypothetical protein A7897_09300 [Acinetobacter baumannii] &gt;gi|1037649378|gb|OBC39857.1| hypothetical protein A7943_14920 [Acinetobacter baumannii] &gt;gi|1037693941|gb|OBC83063.1| hypothetical protein A7905_09030 [Acinetobacter baumannii] &gt;gi|1037795657|gb|OBD81515.1| hypothetical protein A7953_09445 [Acinetobacter baumannii] &gt;gi|1037878309|gb|OBE61714.1| hypothetical protein A7934_05125 [Acinetobacter baumannii] &gt;gi|1038762545|gb|OBM99548.1| hypothetical protein A9872_11735 [Acinetobacter baumannii] &gt;gi|1038894581|gb|OBO26380.1| hypothetical protein A9935_03400 [Acinetobacter baumannii] &gt;gi|1038978062|gb|OBP06723.1| hypothetical protein A9801_06930 [Acinetobacter baumannii] &gt;gi|1039857775|gb|OBS06488.1| hypothetical protein BAX55_07510 [Acinetobacter baumannii] &gt;gi|1043701260|gb|ANS22196.1| membrane protein [Acinetobacter baumannii PR07] &gt;gi|1050997612|emb|SCD15089.1| permease transmembrane protein [Acinetobacter calcoaceticus] &gt;gi|1078626166|gb|OFD19925.1| hypothetical protein A1D04_04885 [Acinetobacter baumannii] &gt;gi|1078637676|gb|OFD28466.1| hypothetical protein A1D06_04775 [Acinetobacter baumannii] &gt;gi|1078637760|gb|OFD28523.1| hypothetical protein A1D05_05140 [Acinetobacter baumannii] &gt;gi|1078638212|gb|OFD28878.1| hypothetical protein A1D07_05510 [Acinetobacter baumannii] &gt;gi|1078646271|gb|OFD35085.1| hypothetical protein A1D08_05345 [Acinetobacter baumannii] &gt;gi|1087727971|gb|AOX68950.1| hypothetical protein KAB01_01057 [Acinetobacter baumannii] &gt;gi|1087731785|gb|AOX72748.1| hypothetical protein KAB02_01028 [Acinetobacter baumannii] &gt;gi|1087735732|gb|AOX76700.1| hypothetical protein KAB03_01087 [Acinetobacter baumannii] &gt;gi|1087741370|gb|AOX82285.1| hypothetical protein KAB04_02849 [Acinetobacter baumannii] &gt;gi|1087743473|gb|AOX84444.1| hypothetical protein KAB05_01058 [Acinetobacter baumannii] &gt;gi|1087747353|gb|AOX88320.1| hypothetical protein KAB06_01039 [Acinetobacter baumannii] &gt;gi|1087751193|gb|AOX92159.1| hypothetical protein KAB07_01027 [Acinetobacter baumannii] &gt;gi|1096263022|gb|OIB62885.1| hypothetical protein A7L00_16160 [Acinetobacter baumannii] &gt;gi|1096266224|gb|OIB66031.1| hypothetical protein A7L34_12735 [Acinetobacter baumannii] &gt;gi|1096271050|gb|OIB70712.1| hypothetical protein A7L16_05435 [Acinetobacter baumannii] &gt;gi|1096271554|gb|OIB71197.1| hypothetical protein A7L38_01630 [Acinetobacter baumannii] &gt;gi|1096286888|gb|OIB85915.1| hypothetical protein A7L01_07785 [Acinetobacter baumannii] &gt;gi|1096290376|gb|OIB89287.1| hypothetical protein A7L18_14460 [Acinetobacter baumannii] &gt;gi|1096290817|gb|OIB89718.1| hypothetical protein A7L11_03285 [Acinetobacter baumannii] &gt;gi|1096302395|gb|OIC00570.1| hypothetical protein A7L05_06265 [Acinetobacter baumannii] &gt;gi|1096303785|gb|OIC01618.1| hypothetical protein A7L02_02095 [Acinetobacter baumannii] &gt;gi|1096307265|gb|OIC04320.1| hypothetical protein A7L40_09535 [Acinetobacter baumannii] &gt;gi|1096312600|gb|OIC09507.1| hypothetical protein A7L24_05900 [Acinetobacter baumannii] &gt;gi|1096313805|gb|OIC10663.1| hypothetical protein A7L19_02845 [Acinetobacter baumannii] &gt;gi|1096321316|gb|OIC17615.1| hypothetical protein A7L17_13350 [Acinetobacter baumannii] &gt;gi|1096324390|gb|OIC20533.1| hypothetical protein A7L51_01620 [Acinetobacter baumannii] &gt;gi|1096329217|gb|OIC24991.1| hypothetical protein A7L22_10960 [Acinetobacter baumannii] &gt;gi|1096338896|gb|OIC34041.1| hypothetical protein A7L30_08300 [Acinetobacter baumannii] &gt;gi|1096339651|gb|OIC34766.1| hypothetical protein A7L31_06275 [Acinetobacter baumannii] &gt;gi|1096349261|gb|OIC43800.1| hypothetical protein A7L35_08905 [Acinetobacter baumannii] &gt;gi|1096359147|gb|OIC52435.1| hypothetical protein A7M48_12475 [Acinetobacter baumannii] &gt;gi|1096363825|gb|OIC56675.1| hypothetical protein A7L29_07100 [Acinetobacter baumannii] &gt;gi|1096368357|gb|OIC60948.1| hypothetical protein A7L55_14305 [Acinetobacter baumannii] &gt;gi|1096380728|gb|OIC70880.1| hypothetical protein A7L26_05945 [Acinetobacter baumannii] &gt;gi|1096388498|gb|OIC78121.1| hypothetical protein A7L25_06755 [Acinetobacter baumannii] &gt;gi|1096395416|gb|OIC84640.1| hypothetical protein A7L43_06325 [Acinetobacter baumannii] &gt;gi|1096396459|gb|OIC85656.1| hypothetical protein A7L07_07255 [Acinetobacter baumannii] &gt;gi|1096401414|gb|OIC90351.1| hypothetical protein A7L23_01860 [Acinetobacter baumannii] &gt;gi|1096402614|gb|OIC91534.1| hypothetical protein A7L15_10830 [Acinetobacter baumannii] &gt;gi|1096407831|gb|OIC96475.1| hypothetical protein A7L33_14630 [Acinetobacter baumannii] &gt;gi|1096412498|gb|OID01042.1| hypothetical protein A7L20_00395 [Acinetobacter baumannii] &gt;gi|1096425320|gb|OID13351.1| hypothetical protein A7L48_04435 [Acinetobacter baumannii] &gt;gi|1096429773|gb|OID17653.1| hypothetical protein A7L75_11130 [Acinetobacter baumannii] &gt;gi|1096435071|gb|OID22714.1| hypothetical protein A7L42_03485 [Acinetobacter baumannii] &gt;gi|1096450600|gb|OID37754.1| hypothetical protein A7L41_09900 [Acinetobacter baumannii] &gt;gi|1096454542|gb|OID41528.1| hypothetical protein A7L71_04820 [Acinetobacter baumannii] &gt;gi|1096457851|gb|OID44737.1| hypothetical protein A7L10_10110 [Acinetobacter baumannii] &gt;gi|1096460686|gb|OID47533.1| hypothetical protein A7L57_12035 [Acinetobacter baumannii] &gt;gi|1096469644|gb|OID56211.1| hypothetical protein A7L77_03100 [Acinetobacter baumannii] &gt;gi|1096474897|gb|OID61371.1| hypothetical protein A7L32_08635 [Acinetobacter baumannii] &gt;gi|1096476511|gb|OID62932.1| hypothetical protein A7L50_05935 [Acinetobacter baumannii] &gt;gi|1096477334|gb|OID63740.1| hypothetical protein A7M14_01780 [Acinetobacter baumannii] &gt;gi|1096488277|gb|OID74338.1| hypothetical protein A7L53_05760 [Acinetobacter baumannii] &gt;gi|1096489880|gb|OID75893.1| hypothetical protein A7L47_09340 [Acinetobacter baumannii] &gt;gi|1096498667|gb|OID84462.1| hypothetical protein A7M16_12335 [Acinetobacter baumannii] &gt;gi|1096499539|gb|OID85315.1| hypothetical protein A7L49_11535 [Acinetobacter baumannii] &gt;gi|1096502608|gb|OID88281.1| hypothetical protein A7M23_15095 [Acinetobacter baumannii] &gt;gi|1096508970|gb|OID94452.1| hypothetical protein A7L59_11405 [Acinetobacter baumannii] &gt;gi|1096512757|gb|OID98109.1| hypothetical protein A7L76_11260 [Acinetobacter baumannii] &gt;gi|1096516943|gb|OIE02203.1| hypothetical protein A7L65_00855 [Acinetobacter baumannii] &gt;gi|1096524707|gb|OIE09716.1| hypothetical protein A7M13_13355 [Acinetobacter baumannii] &gt;gi|1096525840|gb|OIE10834.1| hypothetical protein A7L54_06435 [Acinetobacter baumannii] &gt;gi|1096530159|gb|OIE14984.1| hypothetical protein A7L83_01390 [Acinetobacter baumannii] &gt;gi|1096535294|gb|OIE19972.1| hypothetical protein A7L82_07105 [Acinetobacter baumannii] &gt;gi|1096542699|gb|OIE27137.1| hypothetical protein A7L58_10085 [Acinetobacter baumannii] &gt;gi|1096544146|gb|OIE28558.1| hypothetical protein A7M65_00925 [Acinetobacter baumannii] &gt;gi|1096547869|gb|OIE32160.1| hypothetical protein A7L60_02990 [Acinetobacter baumannii] &gt;gi|1096554838|gb|OIE38984.1| hypothetical protein A7L66_14015 [Acinetobacter baumannii] &gt;gi|1096558407|gb|OIE42493.1| hypothetical protein A7L72_00120 [Acinetobacter baumannii] &gt;gi|1096562861|gb|OIE46812.1| hypothetical protein A7M00_10745 [Acinetobacter baumannii] &gt;gi|1096567392|gb|OIE51259.1| hypothetical protein A7L80_09240 [Acinetobacter baumannii] &gt;gi|1096568723|gb|OIE52530.1| hypothetical protein A7L69_06460 [Acinetobacter baumannii] &gt;gi|1096581886|gb|OIE65354.1| hypothetical protein A7L73_02645 [Acinetobacter baumannii] &gt;gi|1096585609|gb|OIE69008.1| hypothetical protein A7M01_11815 [Acinetobacter baumannii] &gt;gi|1096600381|gb|OIE83428.1| hypothetical protein A7L79_09810 [Acinetobacter baumannii] &gt;gi|1096601082|gb|OIE84106.1| hypothetical protein A7L62_09180 [Acinetobacter baumannii] &gt;gi|1096604326|gb|OIE87241.1| hypothetical protein A7M04_02745 [Acinetobacter baumannii] &gt;gi|1096609959|gb|OIE92731.1| hypothetical protein A7L94_08370 [Acinetobacter baumannii] &gt;gi|1096614471|gb|OIE97051.1| hypothetical protein A7L81_10870 [Acinetobacter baumannii] &gt;gi|1096621590|gb|OIF03961.1| hypothetical protein A7M10_10150 [Acinetobacter baumannii] &gt;gi|1096626283|gb|OIF08513.1| hypothetical protein A7M43_05535 [Acinetobacter baumannii] &gt;gi|1096635239|gb|OIF17174.1| hypothetical protein A7L56_12885 [Acinetobacter baumannii] &gt;gi|1096640262|gb|OIF22126.1| hypothetical protein A7L98_00115 [Acinetobacter baumannii] &gt;gi|1096643896|gb|OIF25602.1| hypothetical protein A7M02_11705 [Acinetobacter baumannii] &gt;gi|1096647838|gb|OIF29469.1| hypothetical protein A7M76_14970 [Acinetobacter baumannii] &gt;gi|1096655997|gb|OIF37339.1| hypothetical protein A7M50_07070 [Acinetobacter baumannii] &gt;gi|1096668934|gb|OIF49758.1| hypothetical protein A7M44_16205 [Acinetobacter baumannii] &gt;gi|1096678284|gb|OIF58778.1| hypothetical protein A7M46_09440 [Acinetobacter baumannii] &gt;gi|1096688874|gb|OIF68955.1| hypothetical protein A7M67_07505 [Acinetobacter baumannii] &gt;gi|1096692281|gb|OIF72187.1| hypothetical protein A7M39_04090 [Acinetobacter baumannii] &gt;gi|1096703998|gb|OIF83504.1| hypothetical protein A7M45_08780 [Acinetobacter baumannii] &gt;gi|1096709229|gb|OIF88328.1| hypothetical protein A7M60_09965 [Acinetobacter baumannii] &gt;gi|1096718446|gb|OIF95660.1| hypothetical protein A7M93_00350 [Acinetobacter baumannii] &gt;gi|1096719335|gb|OIF96433.1| hypothetical protein A7N06_07185 [Acinetobacter baumannii] &gt;gi|1096721758|gb|OIF98418.1| hypothetical protein A7M69_10085 [Acinetobacter baumannii] &gt;gi|1096725718|gb|OIG02166.1| hypothetical protein A7M70_08170 [Acinetobacter baumannii] &gt;gi|1096737302|gb|OIG13100.1| hypothetical protein A7M85_09245 [Acinetobacter baumannii] &gt;gi|1096751534|gb|OIG26792.1| hypothetical protein A7M52_01070 [Acinetobacter baumannii] &gt;gi|1096760115|gb|OIG35076.1| hypothetical protein A7M58_10470 [Acinetobacter baumannii] &gt;gi|1096764116|gb|OIG38957.1| hypothetical protein A7M57_10980 [Acinetobacter baumannii] &gt;gi|1096766724|gb|OIG41490.1| hypothetical protein A7M56_14315 [Acinetobacter baumannii] &gt;gi|1096773097|gb|OIG47578.1| hypothetical protein A7M59_09360 [Acinetobacter baumannii] &gt;gi|1096790528|gb|OIG64353.1| hypothetical protein A7M75_06195 [Acinetobacter baumannii] &gt;gi|1096793282|gb|OIG67032.1| hypothetical protein A7M90_10555 [Acinetobacter baumannii] &gt;gi|1096794380|gb|OIG68094.1| hypothetical protein A7M66_03575 [Acinetobacter baumannii] &gt;gi|1096814400|gb|OIG87461.1| hypothetical protein A7M74_11015 [Acinetobacter baumannii] &gt;gi|1096818685|gb|OIG91572.1| hypothetical protein A7M84_08900 [Acinetobacter baumannii] &gt;gi|1096819317|gb|OIG92165.1| hypothetical protein A7M99_04605 [Acinetobacter baumannii] &gt;gi|1096821106|gb|OIG93906.1| hypothetical protein A7M91_13395 [Acinetobacter baumannii] &gt;gi|1096836925|gb|OIH09362.1| hypothetical protein A7N00_14460 [Acinetobacter baumannii] &gt;gi|1096837336|gb|OIH09765.1| hypothetical protein A7M77_10970 [Acinetobacter baumannii] &gt;gi|1096844323|gb|OIH16532.1| hypothetical protein A7M96_17095 [Acinetobacter baumannii] &gt;gi|1096848430|gb|OIH20516.1| hypothetical protein A7M87_07045 [Acinetobacter baumannii] &gt;gi|1096854558|gb|OIH26317.1| hypothetical protein A7N01_04850 [Acinetobacter baumannii] &gt;gi|1096856728|gb|OIH28345.1| hypothetical protein A7N02_00555 [Acinetobacter baumannii] &gt;gi|1096857835|gb|OIH29399.1| hypothetical protein A7M83_05995 [Acinetobacter baumannii] &gt;gi|1096865788|gb|OIH37085.1| hypothetical protein A7M88_01895 [Acinetobacter baumannii] &gt;gi|1096868869|gb|OIH40065.1| hypothetical protein A7M81_01935 [Acinetobacter baumannii] &gt;gi|1096873637|gb|OIH44726.1| hypothetical protein A7M97_14885 [Acinetobacter baumannii] &gt;gi|1096877500|gb|OIH48489.1| hypothetical protein A7M86_07605 [Acinetobacter baumannii] &gt;gi|1096877902|gb|OIH48881.1| hypothetical protein A7M92_02845 [Acinetobacter baumannii] &gt;gi|1096881665|gb|OIH52513.1| hypothetical protein A7M94_16875 [Acinetobacter baumannii] &gt;gi|1096888290|gb|OIH58979.1| hypothetical protein A7N08_10375 [Acinetobacter baumannii] &gt;gi|1096892444|gb|OIH62950.1| hypothetical protein A7M89_06480 [Acinetobacter baumannii] &gt;gi|1096893568|gb|OIH63972.1| hypothetical protein A7M98_04790 [Acinetobacter baumannii] &gt;gi|1096899441|gb|OIH69452.1| hypothetical protein A7N03_01855 [Acinetobacter baumannii] &gt;gi|1096909610|gb|OIH79072.1| hypothetical protein A7N04_08420 [Acinetobacter baumannii] &gt;gi|1096911496|gb|OIH80847.1| hypothetical protein A7N05_05430 [Acinetobacter baumannii] &gt;gi|1096918361|gb|OIH87515.1| hypothetical protein A7A68_14700 [Acinetobacter baumannii] &gt;gi|1096922863|gb|OIH91719.1| hypothetical protein A7N07_08100 [Acinetobacter baumannii] &gt;gi|1100794715|emb|SFV48576.1| putative membrane protein [Acinetobacter baumannii] &gt;gi|1104035273|emb|SFX94227.1| putative membrane protein [Acinetobacter baumannii] &gt;gi|1109141509|gb|APF44648.1| hypothetical protein BKJ37_14120 [Acinetobacter baumannii] &gt;gi|1111960798|gb|OJK06815.1| hypothetical protein BRY75_11285 [Acinetobacter baumannii] &gt;gi|1112979116|gb|APJ20558.1| hypothetical protein BS064_16145 [Acinetobacter baumannii] &gt;gi|1117719893|gb|OKL29170.1| hypothetical protein BAQ50_00070 [Acinetobacter baumannii] &gt;gi|1117720209|gb|OKL29330.1| hypothetical protein BAQ51_06330 [Acinetobacter baumannii] &gt;gi|1118978137|gb|OKO24639.1| hypothetical protein AM412_002936 [Acinetobacter baumannii] &gt;gi|1118981542|gb|OKO28043.1| hypothetical protein AM414_002793 [Acinetobacter baumannii] &gt;gi|1118987173|gb|OKO33615.1| hypothetical protein AM415_003070 [Acinetobacter baumannii] &gt;gi|1118990527|gb|OKO36894.1| hypothetical protein AM424_002956 [Acinetobacter baumannii] &gt;gi|1118993258|gb|OKO39624.1| hypothetical protein AM416_002935 [Acinetobacter baumannii] &gt;gi|1121008975|gb|OKP50670.1| hypothetical protein A8A08_05625 [Acinetobacter baumannii] &gt;gi|1129663366|gb|OLQ61940.1| hypothetical protein BHX98_04890 [Acinetobacter baumannii] &gt;gi|1129665410|gb|OLQ63867.1| hypothetical protein BHY04_05425 [Acinetobacter baumannii] &gt;gi|1129669734|gb|OLQ68038.1| hypothetical protein BHY02_11235 [Acinetobacter baumannii] &gt;gi|1145712228|gb|OOD21965.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1149562364|gb|OOM88300.1| hypothetical protein A4X00_05980 [Acinetobacter baumannii] &gt;gi|1149563311|gb|OOM89171.1| hypothetical protein A4X01_03045 [Acinetobacter baumannii] &gt;gi|1149566703|gb|OOM92441.1| hypothetical protein A4W99_01590 [Acinetobacter baumannii] &gt;gi|1150873093|gb|AQU56046.1| hypothetical protein AXK18_03320 [Acinetobacter baumannii] &gt;gi|1151631230|gb|OOS37479.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151663108|gb|OOS68391.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151673325|gb|OOS78364.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151677115|gb|OOS82047.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151683970|gb|OOS88728.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151722604|gb|OOT26234.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151724246|gb|OOT27822.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151731631|gb|OOT35029.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151740987|gb|OOT44159.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151742894|gb|OOT46019.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151748697|gb|OOT51726.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151765436|gb|OOT68144.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151773054|gb|OOT75579.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151855297|gb|OOU55426.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151892152|gb|OOU91056.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151894078|gb|OOU92929.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1159442207|gb|OPH90759.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1159442495|gb|OPH91045.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1169069079|gb|OQJ84659.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1169648297|emb|SLM54505.1| putative membrane protein [Acinetobacter baumannii] &gt;gi|1174177435|emb|SMB73221.1| putative membrane protein [Acinetobacter baumannii] &gt;gi|1174180198|emb|SMB75378.1| putative membrane protein [Acinetobacter baumannii] &gt;gi|1174186469|emb|SMB66549.1| putative membrane protein [Acinetobacter baumannii] &gt;gi|1175693389|gb|ARF94406.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175696946|gb|ARF95827.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175706268|gb|ARG02888.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175708574|gb|ARG05192.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175713237|gb|ARG09852.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175717845|gb|ARG14453.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175723541|gb|ARG19859.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175770855|gb|ARG26181.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175797792|gb|ARG30920.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1175802774|gb|ARG35900.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1179636213|emb|SMD51102.1| putative membrane protein [Acinetobacter baumannii] &gt;gi|1179639666|emb|SMD52478.1| putative membrane protein [Acinetobacter baumannii] &gt;gi|1188470129|gb|ARN31843.1| hypothetical protein A4U85_14155 [Acinetobacter baumannii] &gt;gi|1192348135|gb|OTK29461.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192362202|gb|OTK43259.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192368352|gb|OTK49330.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192371274|gb|OTK52214.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192388801|gb|OTK69292.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192393544|gb|OTK73839.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192403313|gb|OTK83312.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192419663|gb|OTK99014.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192434018|gb|OTL12773.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192461430|gb|OTL39160.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192465471|gb|OTL43010.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192515515|gb|OTL91281.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192519932|gb|OTL95561.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192545144|gb|OTM19993.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192548911|gb|OTM23644.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192550930|gb|OTM25624.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192567709|gb|OTM42075.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192582981|gb|OTM57041.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192602965|gb|OTM76490.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192624900|gb|OTM97754.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192635388|gb|OTN07932.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192637508|gb|OTN09994.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192645223|gb|OTN17523.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192652491|gb|OTN24692.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192659611|gb|OTN31678.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192663720|gb|OTN35714.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192686386|gb|OTN57665.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193229574|gb|OTR52630.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193253660|gb|OTR75969.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193259732|gb|OTR81836.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193267485|gb|OTR89334.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193287510|gb|OTS08707.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193299355|gb|OTS20326.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193302981|gb|OTS23872.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193314696|gb|OTS35267.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193318968|gb|OTS39444.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193340367|gb|OTS60447.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193343157|gb|OTS63167.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193343967|gb|OTS63961.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193356580|gb|OTS76198.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193365688|gb|OTS85077.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193374736|gb|OTS93951.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193382278|gb|OTT01319.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193403256|gb|OTT21796.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193405009|gb|OTT23517.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193406719|gb|OTT25182.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193417670|gb|OTT35863.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193447846|gb|OTT65209.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193452457|gb|OTT69684.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193454866|gb|OTT72048.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193496336|gb|OTU12625.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193498385|gb|OTU14649.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193527216|gb|OTU42783.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193555921|gb|OTU70900.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193557604|gb|OTU72525.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193578011|gb|OTU92350.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1194771256|gb|OUD58317.1| hypothetical protein BTR16_14125 [Acinetobacter baumannii] &gt;gi|1195825854|gb|OUJ80992.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1195844539|gb|OUJ96935.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1198386343|gb|OUM78381.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1198390580|gb|OUM82618.1| DUF1275 family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_001115353</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.0018e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|447038095|ref|WP_001115351.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|342239481|gb|EGU03883.1| hypothetical protein ABNIH4_00805 [Acinetobacter baumannii ABNIH4] &gt;gi|404674983|gb|EKB42708.1| hypothetical protein W9M_00264 [Acinetobacter baumannii Ab44444] &gt;gi|410400173|gb|EKP52353.1| PF06912 family protein [Acinetobacter baumannii Naval-2] &gt;gi|444778937|gb|ELX02932.1| PF06912 family protein [Acinetobacter baumannii Naval-78] &gt;gi|475918738|gb|EMT88167.1| hypothetical protein ABNIH25_06093 [Acinetobacter baumannii ABNIH25] &gt;gi|475922276|gb|EMT91588.1| hypothetical protein ABNIH5_06996 [Acinetobacter baumannii ABNIH5] &gt;gi|475967890|gb|EMU33656.1| hypothetical protein ABNIH18_01005 [Acinetobacter baumannii ABNIH18] &gt;gi|475979610|gb|EMU43430.1| hypothetical protein ABNIH22_01057 [Acinetobacter baumannii ABNIH22] &gt;gi|475980929|gb|EMU44239.1| hypothetical protein ABNIH20_10992 [Acinetobacter baumannii ABNIH20] &gt;gi|475984393|gb|EMU47222.1| hypothetical protein ABNIH23_00702 [Acinetobacter baumannii ABNIH23] &gt;gi|475991885|gb|EMU52022.1| hypothetical protein ABNIH24_00355 [Acinetobacter baumannii ABNIH24] &gt;gi|571722408|gb|ETR11021.1| PF06912 family protein [Acinetobacter baumannii UH7007] &gt;gi|587789315|gb|EXA82257.1| hypothetical protein J543_0519 [Acinetobacter baumannii 1159076] &gt;gi|587810087|gb|EXB02133.1| hypothetical protein J519_1042 [Acinetobacter baumannii 1294217] &gt;gi|587823300|gb|EXB14366.1| hypothetical protein J513_0942 [Acinetobacter baumannii 1397084] &gt;gi|587870456|gb|EXB59739.1| hypothetical protein J548_1415 [Acinetobacter baumannii 1465485] &gt;gi|587875898|gb|EXB64997.1| hypothetical protein J545_0688 [Acinetobacter baumannii 1462234] &gt;gi|587910868|gb|EXB98733.1| hypothetical protein J515_1218 [Acinetobacter baumannii 400834] &gt;gi|587927864|gb|EXC15070.1| hypothetical protein J509_0621 [Acinetobacter baumannii 647609] &gt;gi|587936947|gb|EXC23769.1| hypothetical protein J549_0796 [Acinetobacter baumannii 724909] &gt;gi|587954000|gb|EXC39706.1| hypothetical protein J552_1269 [Acinetobacter baumannii 951631] &gt;gi|587957432|gb|EXC42990.1| hypothetical protein J455_1605 [Acinetobacter baumannii 17534] &gt;gi|587964166|gb|EXC49342.1| hypothetical protein J485_0986 [Acinetobacter baumannii 1031433] &gt;gi|587991378|gb|EXC75580.1| hypothetical protein J473_1121 [Acinetobacter baumannii 1042969-1265] &gt;gi|588001207|gb|EXC84882.1| hypothetical protein J468_1089 [Acinetobacter baumannii 1043903] &gt;gi|588011379|gb|EXC94740.1| hypothetical protein J484_1885 [Acinetobacter baumannii 1051830] &gt;gi|588028161|gb|EXD10818.1| hypothetical protein J499_1722 [Acinetobacter baumannii 1289546] &gt;gi|588037969|gb|EXD20335.1| hypothetical protein J457_0073 [Acinetobacter baumannii 136706] &gt;gi|588042669|gb|EXD24664.1| hypothetical protein J480_1584 [Acinetobacter baumannii 34654] &gt;gi|588051070|gb|EXD32651.1| hypothetical protein J461_1598 [Acinetobacter baumannii 472237-1196] &gt;gi|588052228|gb|EXD33791.1| hypothetical protein J477_2203 [Acinetobacter baumannii 34001] &gt;gi|588068740|gb|EXD49811.1| hypothetical protein J459_1804 [Acinetobacter baumannii 564012] &gt;gi|588080166|gb|EXD60621.1| hypothetical protein J493_1639 [Acinetobacter baumannii 653020] &gt;gi|588081258|gb|EXD61692.1| hypothetical protein J492_1346 [Acinetobacter baumannii 796380-2102] &gt;gi|588093898|gb|EXD73518.1| hypothetical protein J488_2601 [Acinetobacter baumannii 929679-2095] &gt;gi|588097793|gb|EXD77206.1| hypothetical protein J460_2891 [Acinetobacter baumannii 942133] &gt;gi|588101782|gb|EXD80937.1| hypothetical protein J486_2968 [Acinetobacter baumannii 947299] &gt;gi|588108683|gb|EXD87220.1| hypothetical protein J454_2086 [Acinetobacter baumannii 993520] &gt;gi|588121198|gb|EXD99344.1| hypothetical protein J456_0262 [Acinetobacter baumannii 959073] &gt;gi|588174087|gb|EXE48060.1| hypothetical protein J571_0311 [Acinetobacter baumannii 554515] &gt;gi|588195144|gb|EXE68509.1| hypothetical protein J585_0894 [Acinetobacter baumannii 397971] &gt;gi|588236650|gb|EXF08612.1| hypothetical protein J598_2680 [Acinetobacter baumannii 1575710] &gt;gi|588245464|gb|EXF17212.1| hypothetical protein J597_0499 [Acinetobacter baumannii 1593273] &gt;gi|588693362|gb|EXF65811.1| hypothetical protein J565_0706 [Acinetobacter baumannii 1552818] &gt;gi|589162543|gb|EXG08272.1| hypothetical protein J704_1090 [Acinetobacter baumannii 1426993] &gt;gi|589167113|gb|EXG12747.1| hypothetical protein J712_0648 [Acinetobacter baumannii 722310] &gt;gi|589177003|gb|EXG22327.1| hypothetical protein J707_0964 [Acinetobacter baumannii 470922] &gt;gi|589177414|gb|EXG22734.1| hypothetical protein J710_1813 [Acinetobacter baumannii 458282] &gt;gi|589194785|gb|EXG39623.1| hypothetical protein J741_1312 [Acinetobacter baumannii 24860_8] &gt;gi|589202142|gb|EXG46667.1| hypothetical protein J737_1125 [Acinetobacter baumannii 24860_4] &gt;gi|589204593|gb|EXG49088.1| hypothetical protein J740_0900 [Acinetobacter baumannii 24860_7] &gt;gi|589206469|gb|EXG50913.1| hypothetical protein J735_1868 [Acinetobacter baumannii 24860_2] &gt;gi|589215205|gb|EXG59066.1| hypothetical protein J749_1155 [Acinetobacter baumannii 24812_6] &gt;gi|589219174|gb|EXG62970.1| hypothetical protein J743_1615 [Acinetobacter baumannii 24860_10] &gt;gi|589219515|gb|EXG63305.1| hypothetical protein J747_0197 [Acinetobacter baumannii 24812_4] &gt;gi|589225974|gb|EXG69458.1| hypothetical protein J709_1514 [Acinetobacter baumannii 7893] &gt;gi|589391796|gb|EXG76571.1| hypothetical protein J652_1059 [Acinetobacter baumannii 1296252] &gt;gi|589412046|gb|EXG96416.1| hypothetical protein J650_1125 [Acinetobacter baumannii 1022959] &gt;gi|589417649|gb|EXH01887.1| hypothetical protein J646_1095 [Acinetobacter baumannii 1095464] &gt;gi|589423175|gb|EXH07267.1| hypothetical protein J630_1361 [Acinetobacter baumannii 1178044] &gt;gi|589440110|gb|EXH23120.1| hypothetical protein J631_1449 [Acinetobacter baumannii 1271651] &gt;gi|589463872|gb|EXH45979.1| hypothetical protein J642_1238 [Acinetobacter baumannii 1264936] &gt;gi|589477193|gb|EXH58786.1| hypothetical protein J620_0274 [Acinetobacter baumannii 1533268] &gt;gi|589480392|gb|EXH61748.1| hypothetical protein J612_0628 [Acinetobacter baumannii 1471012] &gt;gi|589482516|gb|EXH63616.1| hypothetical protein J615_2709 [Acinetobacter baumannii 1482820] &gt;gi|589486832|gb|EXH67864.1| hypothetical protein J617_2818 [Acinetobacter baumannii 1475764] &gt;gi|589502041|gb|EXH82643.1| hypothetical protein J637_1555 [Acinetobacter baumannii 273929] &gt;gi|589512792|gb|EXH93204.1| hypothetical protein J653_1634 [Acinetobacter baumannii 2887] &gt;gi|589520089|gb|EXI00282.1| hypothetical protein J618_2217 [Acinetobacter baumannii 607805] &gt;gi|589526407|gb|EXI06517.1| hypothetical protein J639_0047 [Acinetobacter baumannii 457946] &gt;gi|589541216|gb|EXI20790.1| hypothetical protein J611_1271 [Acinetobacter baumannii 655555] &gt;gi|589544915|gb|EXI24359.1| hypothetical protein J634_1495 [Acinetobacter baumannii 737393] &gt;gi|589552983|gb|EXI32199.1| hypothetical protein J626_1476 [Acinetobacter baumannii 836190] &gt;gi|589555540|gb|EXI34623.1| hypothetical protein J607_3467 [Acinetobacter baumannii 923118] &gt;gi|589565374|gb|EXI44273.1| hypothetical protein J638_1395 [Acinetobacter baumannii 1045092] &gt;gi|589570096|gb|EXI48812.1| hypothetical protein J640_1502 [Acinetobacter baumannii 73736] &gt;gi|589574089|gb|EXI52704.1| hypothetical protein J648_1406 [Acinetobacter baumannii 10519] &gt;gi|589578084|gb|EXI56598.1| hypothetical protein J645_0652 [Acinetobacter baumannii 1287985] &gt;gi|593505435|gb|EXQ91004.1| hypothetical protein J681_2710 [Acinetobacter baumannii 1170863] &gt;gi|593515766|gb|EXR00902.1| hypothetical protein J666_1258 [Acinetobacter baumannii 1237202] &gt;gi|593519107|gb|EXR04172.1| hypothetical protein J676_0987 [Acinetobacter baumannii 1262761-97] &gt;gi|593521576|gb|EXR06541.1| hypothetical protein J679_1201 [Acinetobacter baumannii 1117819] &gt;gi|593529242|gb|EXR13852.1| hypothetical protein J675_1030 [Acinetobacter baumannii 1413735] &gt;gi|593531409|gb|EXR15990.1| hypothetical protein J673_0937 [Acinetobacter baumannii 1232509] &gt;gi|593543561|gb|EXR27675.1| hypothetical protein J657_1648 [Acinetobacter baumannii 1266220] &gt;gi|593562805|gb|EXR46204.1| hypothetical protein J664_1474 [Acinetobacter baumannii 1294222] &gt;gi|593570677|gb|EXR53666.1| hypothetical protein J667_1515 [Acinetobacter baumannii 1397513] &gt;gi|593575419|gb|EXR58279.1| hypothetical protein J674_0941 [Acinetobacter baumannii 1392509] &gt;gi|593603985|gb|EXR85767.1| hypothetical protein J684_1090 [Acinetobacter baumannii 466215] &gt;gi|593605824|gb|EXR87593.1| hypothetical protein J682_1179 [Acinetobacter baumannii 214216] &gt;gi|593622711|gb|EXS03814.1| hypothetical protein J698_1277 [Acinetobacter baumannii 1494580] &gt;gi|593627402|gb|EXS08224.1| hypothetical protein J693_0836 [Acinetobacter baumannii 303002] &gt;gi|593632672|gb|EXS13214.1| hypothetical protein J654_1442 [Acinetobacter baumannii 628418] &gt;gi|593638862|gb|EXS19234.1| hypothetical protein J656_1595 [Acinetobacter baumannii 755829] &gt;gi|593663657|gb|EXS43081.1| hypothetical protein J662_1711 [Acinetobacter baumannii 213697] &gt;gi|593672491|gb|EXS51346.1| hypothetical protein J691_1304 [Acinetobacter baumannii 981176] &gt;gi|593676679|gb|EXS55323.1| hypothetical protein J692_1391 [Acinetobacter baumannii 98826] &gt;gi|593807088|gb|EXS66430.1| hypothetical protein J764_1492 [Acinetobacter baumannii 25307_1] &gt;gi|593843522|gb|EXT01357.1| hypothetical protein J792_0913 [Acinetobacter baumannii 44895_9] &gt;gi|593851594|gb|EXT09055.1| hypothetical protein J789_1382 [Acinetobacter baumannii 44895_6] &gt;gi|593854082|gb|EXT11490.1| hypothetical protein J791_1216 [Acinetobacter baumannii 44895_8] &gt;gi|593859994|gb|EXT17197.1| hypothetical protein J788_0788 [Acinetobacter baumannii 44895_5] &gt;gi|593862906|gb|EXT20042.1| hypothetical protein J787_1373 [Acinetobacter baumannii 44895_4] &gt;gi|593866163|gb|EXT23202.1| hypothetical protein J786_1359 [Acinetobacter baumannii 44895_3] &gt;gi|593871140|gb|EXT28005.1| hypothetical protein J785_1367 [Acinetobacter baumannii 44895_2] &gt;gi|593874553|gb|EXT31323.1| hypothetical protein J784_1319 [Acinetobacter baumannii 44895_1] &gt;gi|593876604|gb|EXT33297.1| hypothetical protein J793_3125 [Acinetobacter baumannii 44895_10] &gt;gi|593914129|gb|EXT69434.1| hypothetical protein J771_1223 [Acinetobacter baumannii 25307_8] &gt;gi|593918521|gb|EXT73753.1| hypothetical protein J769_1827 [Acinetobacter baumannii 25307_6] &gt;gi|593926346|gb|EXT81260.1| hypothetical protein J767_1897 [Acinetobacter baumannii 25307_4] &gt;gi|593928802|gb|EXT83627.1| hypothetical protein J768_1151 [Acinetobacter baumannii 25307_5] &gt;gi|593931540|gb|EXT86309.1| hypothetical protein J766_1887 [Acinetobacter baumannii 25307_3] &gt;gi|593935014|gb|EXT89516.1| hypothetical protein J781_2944 [Acinetobacter baumannii 25253_8] &gt;gi|593939405|gb|EXT93237.1| hypothetical protein J765_3171 [Acinetobacter baumannii 25307_2] &gt;gi|593948959|gb|EXU02411.1| hypothetical protein J779_1738 [Acinetobacter baumannii 25253_6] &gt;gi|593955123|gb|EXU08372.1| hypothetical protein J777_1846 [Acinetobacter baumannii 25253_4] &gt;gi|593959029|gb|EXU12236.1| hypothetical protein J778_0596 [Acinetobacter baumannii 25253_5] &gt;gi|593960903|gb|EXU14053.1| hypothetical protein J776_1807 [Acinetobacter baumannii 25253_3] &gt;gi|593966133|gb|EXU19110.1| hypothetical protein J774_1809 [Acinetobacter baumannii 25253_1] &gt;gi|593969034|gb|EXU21961.1| hypothetical protein J783_1679 [Acinetobacter baumannii 25253_10] &gt;gi|593975993|gb|EXU28554.1| hypothetical protein J760_2041 [Acinetobacter baumannii 24845_7] &gt;gi|593977000|gb|EXU29542.1| hypothetical protein J761_1426 [Acinetobacter baumannii 24845_8] &gt;gi|593982588|gb|EXU34939.1| hypothetical protein J762_1454 [Acinetobacter baumannii 24845_9] &gt;gi|593986451|gb|EXU38709.1| hypothetical protein J758_2138 [Acinetobacter baumannii 24845_5] &gt;gi|593993566|gb|EXU45658.1| hypothetical protein J757_2735 [Acinetobacter baumannii 24845_4] &gt;gi|593998378|gb|EXU50371.1| hypothetical protein J756_2173 [Acinetobacter baumannii 24845_3] &gt;gi|594002353|gb|EXU54271.1| hypothetical protein J754_2095 [Acinetobacter baumannii 24845_1] &gt;gi|595083395|gb|EXV11628.1| hypothetical protein J855_1904 [Acinetobacter baumannii 25561_2] &gt;gi|595087131|gb|EXV15200.1| hypothetical protein J854_1379 [Acinetobacter baumannii 25561_1] &gt;gi|595089805|gb|EXV17781.1| hypothetical protein J860_1382 [Acinetobacter baumannii 25561_7] &gt;gi|595095637|gb|EXV22692.1| hypothetical protein J852_1819 [Acinetobacter baumannii 24975_9] &gt;gi|595097307|gb|EXV24340.1| hypothetical protein J850_1867 [Acinetobacter baumannii 24975_7] &gt;gi|595102510|gb|EXV29263.1| hypothetical protein J847_1775 [Acinetobacter baumannii 24975_4] &gt;gi|595108912|gb|EXV35286.1| hypothetical protein J843_1423 [Acinetobacter baumannii 25935_10] &gt;gi|595113519|gb|EXV39762.1| hypothetical protein J844_0476 [Acinetobacter baumannii 24975_1] &gt;gi|595118243|gb|EXV44226.1| hypothetical protein J848_0157 [Acinetobacter baumannii 24975_5] &gt;gi|595120901|gb|EXV46765.1| hypothetical protein J842_1686 [Acinetobacter baumannii 25935_9] &gt;gi|595125167|gb|EXV50904.1| hypothetical protein J841_1159 [Acinetobacter baumannii 25935_8] &gt;gi|595129030|gb|EXV54653.1| hypothetical protein J840_1226 [Acinetobacter baumannii 25935_7] &gt;gi|595132397|gb|EXV57916.1| hypothetical protein J839_1422 [Acinetobacter baumannii 25935_6] &gt;gi|595134783|gb|EXV60119.1| hypothetical protein J838_3482 [Acinetobacter baumannii 25935_5] &gt;gi|595139372|gb|EXV64529.1| hypothetical protein J835_1418 [Acinetobacter baumannii 25935_2] &gt;gi|595139504|gb|EXV64657.1| hypothetical protein J837_3442 [Acinetobacter baumannii 25935_4] &gt;gi|595149720|gb|EXV74516.1| hypothetical protein J834_1473 [Acinetobacter baumannii 25935_1] &gt;gi|595154081|gb|EXV78722.1| hypothetical protein J833_1357 [Acinetobacter baumannii 25691_10] &gt;gi|595160236|gb|EXV84679.1| hypothetical protein J832_1383 [Acinetobacter baumannii 25691_9] &gt;gi|595160997|gb|EXV85429.1| hypothetical protein J829_1414 [Acinetobacter baumannii 25691_6] &gt;gi|595168269|gb|EXV92423.1| hypothetical protein J825_0778 [Acinetobacter baumannii 25691_2] &gt;gi|595171062|gb|EXV95148.1| hypothetical protein J824_1412 [Acinetobacter baumannii 25691_1] &gt;gi|595174749|gb|EXV98689.1| hypothetical protein J823_1404 [Acinetobacter baumannii 25766_10] &gt;gi|595180235|gb|EXW03936.1| hypothetical protein J820_1272 [Acinetobacter baumannii 25766_7] &gt;gi|595181306|gb|EXW04986.1| hypothetical protein J822_2682 [Acinetobacter baumannii 25766_9] &gt;gi|595187050|gb|EXW10562.1| hypothetical protein J819_1561 [Acinetobacter baumannii 25766_6] &gt;gi|595192898|gb|EXW16156.1| hypothetical protein J818_0991 [Acinetobacter baumannii 25766_5] &gt;gi|595196465|gb|EXW19621.1| hypothetical protein J817_1502 [Acinetobacter baumannii 25766_4] &gt;gi|595201385|gb|EXW24401.1| hypothetical protein J816_0632 [Acinetobacter baumannii 25766_3] &gt;gi|595204335|gb|EXW27223.1| hypothetical protein J815_1161 [Acinetobacter baumannii 25766_2] &gt;gi|595208695|gb|EXW31371.1| hypothetical protein J863_1377 [Acinetobacter baumannii 25561_10] &gt;gi|595215090|gb|EXW37377.1| hypothetical protein J814_0214 [Acinetobacter baumannii 25766_1] &gt;gi|595218936|gb|EXW40987.1| hypothetical protein J902_2907 [Acinetobacter baumannii 44857_9] &gt;gi|595220754|gb|EXW42761.1| hypothetical protein J889_0195 [Acinetobacter baumannii 44327_6] &gt;gi|595223897|gb|EXW45807.1| hypothetical protein J903_1384 [Acinetobacter baumannii 44857_10] &gt;gi|595233995|gb|EXW55387.1| hypothetical protein J882_0597 [Acinetobacter baumannii 44467_9] &gt;gi|595235980|gb|EXW57325.1| hypothetical protein J881_1415 [Acinetobacter baumannii 44467_8] &gt;gi|595245099|gb|EXW66021.1| hypothetical protein J879_1537 [Acinetobacter baumannii 44467_6] &gt;gi|595248691|gb|EXW69564.1| hypothetical protein J878_0757 [Acinetobacter baumannii 44467_5] &gt;gi|595251183|gb|EXW71814.1| hypothetical protein J877_1248 [Acinetobacter baumannii 44467_4] &gt;gi|595254753|gb|EXW74959.1| hypothetical protein J875_3396 [Acinetobacter baumannii 44467_2] &gt;gi|595259764|gb|EXW79688.1| hypothetical protein J876_0279 [Acinetobacter baumannii 44467_3] &gt;gi|595265507|gb|EXW85180.1| hypothetical protein J874_0448 [Acinetobacter baumannii 44467_1] &gt;gi|595272189|gb|EXW91214.1| hypothetical protein J883_0383 [Acinetobacter baumannii 44467_10] &gt;gi|595274870|gb|EXW93813.1| hypothetical protein J891_0722 [Acinetobacter baumannii 44327_8] &gt;gi|595277859|gb|EXW96686.1| hypothetical protein J890_0911 [Acinetobacter baumannii 44327_7] &gt;gi|595287664|gb|EXX06057.1| hypothetical protein J887_1065 [Acinetobacter baumannii 44327_4] &gt;gi|595290898|gb|EXX09196.1| hypothetical protein J885_0818 [Acinetobacter baumannii 44327_2] &gt;gi|595295918|gb|EXX13982.1| hypothetical protein J884_0804 [Acinetobacter baumannii 44327_1] &gt;gi|595299796|gb|EXX17764.1| hypothetical protein J870_1410 [Acinetobacter baumannii 25750_7] &gt;gi|595303239|gb|EXX21103.1| hypothetical protein J871_0764 [Acinetobacter baumannii 25750_8] &gt;gi|595309947|gb|EXX27523.1| hypothetical protein J869_1191 [Acinetobacter baumannii 25750_6] &gt;gi|595310841|gb|EXX28407.1| hypothetical protein J912_1671 [Acinetobacter baumannii 25681_9] &gt;gi|595315418|gb|EXX32871.1| hypothetical protein J911_1099 [Acinetobacter baumannii 25681_8] &gt;gi|595321759|gb|EXX38956.1| hypothetical protein J908_1512 [Acinetobacter baumannii 25681_5] &gt;gi|595324948|gb|EXX42113.1| hypothetical protein J909_1337 [Acinetobacter baumannii 25681_6] &gt;gi|595327598|gb|EXX44714.1| hypothetical protein J906_1363 [Acinetobacter baumannii 25681_3] &gt;gi|595332005|gb|EXX49001.1| hypothetical protein J905_1081 [Acinetobacter baumannii 25681_2] &gt;gi|598502741|gb|EYC56515.1| hypothetical protein J930_1819 [Acinetobacter baumannii 44437_7] &gt;gi|598514855|gb|EYC67891.1| hypothetical protein J928_2179 [Acinetobacter baumannii 44437_5] &gt;gi|598516609|gb|EYC69563.1| hypothetical protein J926_3520 [Acinetobacter baumannii 44437_3] &gt;gi|598519966|gb|EYC72791.1| hypothetical protein J927_1588 [Acinetobacter baumannii 44437_4] &gt;gi|598529012|gb|EYC81237.1| hypothetical protein J942_1113 [Acinetobacter baumannii 44362_9] &gt;gi|598532876|gb|EYC84912.1| hypothetical protein J941_0987 [Acinetobacter baumannii 44362_8] &gt;gi|598535807|gb|EYC87577.1| hypothetical protein J940_1582 [Acinetobacter baumannii 44362_7] &gt;gi|598542558|gb|EYC93735.1| hypothetical protein J938_1066 [Acinetobacter baumannii 44362_5] &gt;gi|598547187|gb|EYC98097.1| hypothetical protein J939_0814 [Acinetobacter baumannii 44362_6] &gt;gi|598549391|gb|EYD00183.1| hypothetical protein J937_1015 [Acinetobacter baumannii 44362_4] &gt;gi|598557856|gb|EYD07761.1| hypothetical protein J934_1114 [Acinetobacter baumannii 44362_1] &gt;gi|598560764|gb|EYD10573.1| hypothetical protein J936_0411 [Acinetobacter baumannii 44362_3] &gt;gi|598562824|gb|EYD12472.1| hypothetical protein J935_0921 [Acinetobacter baumannii 44362_2] &gt;gi|598569033|gb|EYD18129.1| hypothetical protein J943_1118 [Acinetobacter baumannii 44362_10] &gt;gi|598572902|gb|EYD21828.1| hypothetical protein J947_1004 [Acinetobacter baumannii 43557_1] &gt;gi|598574960|gb|EYD23771.1| hypothetical protein J946_1693 [Acinetobacter baumannii 25878_3] &gt;gi|598583413|gb|EYD31566.1| hypothetical protein J944_1514 [Acinetobacter baumannii 25878_1] &gt;gi|601349023|gb|EYR99894.1| hypothetical protein K030_0719 [Acinetobacter baumannii 45057_4] &gt;gi|601353001|gb|EYS03600.1| hypothetical protein J971_1956 [Acinetobacter baumannii 26016_5] &gt;gi|601356874|gb|EYS07368.1| hypothetical protein K012_1793 [Acinetobacter baumannii 25569_6] &gt;gi|601375247|gb|EYS24931.1| hypothetical protein J972_1581 [Acinetobacter baumannii 26016_6] &gt;gi|601378443|gb|EYS28065.1| hypothetical protein J967_1211 [Acinetobacter baumannii 26016_1] &gt;gi|601391152|gb|EYS40274.1| hypothetical protein J970_1867 [Acinetobacter baumannii 26016_4] &gt;gi|601433827|gb|EYS81561.1| hypothetical protein J997_1749 [Acinetobacter baumannii 16553_1] &gt;gi|602202972|gb|EYT32023.1| hypothetical protein J632_00720 [Acinetobacter baumannii 1195185_11] &gt;gi|602204942|gb|EYT33962.1| hypothetical protein J547_01063 [Acinetobacter baumannii 110912] &gt;gi|610941671|gb|EZI49197.1| hypothetical protein K025_1424 [Acinetobacter baumannii 25442_9] &gt;gi|610945988|gb|EZI53364.1| hypothetical protein K033_0991 [Acinetobacter baumannii 42057_2] &gt;gi|610958173|gb|EZI65140.1| hypothetical protein K021_1506 [Acinetobacter baumannii 25442_5] &gt;gi|610969505|gb|EZI76042.1| hypothetical protein J985_1543 [Acinetobacter baumannii 44298_9] &gt;gi|610975126|gb|EZI81390.1| hypothetical protein J983_1488 [Acinetobacter baumannii 44298_7] &gt;gi|610978371|gb|EZI84551.1| hypothetical protein J982_1706 [Acinetobacter baumannii 44298_6] &gt;gi|610981415|gb|EZI87510.1| hypothetical protein J980_1626 [Acinetobacter baumannii 44298_4] &gt;gi|610990085|gb|EZI95803.1| hypothetical protein J977_1649 [Acinetobacter baumannii 44298_1] &gt;gi|610994354|gb|EZI99846.1| hypothetical protein J975_1682 [Acinetobacter baumannii 26016_9] &gt;gi|611003103|gb|EZJ08274.1| hypothetical protein J853_1277 [Acinetobacter baumannii 24975_10] &gt;gi|611006023|gb|EZJ11061.1| hypothetical protein J739_2224 [Acinetobacter baumannii 24860_6] &gt;gi|611012744|gb|EZJ17608.1| hypothetical protein J734_1420 [Acinetobacter baumannii 24860_1] &gt;gi|628996839|gb|KCV96133.1| hypothetical protein J984_1643 [Acinetobacter baumannii 44298_8] &gt;gi|628998199|gb|KCV97466.1| hypothetical protein J964_1326 [Acinetobacter baumannii 44839_8] &gt;gi|629007645|gb|KCW06535.1| hypothetical protein J965_1244 [Acinetobacter baumannii 44839_9] &gt;gi|629019889|gb|KCW18307.1| hypothetical protein K017_1571 [Acinetobacter baumannii 25442_1] &gt;gi|629027474|gb|KCW25289.1| hypothetical protein J724_1931 [Acinetobacter baumannii 1064293_46] &gt;gi|629046672|gb|KCW43333.1| hypothetical protein J471_0799 [Acinetobacter baumannii 1032359] &gt;gi|630407862|gb|KCX26120.1| hypothetical protein J472_0772 [Acinetobacter baumannii 18689] &gt;gi|630414407|gb|KCX32056.1| hypothetical protein J467_0527 [Acinetobacter baumannii 916567] &gt;gi|630414468|gb|KCX32115.1| hypothetical protein J501_2625 [Acinetobacter baumannii 96512] &gt;gi|630423739|gb|KCX40930.1| hypothetical protein J458_1808 [Acinetobacter baumannii 987421] &gt;gi|630427784|gb|KCX44876.1| hypothetical protein J745_1898 [Acinetobacter baumannii 24812_2] &gt;gi|630439378|gb|KCX55119.1| hypothetical protein J528_0424 [Acinetobacter baumannii 135867] &gt;gi|630444364|gb|KCX59612.1| hypothetical protein J524_0439 [Acinetobacter baumannii 496487] &gt;gi|630450811|gb|KCX65188.1| hypothetical protein J555_3213 [Acinetobacter baumannii 1146103] &gt;gi|630467561|gb|KCX80251.1| hypothetical protein J567_1101 [Acinetobacter baumannii 754286] &gt;gi|630480170|gb|KCX91215.1| hypothetical protein J530_0518 [Acinetobacter baumannii 15827] &gt;gi|630493417|gb|KCY03259.1| hypothetical protein J572_0337 [Acinetobacter baumannii 1499986] &gt;gi|630498713|gb|KCY07865.1| hypothetical protein J483_0670 [Acinetobacter baumannii 23037] &gt;gi|630506537|gb|KCY15230.1| hypothetical protein J526_1611 [Acinetobacter baumannii 1284800] &gt;gi|630520581|gb|KCY28349.1| hypothetical protein J725_1834 [Acinetobacter baumannii 1195185_80] &gt;gi|630525162|gb|KCY32742.1| hypothetical protein J730_0956 [Acinetobacter baumannii 1042969-1197] &gt;gi|630537633|gb|KCY44488.1| hypothetical protein J705_2000 [Acinetobacter baumannii 1505311] &gt;gi|630548730|gb|KCY54912.1| hypothetical protein J751_1206 [Acinetobacter baumannii 24812_8] &gt;gi|630552706|gb|KCY58716.1| hypothetical protein J736_1587 [Acinetobacter baumannii 24860_3] &gt;gi|630557984|gb|KCY63630.1| hypothetical protein J738_1599 [Acinetobacter baumannii 24860_5] &gt;gi|630563065|gb|KCY68463.1| hypothetical protein J742_1607 [Acinetobacter baumannii 24860_9] &gt;gi|630574485|gb|KCY79108.1| hypothetical protein J714_0382 [Acinetobacter baumannii 756476] &gt;gi|630578166|gb|KCY82156.1| hypothetical protein J750_2091 [Acinetobacter baumannii 24812_7] &gt;gi|630583967|gb|KCY87364.1| hypothetical protein J828_0871 [Acinetobacter baumannii 25691_5] &gt;gi|630594578|gb|KCY96286.1| hypothetical protein J864_1016 [Acinetobacter baumannii 25750_1] &gt;gi|630598532|gb|KCY99199.1| hypothetical protein J831_2346 [Acinetobacter baumannii 25691_8] &gt;gi|630610033|gb|KCZ07470.1| hypothetical protein J969_2303 [Acinetobacter baumannii 26016_3] &gt;gi|630610833|gb|KCZ08231.1| hypothetical protein J968_0271 [Acinetobacter baumannii 26016_2] &gt;gi|630618798|gb|KCZ15033.1| hypothetical protein J973_0453 [Acinetobacter baumannii 26016_7] &gt;gi|630653483|gb|KCZ44861.1| hypothetical protein J830_0348 [Acinetobacter baumannii 25691_7] &gt;gi|656770300|gb|KEF48892.1| membrane protein [Acinetobacter baumannii] &gt;gi|656770575|gb|KEF49152.1| membrane protein [Acinetobacter baumannii] &gt;gi|672214546|gb|KFG13273.1| putative permease transmembrane protein [Acinetobacter baumannii] &gt;gi|741327383|gb|KHV47472.1| membrane protein [Acinetobacter baumannii] &gt;gi|741328585|gb|KHV48643.1| membrane protein [Acinetobacter baumannii] &gt;gi|821305051|gb|KKZ42924.1| membrane protein [Acinetobacter baumannii] &gt;gi|942731687|gb|KQD11021.1| hypothetical protein APD04_15605 [Acinetobacter baumannii] &gt;gi|942837066|gb|KQE08109.1| hypothetical protein APD33_06115 [Acinetobacter baumannii] &gt;gi|942900142|gb|KQE65018.1| hypothetical protein APB88_07685 [Acinetobacter baumannii] &gt;gi|942908868|gb|KQE72904.1| hypothetical protein APB89_04035 [Acinetobacter baumannii] &gt;gi|942922811|gb|KQE85686.1| hypothetical protein APB93_07970 [Acinetobacter baumannii] &gt;gi|942949610|gb|KQF10310.1| hypothetical protein APC02_04500 [Acinetobacter baumannii] &gt;gi|942953171|gb|KQF13534.1| hypothetical protein APC00_19470 [Acinetobacter baumannii] &gt;gi|942954664|gb|KQF14918.1| hypothetical protein APC01_13415 [Acinetobacter baumannii] &gt;gi|942964136|gb|KQF23425.1| hypothetical protein APC06_18785 [Acinetobacter baumannii] &gt;gi|943031381|gb|KQF80732.1| hypothetical protein APC21_13630 [Acinetobacter baumannii] &gt;gi|943042723|gb|KQF90677.1| hypothetical protein APC25_04005 [Acinetobacter baumannii] &gt;gi|943051800|gb|KQF98410.1| hypothetical protein APC26_05245 [Acinetobacter baumannii] &gt;gi|943056679|gb|KQG02509.1| hypothetical protein APC28_08995 [Acinetobacter baumannii] &gt;gi|943080006|gb|KQG22733.1| hypothetical protein APC35_02545 [Acinetobacter baumannii] &gt;gi|943094828|gb|KQG35858.1| hypothetical protein APC36_12300 [Acinetobacter baumannii] &gt;gi|948464089|gb|KRJ52199.1| hypothetical protein APC89_05975 [Acinetobacter baumannii] &gt;gi|948472495|gb|KRJ60202.1| hypothetical protein APC91_12105 [Acinetobacter baumannii] &gt;gi|974995930|gb|KUR56231.1| hypothetical protein AWC45_05030 [Acinetobacter baumannii] &gt;gi|1037431338|gb|OBA30746.1| hypothetical protein A7945_10555 [Acinetobacter baumannii] &gt;gi|1037633544|gb|OBC24509.1| hypothetical protein A7938_13015 [Acinetobacter baumannii] &gt;gi|1037641978|gb|OBC32685.1| hypothetical protein A7940_07695 [Acinetobacter baumannii] &gt;gi|1037646462|gb|OBC37020.1| hypothetical protein A7942_13085 [Acinetobacter baumannii] &gt;gi|1037651759|gb|OBC42172.1| hypothetical protein A7941_17230 [Acinetobacter baumannii] &gt;gi|1037661167|gb|OBC51298.1| hypothetical protein A7944_04670 [Acinetobacter baumannii] &gt;gi|1037662524|gb|OBC52627.1| hypothetical protein A7946_07695 [Acinetobacter baumannii] &gt;gi|1037682377|gb|OBC71876.1| hypothetical protein A7903_13060 [Acinetobacter baumannii] &gt;gi|1037682456|gb|OBC71953.1| hypothetical protein A7901_03265 [Acinetobacter baumannii] &gt;gi|1037683115|gb|OBC72584.1| hypothetical protein A7902_06885 [Acinetobacter baumannii] &gt;gi|1037696477|gb|OBC85529.1| hypothetical protein A7906_12855 [Acinetobacter baumannii] &gt;gi|1037710639|gb|OBC99267.1| hypothetical protein A7910_09570 [Acinetobacter baumannii] &gt;gi|1037713152|gb|OBD01685.1| hypothetical protein A7909_00405 [Acinetobacter baumannii] &gt;gi|1037725498|gb|OBD13565.1| hypothetical protein A7912_01490 [Acinetobacter baumannii] &gt;gi|1037725652|gb|OBD13716.1| hypothetical protein A7913_02805 [Acinetobacter baumannii] &gt;gi|1037729653|gb|OBD17604.1| hypothetical protein A7915_10895 [Acinetobacter baumannii] &gt;gi|1037731694|gb|OBD19593.1| hypothetical protein A7916_00735 [Acinetobacter baumannii] &gt;gi|1037745760|gb|OBD33252.1| hypothetical protein A7918_02630 [Acinetobacter baumannii] &gt;gi|1037750507|gb|OBD37840.1| hypothetical protein A7919_17950 [Acinetobacter baumannii] &gt;gi|1037754527|gb|OBD41733.1| hypothetical protein A7920_16225 [Acinetobacter baumannii] &gt;gi|1037762993|gb|OBD49942.1| hypothetical protein A7923_05305 [Acinetobacter baumannii] &gt;gi|1037764432|gb|OBD51343.1| hypothetical protein A7922_15300 [Acinetobacter baumannii] &gt;gi|1037767908|gb|OBD54708.1| hypothetical protein A7924_18360 [Acinetobacter baumannii] &gt;gi|1037774617|gb|OBD61161.1| hypothetical protein A7925_17120 [Acinetobacter baumannii] &gt;gi|1037776449|gb|OBD62943.1| hypothetical protein A7926_18250 [Acinetobacter baumannii] &gt;gi|1037778296|gb|OBD64727.1| hypothetical protein A7937_16645 [Acinetobacter baumannii] &gt;gi|1037782279|gb|OBD68589.1| hypothetical protein A7950_09580 [Acinetobacter baumannii] &gt;gi|1037783466|gb|OBD69742.1| hypothetical protein A7949_08410 [Acinetobacter baumannii] &gt;gi|1037793605|gb|OBD79530.1| hypothetical protein A7952_10685 [Acinetobacter baumannii] &gt;gi|1037809015|gb|OBD94475.1| hypothetical protein A7957_13760 [Acinetobacter baumannii] &gt;gi|1037811595|gb|OBD96994.1| hypothetical protein A7955_02765 [Acinetobacter baumannii] &gt;gi|1037814081|gb|OBD99393.1| hypothetical protein A7959_13150 [Acinetobacter baumannii] &gt;gi|1037815565|gb|OBE01043.1| hypothetical protein A7958_12940 [Acinetobacter baumannii] &gt;gi|1037823020|gb|OBE08234.1| hypothetical protein A7960_11285 [Acinetobacter baumannii] &gt;gi|1037827814|gb|OBE12855.1| hypothetical protein A7962_10485 [Acinetobacter baumannii] &gt;gi|1037835184|gb|OBE19985.1| hypothetical protein A7961_00355 [Acinetobacter baumannii] &gt;gi|1037837140|gb|OBE21887.1| hypothetical protein A7965_15550 [Acinetobacter baumannii] &gt;gi|1037840817|gb|OBE25477.1| hypothetical protein A7963_02225 [Acinetobacter baumannii] &gt;gi|1037843773|gb|OBE28342.1| hypothetical protein A7966_12340 [Acinetobacter baumannii] &gt;gi|1037847188|gb|OBE31639.1| hypothetical protein A7927_10490 [Acinetobacter baumannii] &gt;gi|1037851664|gb|OBE35945.1| hypothetical protein A7928_11910 [Acinetobacter baumannii] &gt;gi|1037861581|gb|OBE45553.1| hypothetical protein A7929_07850 [Acinetobacter baumannii] &gt;gi|1037863788|gb|OBE47702.1| hypothetical protein A7931_09345 [Acinetobacter baumannii] &gt;gi|1037864688|gb|OBE48544.1| hypothetical protein A7930_02650 [Acinetobacter baumannii] &gt;gi|1037868748|gb|OBE52459.1| hypothetical protein A7933_02905 [Acinetobacter baumannii] &gt;gi|1037869365|gb|OBE53060.1| hypothetical protein A7932_11965 [Acinetobacter baumannii] &gt;gi|1037886991|gb|OBE70076.1| hypothetical protein A7936_18760 [Acinetobacter baumannii] &gt;gi|1038559418|gb|OBL04591.1| hypothetical protein A9882_09890 [Acinetobacter baumannii] &gt;gi|1038571447|gb|OBL16029.1| hypothetical protein A9907_03280 [Acinetobacter baumannii] &gt;gi|1038571990|gb|OBL16553.1| hypothetical protein A9906_00030 [Acinetobacter baumannii] &gt;gi|1038577971|gb|OBL22315.1| hypothetical protein A9909_11285 [Acinetobacter baumannii] &gt;gi|1038579450|gb|OBL23763.1| hypothetical protein A9910_09610 [Acinetobacter baumannii] &gt;gi|1038582396|gb|OBL26631.1| hypothetical protein A9908_17990 [Acinetobacter baumannii] &gt;gi|1038588454|gb|OBL32442.1| hypothetical protein A9911_08855 [Acinetobacter baumannii] &gt;gi|1038589752|gb|OBL33707.1| hypothetical protein A9912_07775 [Acinetobacter baumannii] &gt;gi|1038597946|gb|OBL41631.1| hypothetical protein A9914_10385 [Acinetobacter baumannii] &gt;gi|1038601521|gb|OBL45105.1| hypothetical protein A9915_06765 [Acinetobacter baumannii] &gt;gi|1038603350|gb|OBL46885.1| hypothetical protein A9916_04020 [Acinetobacter baumannii] &gt;gi|1038606111|gb|OBL49518.1| hypothetical protein A9917_01230 [Acinetobacter baumannii] &gt;gi|1038612691|gb|OBL55810.1| hypothetical protein A9918_08710 [Acinetobacter baumannii] &gt;gi|1038612703|gb|OBL55821.1| hypothetical protein A9919_07265 [Acinetobacter baumannii] &gt;gi|1038619768|gb|OBL62503.1| hypothetical protein A9920_12665 [Acinetobacter baumannii] &gt;gi|1038620247|gb|OBL62967.1| hypothetical protein A9922_03210 [Acinetobacter baumannii] &gt;gi|1038624674|gb|OBL67287.1| hypothetical protein A9921_00640 [Acinetobacter baumannii] &gt;gi|1038631467|gb|OBL73689.1| hypothetical protein A9878_01690 [Acinetobacter baumannii] &gt;gi|1038637544|gb|OBL79525.1| hypothetical protein A9877_05095 [Acinetobacter baumannii] &gt;gi|1038637913|gb|OBL79884.1| hypothetical protein A9876_00350 [Acinetobacter baumannii] &gt;gi|1038642466|gb|OBL84186.1| hypothetical protein A9879_09855 [Acinetobacter baumannii] &gt;gi|1038647734|gb|OBL89246.1| hypothetical protein A9844_07740 [Acinetobacter baumannii] &gt;gi|1038648300|gb|OBL89793.1| hypothetical protein A9880_07205 [Acinetobacter baumannii] &gt;gi|1038654838|gb|OBL96005.1| hypothetical protein A9928_10720 [Acinetobacter baumannii] &gt;gi|1038656708|gb|OBL97826.1| hypothetical protein A9845_05290 [Acinetobacter baumannii] &gt;gi|1038661177|gb|OBM02214.1| hypothetical protein A9930_02065 [Acinetobacter baumannii] &gt;gi|1038666314|gb|OBM07128.1| hypothetical protein A9929_01445 [Acinetobacter baumannii] &gt;gi|1038666454|gb|OBM07267.1| hypothetical protein A9931_08170 [Acinetobacter baumannii] &gt;gi|1038676276|gb|OBM16568.1| hypothetical protein A9934_11785 [Acinetobacter baumannii] &gt;gi|1038677735|gb|OBM17996.1| hypothetical protein A9932_15440 [Acinetobacter baumannii] &gt;gi|1038687170|gb|OBM27013.1| hypothetical protein A9851_03720 [Acinetobacter baumannii] &gt;gi|1038687453|gb|OBM27278.1| hypothetical protein A9852_03575 [Acinetobacter baumannii] &gt;gi|1038690890|gb|OBM30519.1| hypothetical protein A9853_06515 [Acinetobacter baumannii] &gt;gi|1038696817|gb|OBM36256.1| hypothetical protein A9855_00830 [Acinetobacter baumannii] &gt;gi|1038698940|gb|OBM38321.1| hypothetical protein A9854_04055 [Acinetobacter baumannii] &gt;gi|1038700444|gb|OBM39750.1| hypothetical protein A9856_12020 [Acinetobacter baumannii] &gt;gi|1038705301|gb|OBM44422.1| hypothetical protein A9857_10060 [Acinetobacter baumannii] &gt;gi|1038710075|gb|OBM49047.1| hypothetical protein A9858_06310 [Acinetobacter baumannii] &gt;gi|1038712560|gb|OBM51459.1| hypothetical protein A9859_09040 [Acinetobacter baumannii] &gt;gi|1038715123|gb|OBM53928.1| hypothetical protein A9860_11535 [Acinetobacter baumannii] &gt;gi|1038718873|gb|OBM57460.1| hypothetical protein A9861_09340 [Acinetobacter baumannii] &gt;gi|1038725128|gb|OBM63437.1| hypothetical protein A9862_00285 [Acinetobacter baumannii] &gt;gi|1038728168|gb|OBM66355.1| hypothetical protein A9863_07325 [Acinetobacter baumannii] &gt;gi|1038732285|gb|OBM70335.1| hypothetical protein A9865_00105 [Acinetobacter baumannii] &gt;gi|1038733324|gb|OBM71338.1| hypothetical protein A9864_07235 [Acinetobacter baumannii] &gt;gi|1038739752|gb|OBM77510.1| hypothetical protein A9866_09520 [Acinetobacter baumannii] &gt;gi|1038739897|gb|OBM77648.1| hypothetical protein A9868_12865 [Acinetobacter baumannii] &gt;gi|1038745349|gb|OBM82964.1| hypothetical protein A9867_03920 [Acinetobacter baumannii] &gt;gi|1038752858|gb|OBM90177.1| hypothetical protein A9869_01065 [Acinetobacter baumannii] &gt;gi|1038753647|gb|OBM90950.1| hypothetical protein A9870_06985 [Acinetobacter baumannii] &gt;gi|1038766677|gb|OBN03568.1| hypothetical protein A9873_06000 [Acinetobacter baumannii] &gt;gi|1038767816|gb|OBN04674.1| hypothetical protein A9874_05400 [Acinetobacter baumannii] &gt;gi|1038774258|gb|OBN10880.1| hypothetical protein A9875_00405 [Acinetobacter baumannii] &gt;gi|1038777093|gb|OBN13617.1| hypothetical protein A9840_01090 [Acinetobacter baumannii] &gt;gi|1038781901|gb|OBN18144.1| hypothetical protein A9839_00030 [Acinetobacter baumannii] &gt;gi|1038784082|gb|OBN20221.1| hypothetical protein A9841_07750 [Acinetobacter baumannii] &gt;gi|1038788665|gb|OBN24596.1| hypothetical protein A9842_06670 [Acinetobacter baumannii] &gt;gi|1038791752|gb|OBN27565.1| hypothetical protein A9843_03905 [Acinetobacter baumannii] &gt;gi|1038794046|gb|OBN29768.1| hypothetical protein A9883_08215 [Acinetobacter baumannii] &gt;gi|1038796939|gb|OBN32546.1| hypothetical protein A9884_11285 [Acinetobacter baumannii] &gt;gi|1038800712|gb|OBN36170.1| hypothetical protein A9885_07020 [Acinetobacter baumannii] &gt;gi|1038808704|gb|OBN43833.1| hypothetical protein A9887_02770 [Acinetobacter baumannii] &gt;gi|1038811721|gb|OBN46738.1| hypothetical protein A9886_01710 [Acinetobacter baumannii] &gt;gi|1038814443|gb|OBN49380.1| hypothetical protein A9888_05020 [Acinetobacter baumannii] &gt;gi|1038821643|gb|OBN56326.1| hypothetical protein A9890_00300 [Acinetobacter baumannii] &gt;gi|1038824110|gb|OBN58730.1| hypothetical protein A9891_00740 [Acinetobacter baumannii] &gt;gi|1038842837|gb|OBN76839.1| hypothetical protein A9897_12450 [Acinetobacter baumannii] &gt;gi|1038845311|gb|OBN79249.1| hypothetical protein A9895_05035 [Acinetobacter baumannii] &gt;gi|1038851132|gb|OBN84741.1| hypothetical protein A9900_14225 [Acinetobacter baumannii] &gt;gi|1038852062|gb|OBN85628.1| hypothetical protein A9898_08925 [Acinetobacter baumannii] &gt;gi|1038852729|gb|OBN86216.1| hypothetical protein A9899_10695 [Acinetobacter baumannii] &gt;gi|1038860372|gb|OBN93583.1| hypothetical protein A9901_13675 [Acinetobacter baumannii] &gt;gi|1038863058|gb|OBN96156.1| hypothetical protein A9902_01865 [Acinetobacter baumannii] &gt;gi|1038867699|gb|OBO00655.1| hypothetical protein A9903_07410 [Acinetobacter baumannii] &gt;gi|1038873676|gb|OBO06361.1| hypothetical protein A9904_14040 [Acinetobacter baumannii] &gt;gi|1038875688|gb|OBO08296.1| hypothetical protein A9846_11475 [Acinetobacter baumannii] &gt;gi|1038878869|gb|OBO11412.1| hypothetical protein A9905_07805 [Acinetobacter baumannii] &gt;gi|1038885137|gb|OBO17332.1| hypothetical protein A9849_01055 [Acinetobacter baumannii] &gt;gi|1038885989|gb|OBO18160.1| hypothetical protein A9848_11780 [Acinetobacter baumannii] &gt;gi|1038887401|gb|OBO19540.1| hypothetical protein A9847_07605 [Acinetobacter baumannii] &gt;gi|1038895885|gb|OBO27624.1| hypothetical protein A9850_10550 [Acinetobacter baumannii] &gt;gi|1038900100|gb|OBO31717.1| hypothetical protein A9936_09915 [Acinetobacter baumannii] &gt;gi|1038910621|gb|OBO41830.1| hypothetical protein A9938_08205 [Acinetobacter baumannii] &gt;gi|1038911416|gb|OBO42614.1| hypothetical protein A9937_04990 [Acinetobacter baumannii] &gt;gi|1038921588|gb|OBO52317.1| hypothetical protein A9940_05900 [Acinetobacter baumannii] &gt;gi|1038921689|gb|OBO52413.1| hypothetical protein A9942_02990 [Acinetobacter baumannii] &gt;gi|1038923048|gb|OBO53735.1| hypothetical protein A9941_06275 [Acinetobacter baumannii] &gt;gi|1038929168|gb|OBO59545.1| hypothetical protein A9944_13990 [Acinetobacter baumannii] &gt;gi|1038933630|gb|OBO63856.1| hypothetical protein A9943_04060 [Acinetobacter baumannii] &gt;gi|1038937379|gb|OBO67491.1| hypothetical protein A9945_04760 [Acinetobacter baumannii] &gt;gi|1038940146|gb|OBO70180.1| hypothetical protein A9948_01410 [Acinetobacter baumannii] &gt;gi|1038941600|gb|OBO71570.1| hypothetical protein A9947_01455 [Acinetobacter baumannii] &gt;gi|1038944211|gb|OBO74109.1| hypothetical protein A9946_05830 [Acinetobacter baumannii] &gt;gi|1038955384|gb|OBO84906.1| hypothetical protein A9950_07210 [Acinetobacter baumannii] &gt;gi|1038955485|gb|OBO85005.1| hypothetical protein A9949_04085 [Acinetobacter baumannii] &gt;gi|1038958891|gb|OBO88273.1| hypothetical protein A9923_05800 [Acinetobacter baumannii] &gt;gi|1038961913|gb|OBO91188.1| hypothetical protein A9926_02970 [Acinetobacter baumannii] &gt;gi|1038964503|gb|OBO93683.1| hypothetical protein A9925_12265 [Acinetobacter baumannii] &gt;gi|1038965356|gb|OBO94506.1| hypothetical protein A9924_05930 [Acinetobacter baumannii] &gt;gi|1038974231|gb|OBP03007.1| hypothetical protein A9927_05080 [Acinetobacter baumannii] &gt;gi|1130755823|gb|OLU62602.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151649542|gb|OOS55245.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151663910|gb|OOS69172.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151676468|gb|OOS81423.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151697582|gb|OOT02006.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151699929|gb|OOT04296.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151717867|gb|OOT21632.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151728197|gb|OOT31678.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151790586|gb|OOT92591.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151815503|gb|OOU16852.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151829595|gb|OOU30509.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151829822|gb|OOU30729.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151835047|gb|OOU35790.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192426581|gb|OTL05632.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192465658|gb|OTL43195.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192503271|gb|OTL79357.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192532207|gb|OTM07475.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192563695|gb|OTM38148.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192623949|gb|OTM96825.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192678823|gb|OTN50314.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1192684631|gb|OTN55976.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193563342|gb|OTU78088.1| DUF1275 family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_001115351</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.02355e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1152320786|ref|WP_078201941.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|1151626550|gb|OOS32919.1| hypothetical protein BTG56_00890 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_078201941</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.04553e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|691103058|ref|WP_032028088.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|587843654|gb|EXB34221.1| hypothetical protein J518_1131 [Acinetobacter baumannii 1419130]</Hit_def>
+  <Hit_accession>WP_032028088</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.04553e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|746145995|ref|WP_039208205.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|741347264|gb|KHV66080.1| membrane protein [Acinetobacter baumannii] &gt;gi|749399668|gb|KII24638.1| membrane protein [Acinetobacter baumannii] &gt;gi|765621661|gb|KJF03890.1| membrane protein [Acinetobacter baumannii] &gt;gi|765625726|gb|KJF07490.1| membrane protein [Acinetobacter baumannii] &gt;gi|943009439|gb|KQF61190.1| hypothetical protein APC15_06020 [Acinetobacter baumannii] &gt;gi|943109614|gb|KQG49230.1| hypothetical protein APC40_04520 [Acinetobacter baumannii] &gt;gi|1037703605|gb|OBC92442.1| hypothetical protein A7908_10605 [Acinetobacter baumannii] &gt;gi|1037800127|gb|OBD85842.1| hypothetical protein A7954_17295 [Acinetobacter baumannii] &gt;gi|1039280200|gb|OBR18261.1| hypothetical protein AA954_12720 [Acinetobacter baumannii] &gt;gi|1096694164|gb|OIF74006.1| hypothetical protein A7M51_07215 [Acinetobacter baumannii] &gt;gi|1151627089|gb|OOS33452.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1151732194|gb|OOT35575.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193441279|gb|OTT58802.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193462450|gb|OTT79409.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1193577048|gb|OTU91398.1| DUF1275 family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_039208205</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.04553e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|638867934|ref|WP_024433251.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_024433251</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.04553e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|690984543|ref|WP_031956967.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|610950369|gb|EZI57560.1| hypothetical protein K023_1098 [Acinetobacter baumannii 25442_7]</Hit_def>
+  <Hit_accession>WP_031956967</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.06776e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|169149810|emb|CAM87701.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein; putative membrane protein [Acinetobacter baumannii AYE] &gt;gi|323517066|gb|ADX91447.1| hypothetical protein ABTW07_1011 [Acinetobacter baumannii TCDC-AB0715] &gt;gi|332729233|gb|EGJ60575.1| hypothetical protein HMPREF0021_01733 [Acinetobacter baumannii 6013150] &gt;gi|332731913|gb|EGJ63192.1| hypothetical protein HMPREF0020_03235 [Acinetobacter baumannii 6013113] &gt;gi|333366268|gb|EGK48282.1| hypothetical protein AB210_0952 [Acinetobacter baumannii AB210] &gt;gi|546203254|dbj|BAN88497.1| hypothetical protein AB237_2567 [Acinetobacter baumannii NCGM 237]</Hit_def>
+  <Hit_accession>CAM87701</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.08076e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|630585228|gb|KCY88377.1|</Hit_id>
+  <Hit_def>hypothetical protein J729_4514, partial [Acinetobacter baumannii 929679-598]</Hit_def>
+  <Hit_accession>KCY88377</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.10667e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWVICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTW ICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|691031448|ref|WP_031986963.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|628988467|gb|KCV88223.1| hypothetical protein J979_1951 [Acinetobacter baumannii 44298_3]</Hit_def>
+  <Hit_accession>WP_031986963</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.11293e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|691033124|ref|WP_031988057.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|587913412|gb|EXC01227.1| hypothetical protein J539_2010 [Acinetobacter baumannii 342950]</Hit_def>
+  <Hit_accession>WP_031988057</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.1591e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1197042456|ref|WP_086443056.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|1193481347|gb|OTT97859.1| hypothetical protein CAT68_11115 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_086443056</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.23024e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|447038096|ref|WP_001115352.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|183208796|gb|ACC56194.1| predicted membrane protein [Acinetobacter baumannii ACICU] &gt;gi|479926700|gb|ENU74370.1| hypothetical protein F977_01012 [Acinetobacter baumannii NIPH 2061] &gt;gi|479928693|gb|ENU76220.1| hypothetical protein F976_02757 [Acinetobacter baumannii NIPH 1734] &gt;gi|691196142|gb|KGF59159.1| membrane protein [Acinetobacter baumannii] &gt;gi|944109314|gb|KQK37061.1| hypothetical protein AQ483_03255 [Acinetobacter baumannii] &gt;gi|944109859|gb|KQK37601.1| hypothetical protein AQ481_09420 [Acinetobacter baumannii] &gt;gi|944116206|gb|KQK43524.1| hypothetical protein AQ485_03300 [Acinetobacter baumannii] &gt;gi|944117298|gb|KQK44583.1| hypothetical protein AQ484_05470 [Acinetobacter baumannii] &gt;gi|944143523|gb|KQK69939.1| hypothetical protein AOX60_12990 [Acinetobacter baumannii] &gt;gi|972151632|gb|KUI77795.1| hypothetical protein AQ480_07395 [Acinetobacter baumannii] &gt;gi|979866808|gb|KWB04468.1| hypothetical protein AWU48_13620 [Acinetobacter baumannii] &gt;gi|1049974425|gb|OCT17777.1| hypothetical protein A8G88_15260 [Acinetobacter baumannii] &gt;gi|1078625456|gb|OFD19378.1| hypothetical protein A1D09_05160 [Acinetobacter baumannii] &gt;gi|1078625915|gb|OFD19730.1| hypothetical protein A1D03_05465 [Acinetobacter baumannii] &gt;gi|1130806600|gb|OLV11185.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1152573679|gb|OOW32268.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1152580176|gb|OOW37894.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1152581304|gb|OOW38868.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1152588487|gb|OOW45077.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1152589584|gb|OOW46035.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1152598822|gb|OOW54618.1| DUF1275 family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_001115352</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.23024e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1047322163|ref|WP_065717812.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_065717812</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.27896e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|740619980|ref|WP_038405492.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|675325336|gb|AIL74857.1| membrane protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_038405492</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.27896e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1196804188|ref|WP_086261771.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|1192369019|gb|OTK49989.1| hypothetical protein B9X70_11810 [Acinetobacter baumannii] &gt;gi|1192562062|gb|OTM36558.1| hypothetical protein B9X47_04400 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_086261771</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.32875e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|487989010|ref|WP_002061327.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|444777804|gb|ELX01825.1| PF06912 family protein [Acinetobacter baumannii OIFC047]</Hit_def>
+  <Hit_accession>WP_002061327</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.32875e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1178487371|ref|WP_083009064.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter nosocomialis] &gt;gi|1175721565|gb|ARG17885.1| hypothetical protein B7L44_15595 [Acinetobacter nosocomialis]</Hit_def>
+  <Hit_accession>WP_083009064</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.35405e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|691133143|ref|WP_032048037.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF1275 family protein [Acinetobacter calcoaceticus/baumannii complex] &gt;gi|588205108|gb|EXE78039.1| hypothetical protein J582_1515 [Acinetobacter sp. 1566109] &gt;gi|742929035|gb|AJB49090.1| membrane protein [Acinetobacter nosocomialis] &gt;gi|1192435937|gb|OTL14608.1| DUF1275 family protein [Acinetobacter nosocomialis]</Hit_def>
+  <Hit_accession>WP_032048037</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>2.40548e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1129439569|ref|WP_075400651.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|1127989297|gb|OLN34932.1| membrane protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_075400651</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>2.45803e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1192480603|gb|OTL57278.1|</Hit_id>
+  <Hit_def>hypothetical protein B9X91_00380, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>OTL57278</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>2.50571e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWVICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTW ICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1060723342|ref|WP_069119693.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter pittii] &gt;gi|1060524234|gb|ODL99150.1| hypothetical protein AXH22_15605 [Acinetobacter pittii]</Hit_def>
+  <Hit_accession>WP_069119693</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>3.11764e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1132249369|ref|WP_075912111.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Acinetobacter baumannii] &gt;gi|1131116156|gb|OLV69881.1| hypothetical protein BS578_07065, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_075912111</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.16598e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWVICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTW ICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|919293580|ref|WP_052802602.1|</Hit_id>
+  <Hit_def>DUF1275 family protein, partial [Acinetobacter baumannii] &gt;gi|913669031|gb|KNZ34666.1| membrane protein, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_052802602</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.18908e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWVICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTW ICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|691073783|ref|WP_032014060.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter baumannii] &gt;gi|589191258|gb|EXG36235.1| hypothetical protein J717_1203 [Acinetobacter baumannii 121738]</Hit_def>
+  <Hit_accession>WP_032014060</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>4.7003e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWALCRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWA+CRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|490841145|ref|WP_004703220.1|</Hit_id>
+  <Hit_def>DUF1275 family protein [Acinetobacter seifertii] &gt;gi|479892858|gb|ENU42729.1| hypothetical protein F985_03621 [Acinetobacter seifertii]</Hit_def>
+  <Hit_accession>WP_004703220</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>5.52714e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWALCRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWA+CRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|493630148|ref|WP_006582071.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF1275 family protein [Acinetobacter calcoaceticus/baumannii complex] &gt;gi|407441519|gb|EKF48025.1| hypothetical protein W9I_02849 [Acinetobacter nosocomialis Ab22222] &gt;gi|593668765|gb|EXS48013.1| hypothetical protein J660_0465 [Acinetobacter sp. 88816]</Hit_def>
+  <Hit_accession>WP_006582071</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>5.70919e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWALCRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWA+CRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|491026609|ref|WP_004888302.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF1275 family protein [Acinetobacter calcoaceticus/baumannii complex] &gt;gi|260405751|gb|EEW99240.1| hypothetical protein HMPREF0014_02363 [Acinetobacter sp. RUH2624] &gt;gi|425493787|gb|EKU60011.1| PF06912 family protein [Acinetobacter sp. WC-487] &gt;gi|479998125|gb|ENV40488.1| hypothetical protein F958_03520 [Acinetobacter nosocomialis NIPH 386] &gt;gi|553281843|emb|CDG76326.1| hypothetical protein ANICBIBUN_02335 [Acinetobacter nosocomialis 28F] &gt;gi|587817423|gb|EXB08797.1| hypothetical protein J514_3640 [Acinetobacter sp. 1396970] &gt;gi|588226818|gb|EXE99148.1| hypothetical protein J594_2010 [Acinetobacter sp. 259052] &gt;gi|589494971|gb|EXH75740.1| hypothetical protein J633_2502 [Acinetobacter sp. 216872] &gt;gi|589531909|gb|EXI11740.1| hypothetical protein J604_2103 [Acinetobacter sp. 694762] &gt;gi|593526333|gb|EXR10983.1| hypothetical protein J671_3250 [Acinetobacter sp. 1130196] &gt;gi|593543363|gb|EXR27480.1| hypothetical protein J694_2653 [Acinetobacter sp. 1281984] &gt;gi|602191796|gb|EYT20961.1| hypothetical protein J595_00381 [Acinetobacter sp. 1592897] &gt;gi|630482968|gb|KCX93727.1| hypothetical protein J568_1428 [Acinetobacter baumannii 6112] &gt;gi|636481256|gb|KDM57614.1| hypothetical protein AE32_00910 [Acinetobacter baumannii BIDMC 57] &gt;gi|942734271|gb|KQD13485.1| hypothetical protein APD05_11230 [Acinetobacter baumannii] &gt;gi|948422294|gb|KRJ14311.1| hypothetical protein APC77_06455 [Acinetobacter nosocomialis] &gt;gi|967414937|gb|KTK86049.1| hypothetical protein AL489_01005 [Acinetobacter sp. FDAARGOS_131] &gt;gi|1096779423|gb|OIG53639.1| hypothetical protein A7M62_16265 [Acinetobacter nosocomialis] &gt;gi|1096782397|gb|OIG56520.1| hypothetical protein A7M54_13475 [Acinetobacter nosocomialis] &gt;gi|1096853339|gb|OIH25157.1| hypothetical protein A7M95_12170 [Acinetobacter nosocomialis] &gt;gi|1192425941|gb|OTL05030.1| DUF1275 family protein [Acinetobacter nosocomialis] &gt;gi|1193529939|gb|OTU45451.1| DUF1275 family protein [Acinetobacter baumannii] &gt;gi|1199065724|gb|OUR05556.1| DUF1275 family protein [Acinetobacter nosocomialis]</Hit_def>
+  <Hit_accession>WP_004888302</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>5.7712e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MPETSIQQETQSTWAICRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_qseq>
+      <Hsp_hseq>MPETSIQQETQSTWALCRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_hseq>
+      <Hsp_midline>MPETSIQQETQSTWA+CRDPVLLTMVGGAIDTIGFIALFGFFTAHVTGNLVLAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>124194090</Statistics_db-num>
+      <Statistics_db-len>45577448106</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
 
 pfam
 {'PF06912': {'accession': 'PF06912.10', 'class': 'Domain', 'id': 'DUF1275', 'locations': {'ali_end': '56', 'ali_start': '21', 'bitscore': '36.6364784240723', 'end': '56', 'evalue': '3.4e-09', 'evidence': 'hmmer v3.0', 'hmm_end': '38', 'hmm_start': '3', 'significant': '1', 'start': '21'}, 'type': 'Pfam-A'}}
@@ -14,4 +1456,7 @@ kegg
 noHomology
 
 go
-noHomolog
+future go data
+
+comments
+381 -> Hypothetical Protein -> Part of the DUF1275 pfam domain.
